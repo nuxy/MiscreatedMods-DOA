@@ -13,8 +13,8 @@
 	</geometry>
 
 	<consumable>
-		<param name="foodAmount" value="85"/> <!-- Calories -->
-		<param name="drinkAmount" value="60"/>
+		<param name="foodAmount" value="115"/> <!-- Calories -->
+		<param name="drinkAmount" value="85"/>
 		<param name="soundConsumed" value="Play_food_raw_eat"/>
 	</consumable>
 
