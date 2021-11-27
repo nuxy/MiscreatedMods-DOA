@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 #
 # Deploy GameSDK modifications to Miscreated Workshop.
 #
