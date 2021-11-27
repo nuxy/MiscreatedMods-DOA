@@ -7,7 +7,7 @@
 		<param name="mass" value="0.5"/>
 		<param name="stack_size" value="3"/>
 		<param name="healthMax" value="100.0"/>
-		<param name="damage_scale" value="0.5"/>
+		<param name="damage_scale" value="0.4"/>
 		<param name="destroyWhenDegraded" value="1"/>
 		<param name="selectable" value="1"/>
 		<param name="sprintToFireDelay" value="0.05"/>
@@ -40,7 +40,7 @@
 				<param name="ammo_type" value="Pipebomb"/>
 				<param name="hit_type" value="blunt"/> <!-- HitType set in Ammo as Frag -->
 				<param name="rate" value="60"/>
-				<param name="damage" value="150"/>
+				<param name="damage" value="120"/>
 				<param name="helper" value="grenade"/>
 				<param name="helper_fp" value="grenade"/>
 				<param name="helper_tp" value="grenade"/>
