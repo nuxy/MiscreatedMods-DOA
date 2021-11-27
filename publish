@@ -4,11 +4,12 @@
 #
 # Dependencies:
 #   steamcmd
-#   zip
+#   7za
 #
 
 STEAM_USERNAME=""
 STEAM_PASSWORD=""
+STEAM_FILEID="2665482259" # or 2665400341 (Testing)
 
 #
 # Check dependencies.
@@ -18,36 +19,33 @@ if [ ! `which steamcmd` ]; then
   exit 1
 fi
 
-if [ ! `which zip` ]; then
-  echo "zip is not installed. Exiting."
+if [ ! `which 7za` ]; then
+  echo "7za is not installed. Exiting."
   exit 1
 fi
 
 #
 # Package the release.
 #
-build_dir=$PWD/.build
-mkdir $build_dir
-
-zip -r $build_dir/DeadOnArrival.pak GameSDK
+7za a -tzip -mx0 -xr!.git* -xr!README.md -xr!publish "$PWD/DeadOnArrival.pak" "$PWD/*"
 
 #
 # Create VDF reference.
 #
-outfile=$build_dir/DeadOnArrival.vdf
+outfile=$PWD/DeadOnArrival.vdf
 
 cat << EOF > $outfile
 "workshopitem"
 {
 	"appid"		"299740"
-	"contentfolder"		"$build_dir"
+	"contentfolder"		"$PWD"
 	"previewfile"		""
 	"visibility"		"0"
 	"title"		"Miscreated-Mods-DOA"
 	"description"		"Modifications for the Miscreated D.O.A. PVP/PVE game server."
 	"changenote"		"In progress"
 	"tags"		""
-	"publishedfileid"		""
+	"publishedfileid"		"$STEAM_FILEID"
 }
 EOF
 
@@ -55,4 +53,4 @@ EOF
 steamcmd +login $STEAM_USERNAME $STEAM_PASSWORD +workshop_build_item $outfile +quit
 
 # Cleanup build sources.
-rm -rf $build_dir
+rm -f $PWD/DeadOnArrival.*
