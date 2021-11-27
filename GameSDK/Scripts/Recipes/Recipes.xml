@@ -3729,11 +3729,11 @@
 						<items>
 							<item class="PipebombPickup" time="10">
 								<materials>
-									<material class="Gunpowder" count="80" />
-									<material class="Sulphur" count="20" />
+									<material class="Gunpowder" count="60" />
+									<material class="Sulphur" count="15" />
 									<material class="PipeMetal" />
 									<material class="DuctTape" />
-									<material class="BioFuel" count="7" />
+									<material class="BioFuel" count="5" />
 								</materials>
 							</item>
 						</items>
@@ -3752,7 +3752,7 @@
 							<item class="C4TimedPickup" time="10">
 								<materials>
 									<material class="Amalgaduino" />
-									<material class="C4Bricks" count="10" />
+									<material class="C4Bricks" count="8" />
 								</materials>
 							</item>
 						</items>
@@ -3781,9 +3781,9 @@
 						<items>
 							<item class="C4Bricks" time="2" amount="1">
 								<materials>
-									<material class="Gunpowder" count="64"/>
-									<material class="Sulphur" count="12"/>
-									<material class="BioFuel" count="4"/>
+									<material class="Gunpowder" count="50"/>
+									<material class="Sulphur" count="10"/>
+									<material class="BioFuel" count="2"/>
 								</materials>
 							</item>
 						</items>
