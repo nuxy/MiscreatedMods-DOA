@@ -1,0 +1,58 @@
+#!/bin/sh
+#
+# Deploy GameSDK modifications to Miscreated Workshop.
+#
+# Dependencies:
+#   steamcmd
+#   zip
+#
+
+STEAM_USERNAME=""
+STEAM_PASSWORD=""
+
+#
+# Check dependencies.
+#
+if [ ! `which steamcmd` ]; then
+  echo "steamcmd is not installed. Exiting."
+  exit 1
+fi
+
+if [ ! `which zip` ]; then
+  echo "zip is not installed. Exiting."
+  exit 1
+fi
+
+#
+# Package the release.
+#
+build_dir=$PWD/.build
+mkdir $build_dir
+
+zip -r $build_dir/DeadOnArrival.pak GameSDK
+
+#
+# Create VDF reference.
+#
+outfile=$build_dir/DeadOnArrival.vdf
+
+cat << EOF > $outfile
+"workshopitem"
+{
+	"appid"		"299740"
+	"contentfolder"		"$build_dir"
+	"previewfile"		""
+	"visibility"		"0"
+	"title"		"Miscreated-Mods-DOA"
+	"description"		"Modifications for the Miscreated D.O.A. PVP/PVE game server."
+	"changenote"		"In progress"
+	"tags"		""
+	"publishedfileid"		""
+}
+EOF
+
+# Publish the package.
+steamcmd +login $STEAM_USERNAME $STEAM_PASSWORD +workshop_build_item $outfile +quit
+
+# Cleanup build sources.
+rm -rf $build_dir
