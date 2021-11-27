@@ -24,7 +24,7 @@ VehicleSpawnerManager = {
 				{ class = "armored_truck_army", contents = "RandomPoliceSedanContents" },
 			},
 			initialMinVehicles = 1,
-			abandonedTimer = 172800,  -- two days
+			abandonedTimer = 2630000,  -- one month
 			abandonedRespawnTimer = 3600, -- one hour
 			destroyedTimer = 120,
 			destroyedRespawnTimer = 7200, -- two hours
@@ -39,7 +39,7 @@ VehicleSpawnerManager = {
 				{ class = "armored_truck_police", contents = "RandomPoliceSedanContents" },
 			},
 			initialMinVehicles = 1,
-			abandonedTimer = 172800,  -- two days
+			abandonedTimer = 2630000,  -- one month
 			abandonedRespawnTimer = 3600, -- one hour
 			destroyedTimer = 120,
 			destroyedRespawnTimer = 7200, -- two hours
@@ -69,7 +69,7 @@ VehicleSpawnerManager = {
 				},
 			},
 			initialMinVehicles = 8,
-			abandonedTimer = 172800,  -- two days
+			abandonedTimer = 2630000,  -- one month
 			abandonedRespawnTimer = 3600, -- one hour
 			destroyedTimer = 120,
 			destroyedRespawnTimer = 7200, -- two hours
@@ -100,7 +100,7 @@ VehicleSpawnerManager = {
 				},
 			},
 			initialMinVehicles = 10,
-			abandonedTimer = 21600,  -- six hours
+			abandonedTimer = 2630000,  -- one month
 			abandonedRespawnTimer = 3600, -- one hour
 			destroyedTimer = 120,
 			destroyedRespawnTimer = 7200, -- two hours
@@ -131,7 +131,7 @@ VehicleSpawnerManager = {
 				},
 			},
 			initialMinVehicles = 4,
-			abandonedTimer = 21600,  -- six hours
+			abandonedTimer = 2630000,  -- one month
 			abandonedRespawnTimer = 3600, -- one hour
 			destroyedTimer = 120,
 			destroyedRespawnTimer = 7200, -- two hours
@@ -161,7 +161,7 @@ VehicleSpawnerManager = {
 				},
 			},
 			initialMinVehicles = 2,
-			abandonedTimer = 172800,  -- two days
+			abandonedTimer = 2630000,  -- one month
 			abandonedRespawnTimer = 3600, -- one hour
 			destroyedTimer = 120,
 			destroyedRespawnTimer = 7200, -- two hours
@@ -191,7 +191,7 @@ VehicleSpawnerManager = {
 				},
 			},
 			initialMinVehicles = 3,
-			abandonedTimer = 172800,  -- two days
+			abandonedTimer = 2630000,  -- one month
 			abandonedRespawnTimer = 3600, -- one hour
 			destroyedTimer = 120,
 			destroyedRespawnTimer = 7200, -- two hours
@@ -221,7 +221,7 @@ VehicleSpawnerManager = {
 				},
 			},
 			initialMinVehicles = 3,
-			abandonedTimer = 172800,  -- two days
+			abandonedTimer = 2630000,  -- one month
 			abandonedRespawnTimer = 3600, -- one hour
 			destroyedTimer = 120,
 			destroyedRespawnTimer = 7200, -- two hours
@@ -236,7 +236,7 @@ VehicleSpawnerManager = {
 				{ class = "jetski", contents = "RandomJetskiContents" },
 			},
 			initialMinVehicles = 7,
-			abandonedTimer = 21600,  -- six hours
+			abandonedTimer = 2630000,  -- one month
 			abandonedRespawnTimer = 3600, -- one hour
 			destroyedTimer = 120,
 			destroyedRespawnTimer = 7200, -- two hours
@@ -251,7 +251,7 @@ VehicleSpawnerManager = {
 				{ class = "party_bus", contents = "RandomPartyBusContents" },
 			},
 			initialMinVehicles = 2,
-			abandonedTimer = 259200,  -- three days
+			abandonedTimer = 2630000,  -- one month
 			abandonedRespawnTimer = 3600, -- one hour
 			destroyedTimer = 120,
 			destroyedRespawnTimer = 7200, -- two hours
@@ -281,7 +281,7 @@ VehicleSpawnerManager = {
 				},
 			},
 			initialMinVehicles = 5,
-			abandonedTimer = 21600,  -- six hours
+			abandonedTimer = 2630000,  -- one month
 			abandonedRespawnTimer = 3600, -- one hour
 			destroyedTimer = 120,
 			destroyedRespawnTimer = 7200, -- two hours
@@ -311,7 +311,7 @@ VehicleSpawnerManager = {
 				},
 			},
 			initialMinVehicles = 4,
-			abandonedTimer = 172800, -- two days
+			abandonedTimer = 2630000,  -- one month
 			abandonedRespawnTimer = 3600, -- one hour
 			destroyedTimer = 120,
 			destroyedRespawnTimer = 7200, -- two hours
@@ -326,7 +326,7 @@ VehicleSpawnerManager = {
 				{ class = "sedan_police", contents = "RandomPoliceSedanContents" },
 			},
 			initialMinVehicles = 2,
-			abandonedTimer = 172800,  -- two days
+			abandonedTimer = 2630000,  -- one month
 			abandonedRespawnTimer = 3600, -- one hour
 			destroyedTimer = 120,
 			destroyedRespawnTimer = 7200, -- two hours
@@ -343,7 +343,7 @@ VehicleSpawnerManager = {
 				{ class = "sedan_taxi_fullout", contents = "RandomF100TruckContents" },
 			},
 			initialMinVehicles = 2,
-			abandonedTimer = 172800,  -- two days
+			abandonedTimer = 2630000,  -- one month
 			abandonedRespawnTimer = 3600, -- one hour
 			destroyedTimer = 120,
 			destroyedRespawnTimer = 7200, -- two hours
@@ -373,7 +373,7 @@ VehicleSpawnerManager = {
 				},
 			},
 			initialMinVehicles = 2,
-			abandonedTimer = 172800,  -- two days
+			abandonedTimer = 2630000,  -- one month
 			abandonedRespawnTimer = 3600, -- one hour
 			destroyedTimer = 120,
 			destroyedRespawnTimer = 7200, -- two hours
@@ -388,7 +388,7 @@ VehicleSpawnerManager = {
 				{ class = "suv_police", contents = "RandomPoliceSedanContents" },
 			},
 			initialMinVehicles = 2,
-			abandonedTimer = 172800,  -- two days
+			abandonedTimer = 2630000,  -- one month
 			abandonedRespawnTimer = 3600, -- one hour
 			destroyedTimer = 120,
 			destroyedRespawnTimer = 7200, -- two hours
@@ -403,7 +403,7 @@ VehicleSpawnerManager = {
 				{ class = "towcar", contents = "RandomTowcarContents" },
 			},
 			initialMinVehicles = 2,
-			abandonedTimer = 172800,  -- two days
+			abandonedTimer = 2630000,  -- one month
 			abandonedRespawnTimer = 3600, -- one hour
 			destroyedTimer = 120,
 			destroyedRespawnTimer = 7200, -- two hours
@@ -418,7 +418,7 @@ VehicleSpawnerManager = {
 				{ class = "tractor", contents = "RandomTractorContents" },
 			},
 			initialMinVehicles = 2,
-			abandonedTimer = 21600,  -- six hours
+			abandonedTimer = 2630000,  -- one month
 			abandonedRespawnTimer = 3600, -- one hour
 			destroyedTimer = 120,
 			destroyedRespawnTimer = 7200, -- two hours
@@ -433,7 +433,7 @@ VehicleSpawnerManager = {
 				{ class = "truck_5ton", contents = "RandomTruck5TonContents" },
 			},
 			initialMinVehicles = 2,
-			abandonedTimer = 259200,  -- three days
+			abandonedTimer = 2630000,  -- one month
 			abandonedRespawnTimer = 3600, -- one hour
 			destroyedTimer = 120,
 			destroyedRespawnTimer = 7200, -- two hours
@@ -463,7 +463,7 @@ VehicleSpawnerManager = {
 				},
 			},
 			initialMinVehicles = 2,
-			abandonedTimer = 259200, -- three days
+			abandonedTimer = 2630000,  -- one month
 			abandonedRespawnTimer = 3600, -- one hour
 			destroyedTimer = 120,
 			destroyedRespawnTimer = 7200, -- two hours
