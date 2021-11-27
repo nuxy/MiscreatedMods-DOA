@@ -72,7 +72,7 @@ StructureSpawnerManager = {
 				{ class = "TwoPersonTentBlue" }
 			},
 			initialMinStructures = 0,
-			abandonedTimer = 1209600,  -- 14 days
+			abandonedTimer = 2630000,  -- 1 month
 			abandonedRespawnTimer = 0, -- one hour
 			destroyedTimer = 0,
 			destroyedRespawnTimer = 0, -- two hours
