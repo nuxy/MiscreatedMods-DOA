@@ -1,15 +1,51 @@
 #!/bin/bash
 #
+# publish.sh
 # Deploy GameSDK modifications to Miscreated Workshop.
+#
+#  Copyright 2021, Marc S. Brooks (https://mbrooks.info)
+#  Licensed under the MIT license:
+#  http://www.opensource.org/licenses/mit-license.php
 #
 # Dependencies:
 #   steamcmd
 #   7za
 #
 
-STEAM_USERNAME=""
-STEAM_PASSWORD=""
-STEAM_FILEID="2665482259" # or 2665400341 (Testing)
+fileid=2665400341
+
+#
+# Parse script arguments.
+#
+argc=$@
+argv=0
+
+for value in $argc; do
+    case $argv in
+        '--username')
+            username=$value
+            ;;
+        '--password')
+            password=$value
+            ;;
+        '--fileid')
+            fileid=$value
+            ;;
+    esac
+
+    argv=$value
+done
+
+if [[ -z "$username" ]] && [[ -z "$password" ]]; then
+    cat <<EOT
+Usage: publish.sh [--username=] [--password=] [--fileid=]
+Options:
+  --username : Steam account username.
+  --password : Steam account password.
+  --fileid   : Steam Workshop file ID (default: 2665400341).
+EOT
+  exit 1
+fi
 
 #
 # Check dependencies.
@@ -45,12 +81,12 @@ cat << EOF > $outfile
 	"description"		"Modifications for the Miscreated D.O.A. PVP/PVE game server."
 	"changenote"		"In progress"
 	"tags"		""
-	"publishedfileid"		"$STEAM_FILEID"
+	"publishedfileid"		"$fileid"
 }
 EOF
 
 # Publish the package.
-steamcmd +login $STEAM_USERNAME $STEAM_PASSWORD +workshop_build_item $outfile +quit
+steamcmd +login $username $password +workshop_build_item $outfile +quit
 
 # Cleanup build sources.
 rm -f $PWD/DeadOnArrival.*
