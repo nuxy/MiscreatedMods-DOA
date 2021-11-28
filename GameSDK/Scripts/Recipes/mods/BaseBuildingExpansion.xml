@@ -1,0 +1,640 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<recipes>
+   <guide name="workbench">
+      <cats>
+         <cat name="Base Building">
+            <subcats>
+               <subcat name="Decorations">
+                  <types>
+                     <type name="Lights">
+                        <items>
+                           <item class="camping_lantern_red" time="4">
+                              <materials>
+                                 <material class="PaintCan_Red" count="1" />
+                                 <material class="camping_lantern" />
+                              </materials>
+                           </item>
+                           <item class="camping_lantern_blue" time="4">
+                              <materials>
+                                 <material class="PaintCan_Blue" count="1" />
+                                 <material class="camping_lantern" />
+                              </materials>
+                           </item>
+                           <item class="camping_lantern_aqua" time="4">
+                              <materials>
+                                 <material class="PaintCan_Aqua" count="1" />
+                                 <material class="camping_lantern" />
+                              </materials>
+                           </item>
+                           <item class="camping_lantern_green" time="4">
+                              <materials>
+                                 <material class="PaintCan_Green" count="1" />
+                                 <material class="camping_lantern" />
+                              </materials>
+                           </item>
+                           <item class="camping_lantern_orange" time="4">
+                              <materials>
+                                 <material class="PaintCan_Orange" count="1" />
+                                 <material class="camping_lantern" />
+                              </materials>
+                           </item>
+                           <item class="camping_lantern_pink" time="4">
+                              <materials>
+                                 <material class="PaintCan_Pink" count="1" />
+                                 <material class="camping_lantern" />
+                              </materials>
+                           </item>
+                           <item class="camping_lantern_purple" time="4">
+                              <materials>
+                                 <material class="PaintCan_Purple" count="1" />
+                                 <material class="camping_lantern" />
+                              </materials>
+                           </item>
+                           <item class="camping_lantern_yellow" time="4">
+                              <materials>
+                                 <material class="PaintCan_Yellow" count="1" />
+                                 <material class="camping_lantern" />
+                              </materials>
+                           </item>
+                           <item class="wall_lantern_red" time="4">
+                              <materials>
+                                 <material class="camping_lantern_red" />
+                                 <material class="Lumber" count="2" />
+                              </materials>
+                           </item>
+                           <item class="wall_lantern_blue" time="4">
+                              <materials>
+                                 <material class="camping_lantern_blue" />
+                                 <material class="Lumber" count="2" />
+                              </materials>
+                           </item>
+                           <item class="wall_lantern_aqua" time="4">
+                              <materials>
+                                 <material class="camping_lantern_aqua" />
+                                 <material class="Lumber" count="2" />
+                              </materials>
+                           </item>
+                           <item class="wall_lantern_green" time="4">
+                              <materials>
+                                 <material class="camping_lantern_green" />
+                                 <material class="Lumber" count="2" />
+                              </materials>
+                           </item>
+                           <item class="wall_lantern_orange" time="4">
+                              <materials>
+                                 <material class="camping_lantern_orange" />
+                                 <material class="Lumber" count="2" />
+                              </materials>
+                           </item>
+                           <item class="wall_lantern_pink" time="4">
+                              <materials>
+                                 <material class="camping_lantern_pink" />
+                                 <material class="Lumber" count="2" />
+                              </materials>
+                           </item>
+                           <item class="wall_lantern_purple" time="4">
+                              <materials>
+                                 <material class="camping_lantern_purple" />
+                                 <material class="Lumber" count="2" />
+                              </materials>
+                           </item>
+                           <item class="wall_lantern_yellow" time="4">
+                              <materials>
+                                 <material class="camping_lantern_yellow" />
+                                 <material class="Lumber" count="2" />
+                              </materials>
+                           </item>
+                        </items>
+                     </type>
+                     <type name="Furniture">
+                        <items>
+                           <item class="porkchop_folding_table_large" time="3">
+                              <materials>
+                                 <material class="Lumber" count="5" />
+                                 <material class="DuctTape" />
+                              </materials>
+                           </item>
+                           <item class="porkchop_coffeetable" time="3">
+                              <materials>
+                                 <material class="Lumber" count="5" />
+                              </materials>
+                           </item>
+                           <item class="porkchop_couch_bunker" time="3">
+                              <materials>
+                                 <material class="Lumber" count="5" />
+                                 <material class="RK_Leather" />
+                              </materials>
+                           </item>
+                           <item class="porkchop_couch" time="3">
+                              <materials>
+                                 <material class="Lumber" count="5" />
+                                 <material class="RK_Leather" />
+                              </materials>
+                           </item>
+                           <item class="porkchop_chair" time="3">
+                              <materials>
+                                 <material class="Lumber" count="5" />
+                              </materials>
+                           </item>
+                           <item class="porkchop_chest_of_drawers_old_crate_packed" time="3">
+                              <materials>
+                                 <material class="Lumber" count="5" />
+                              </materials>
+                           </item>
+                           <item class="porkchop_classic_chair_old" time="3">
+                              <materials>
+                                 <material class="Lumber" count="5" />
+                              </materials>
+                           </item>
+                           <item class="porkchop_classic_table_old" time="3">
+                              <materials>
+                                 <material class="Lumber" count="5" />
+                              </materials>
+                           </item>
+                           <item class="porkchop_elegant_chair_2_old" time="3">
+                              <materials>
+                                 <material class="Lumber" count="5" />
+                                 <material class="RK_Leather" />
+                              </materials>
+                           </item>
+                           <item class="porkchop_elegant_chair_2_ottoman_old" time="3">
+                              <materials>
+                                 <material class="Lumber" count="5" />
+                                 <material class="RK_Leather" />
+                              </materials>
+                           </item>
+                           <item class="porkchop_elegant_chair_old" time="3">
+                              <materials>
+                                 <material class="Lumber" count="5" />
+                                 <material class="RK_Leather" />
+                              </materials>
+                           </item>
+                           <item class="porkchop_elegant_chair_ottoman_old" time="3">
+                              <materials>
+                                 <material class="Lumber" count="5" />
+                                 <material class="RK_Leather" />
+                              </materials>
+                           </item>
+                           <item class="porkchop_leather_armchair_old" time="3">
+                              <materials>
+                                 <material class="Lumber" count="5" />
+                                 <material class="RK_Leather" />
+                              </materials>
+                           </item>
+                           <item class="porkchop_leather_chair_old" time="3">
+                              <materials>
+                                 <material class="Lumber" count="5" />
+                                 <material class="RK_Leather" />
+                              </materials>
+                           </item>
+                           <item class="porkchop_leather_sofa_2_old" time="3">
+                              <materials>
+                                 <material class="Lumber" count="5" />
+                                 <material class="RK_Leather" />
+                              </materials>
+                           </item>
+                           <item class="porkchop_leather_sofa_old" time="3">
+                              <materials>
+                                 <material class="Lumber" count="5" />
+                                 <material class="RK_Leather" />
+                              </materials>
+                           </item>
+                           <item class="porkchop_modern_armchair_old" time="3">
+                              <materials>
+                                 <material class="Lumber" count="5" />
+                                 <material class="RK_Cloth" />
+                              </materials>
+                           </item>
+                           <item class="porkchop_modern_sofa_old" time="3">
+                              <materials>
+                                 <material class="Lumber" count="5" />
+                                 <material class="RK_Cloth" />
+                              </materials>
+                           </item>
+                           <item class="porkchop_office_leather_chair_old" time="3">
+                              <materials>
+                                 <material class="Lumber" count="5" />
+                                 <material class="RK_Leather" />
+                              </materials>
+                           </item>
+                           <item class="porkchop_round_table_old" time="3">
+                              <materials>
+                                 <material class="Lumber" count="5" />
+                              </materials>
+                           </item>
+                           <item class="porkchop_smallcouch" time="3">
+                              <materials>
+                                 <material class="Lumber" count="5" />
+                                 <material class="RK_Leather" />
+                              </materials>
+                           </item>
+                           <item class="porkchop_wood_table_a" time="3">
+                              <materials>
+                                 <material class="Lumber" count="5" />
+                              </materials>
+                           </item>
+                           <item class="porkchop_guestchair" time="3">
+                              <materials>
+                                 <material class="Lumber" count="5" />
+                                 <material class="RK_Leather" />
+                              </materials>
+                           </item>
+                           <item class="porkchop_armchair" time="3">
+                              <materials>
+                                 <material class="Lumber" count="5" />
+                                 <material class="RK_Leather" />
+                              </materials>
+                           </item>
+                           <item class="porkchop_table_2" time="3">
+                              <materials>
+                                 <material class="Lumber" count="5" />
+                              </materials>
+                           </item>
+                        </items>
+                     </type>
+                  </types>
+               </subcat>
+               <subcat name="Structures">
+                  <types>
+                     <type name="Gatehouse">
+                        <items>
+                           <item class="metal_gate_lockable_6m_5_4m" time="5">
+                              <materials>
+                                 <material class="SheetMetal" count="8" />
+                                 <material class="ScrapMetal" count="24" />
+                              </materials>
+                           </item>
+                           <item class="metal_gatehouse_8m_8m" time="5">
+                              <materials>
+                                 <material class="SheetMetal" count="8" />
+                                 <material class="ScrapMetal" count="32" />
+                              </materials>
+                           </item>
+                           <item class="wood_gatehouse_double" time="5">
+                              <materials>
+                                 <material class="Lumber" count="24" />
+                                 <material class="tire_3m" />
+                              </materials>
+                           </item>
+                           <item class="wood_gate_lockable_6m_4m" time="5">
+                              <materials>
+                                 <material class="Lumber" count="24" />
+                                 <material class="ScrapMetal" count="4" />
+                              </materials>
+                           </item>
+                        </items>
+                     </type>
+                     <type name="Metal">
+                        <items>
+                           <item class="metal_aframe_3m_4m" time="5">
+                              <materials>
+                                 <material class="SheetMetal" count="4" />
+                                 <material class="ScrapMetal" count="12" />
+                              </materials>
+                           </item>
+                           <item class="metal_door_lockable_1m_2m" time="5">
+                              <materials>
+                                 <material class="SheetMetal" count="1" />
+                                 <material class="ScrapMetal" count="6" />
+                              </materials>
+                           </item>
+                           <item class="metal_gatehouse_4m_8m" time="5">
+                              <materials>
+                                 <material class="SheetMetal" count="4" />
+                                 <material class="ScrapMetal" count="16" />
+                              </materials>
+                           </item>
+                           <item class="metal_gate_lockable_3m_5_4m" time="5">
+                              <materials>
+                                 <material class="SheetMetal" count="4" />
+                                 <material class="ScrapMetal" count="12" />
+                              </materials>
+                           </item>
+                           <item class="metal_steam_stand" time="5">
+                              <materials>
+                                 <material class="SheetMetal" count="2" />
+                                 <material class="ScrapMetal" count="8" />
+                                 <material class="Amalgaduino" />
+                              </materials>
+                           </item>
+                           <item class="metal_wall_1_3m_2m" time="5">
+                              <materials>
+                                 <material class="SheetMetal" count="1" />
+                                 <material class="ScrapMetal" count="6" />
+                              </materials>
+                           </item>
+                           <item class="metal_wall_1_3m_4m" time="5">
+                              <materials>
+                                 <material class="SheetMetal" count="2" />
+                                 <material class="ScrapMetal" count="12" />
+                              </materials>
+                           </item>
+                           <item class="metal_wall_2m_2m" time="5">
+                              <materials>
+                                 <material class="SheetMetal" count="2" />
+                                 <material class="ScrapMetal" count="8" />
+                              </materials>
+                           </item>
+                           <item class="metal_wall_2m_4m" time="5">
+                              <materials>
+                                 <material class="SheetMetal" count="3" />
+                                 <material class="ScrapMetal" count="10" />
+                              </materials>
+                           </item>
+                           <item class="metal_wall_3m_2m" time="5">
+                              <materials>
+                                 <material class="SheetMetal" count="2" />
+                                 <material class="ScrapMetal" count="6" />
+                              </materials>
+                           </item>
+                           <item class="metal_wall_3m_4m" time="5">
+                              <materials>
+                                 <material class="SheetMetal" count="4" />
+                                 <material class="ScrapMetal" count="12" />
+                              </materials>
+                           </item>
+                           <item class="metal_wall_door_3m_4m" time="5">
+                              <materials>
+                                 <material class="SheetMetal" count="4" />
+                                 <material class="ScrapMetal" count="10" />
+                              </materials>
+                           </item>
+                           <item class="metal_wall_window_3m_2m" time="5">
+                              <materials>
+                                 <material class="SheetMetal" count="2" />
+                                 <material class="ScrapMetal" count="5" />
+                              </materials>
+                           </item>
+                           <item class="metal_wall_window_3m_4m" time="5">
+                              <materials>
+                                 <material class="SheetMetal" count="4" />
+                                 <material class="ScrapMetal" count="10" />
+                              </materials>
+                           </item>
+                        </items>
+                     </type>
+                     <type name="Platforms">
+                        <items>
+                           <item class="wood_walkway_0m_4m_8m" time="5">
+                              <materials>
+                                 <material class="Lumber" count="6" />
+                              </materials>
+                           </item>
+                           <item class="wood_walkway_0m_4m_12m" time="7">
+                              <materials>
+                                 <material class="Lumber" count="9" />
+                              </materials>
+                           </item>
+                           <item class="wood_walkway_0m_4m_16m" time="7">
+                              <materials>
+                                 <material class="Lumber" count="12" />
+                              </materials>
+                           </item>
+                           <item class="wood_walkway_0m_8m_8m" time="10">
+                              <materials>
+                                 <material class="Lumber" count="12" />
+                              </materials>
+                           </item>
+                           <item class="wood_walkway_0m_8m_12m" time="5">
+                              <materials>
+                                 <material class="Lumber" count="18" />
+                              </materials>
+                           </item>
+                           <item class="wood_walkway_0m_8m_16m" time="7">
+                              <materials>
+                                 <material class="Lumber" count="24" />
+                              </materials>
+                           </item>
+                           <item class="wood_walkway_0m_12m_12m" time="7">
+                              <materials>
+                                 <material class="Lumber" count="27" />
+                              </materials>
+                           </item>
+                           <item class="wood_walkway_0m_16m_16m" time="10">
+                              <materials>
+                                 <material class="Lumber" count="48" />
+                              </materials>
+                           </item>
+                           <item class="wood_walkway_1_3m_4m_8m" time="10">
+                              <materials>
+                                 <material class="Lumber" count="6" />
+                              </materials>
+                           </item>
+                           <item class="wood_walkway_1_3m_4m_12m" time="10">
+                              <materials>
+                                 <material class="Lumber" count="9" />
+                              </materials>
+                           </item>
+                           <item class="wood_walkway_1_3m_4m_16m" time="10">
+                              <materials>
+                                 <material class="Lumber" count="12" />
+                              </materials>
+                           </item>
+                           <item class="wood_walkway_1_3m_8m_8m" time="10">
+                              <materials>
+                                 <material class="Lumber" count="12" />
+                              </materials>
+                           </item>
+                           <item class="wood_walkway_1_3m_8m_12m" time="10">
+                              <materials>
+                                 <material class="Lumber" count="18" />
+                              </materials>
+                           </item>
+                           <item class="wood_walkway_1_3m_8m_16m" time="10">
+                              <materials>
+                                 <material class="Lumber" count="24" />
+                              </materials>
+                           </item>
+                           <item class="wood_walkway_1_3m_12m_12m" time="10">
+                              <materials>
+                                 <material class="Lumber" count="27" />
+                              </materials>
+                           </item>
+                           <item class="wood_walkway_1_3m_16m_16m" time="10">
+                              <materials>
+                                 <material class="Lumber" count="48" />
+                              </materials>
+                           </item>
+                           <item class="wood_walkway_3m_4m_8m" time="10">
+                              <materials>
+                                 <material class="Lumber" count="6" />
+                              </materials>
+                           </item>
+                           <item class="wood_walkway_3m_4m_12m" time="10">
+                              <materials>
+                                 <material class="Lumber" count="9" />
+                              </materials>
+                           </item>
+                           <item class="wood_walkway_3m_4m_16m" time="10">
+                              <materials>
+                                 <material class="Lumber" count="12" />
+                              </materials>
+                           </item>
+                           <item class="wood_walkway_3m_8m_8m" time="10">
+                              <materials>
+                                 <material class="Lumber" count="12" />
+                              </materials>
+                           </item>
+                           <item class="wood_walkway_3m_8m_12m" time="10">
+                              <materials>
+                                 <material class="Lumber" count="18" />
+                              </materials>
+                           </item>
+                           <item class="wood_walkway_3m_8m_16m" time="10">
+                              <materials>
+                                 <material class="Lumber" count="24" />
+                              </materials>
+                           </item>
+                           <item class="wood_walkway_3m_12m_12m" time="10">
+                              <materials>
+                                 <material class="Lumber" count="27" />
+                              </materials>
+                           </item>
+                           <item class="wood_walkway_3m_16m_16m" time="10">
+                              <materials>
+                                 <material class="Lumber" count="48" />
+                              </materials>
+                           </item>
+                           <item class="wood_walkway_door_curved_3m_4m" time="15">
+                              <materials>
+                                 <material class="wood_wall_door_3m_4m" />
+                                 <material class="Lumber" count="9" />
+                              </materials>
+                           </item>
+                           <item class="wood_walkway_wall_curved_3m_4m" time="15">
+                              <materials>
+                                 <material class="Lumber" count="12" />
+                              </materials>
+                           </item>
+                           <item class="wood_walkway_window_curved_3m_4m" time="15">
+                              <materials>
+                                 <material class="wood_wall_window_3m_4m" />
+                                 <material class="Lumber" count="9" />
+                              </materials>
+                           </item>
+                        </items>
+                     </type>
+                     <type name="Roofs">
+                        <items>
+                           <item class="wood_roof_12m_12m" time="15">
+                              <materials>
+                                 <material class="Lumber" count="24" />
+                              </materials>
+                           </item>
+                        </items>
+                     </type>
+                     <type name="Walls">
+                        <items>
+                           <item class="rock_doorway_3m_4m" time="5">
+                              <materials>
+                                 <material class="Rocks" count="20" />
+                                 <material class="Lumber" count="4" />
+                              </materials>
+                           </item>
+                           <item class="rock_wall_3m_2m" time="5">
+                              <materials>
+                                 <material class="Rocks" count="10" />
+                                 <material class="Lumber" count="2" />
+                              </materials>
+                           </item>
+                           <item class="rock_wall_3m_4m" time="5">
+                              <materials>
+                                 <material class="Rocks" count="20" />
+                                 <material class="Lumber" count="4" />
+                              </materials>
+                           </item>
+                           <item class="rock_wall_4m_2m" time="5">
+                              <materials>
+                                 <material class="Rocks" count="10" />
+                                 <material class="Lumber" count="2" />
+                              </materials>
+                           </item>
+                           <item class="rock_wall_4m_4m" time="5">
+                              <materials>
+                                 <material class="Rocks" count="20" />
+                                 <material class="Lumber" count="4" />
+                              </materials>
+                           </item>
+                           <item class="rock_wall_window_3m_2m" time="5">
+                              <materials>
+                                 <material class="Rocks" count="10" />
+                                 <material class="Lumber" count="2" />
+                              </materials>
+                           </item>
+                           <item class="rock_wall_window_3m_4m" time="5">
+                              <materials>
+                                 <material class="Rocks" count="20" />
+                                 <material class="Lumber" count="4" />
+                              </materials>
+                           </item>
+                           <item class="rock_doorway_3m_4m_beamless" time="5">
+                              <materials>
+                                 <material class="Rocks" count="20" />
+                                 <material class="Lumber" count="4" />
+                              </materials>
+                           </item>
+                           <item class="rock_wall_3m_2m_beamless" time="5">
+                              <materials>
+                                 <material class="Rocks" count="10" />
+                                 <material class="Lumber" count="2" />
+                              </materials>
+                           </item>
+                           <item class="rock_wall_3m_4m_beamless" time="5">
+                              <materials>
+                                 <material class="Rocks" count="20" />
+                                 <material class="Lumber" count="4" />
+                              </materials>
+                           </item>
+                           <item class="rock_wall_4m_2m_beamless" time="5">
+                              <materials>
+                                 <material class="Rocks" count="10" />
+                                 <material class="Lumber" count="2" />
+                              </materials>
+                           </item>
+                           <item class="rock_wall_4m_4m_beamless" time="5">
+                              <materials>
+                                 <material class="Rocks" count="20" />
+                                 <material class="Lumber" count="4" />
+                              </materials>
+                           </item>
+                           <item class="rock_wall_window_3m_2m_beamless" time="5">
+                              <materials>
+                                 <material class="Rocks" count="10" />
+                                 <material class="Lumber" count="2" />
+                              </materials>
+                           </item>
+                           <item class="rock_wall_window_3m_4m_beamless" time="5">
+                              <materials>
+                                 <material class="Rocks" count="20" />
+                                 <material class="Lumber" count="4" />
+                              </materials>
+                           </item>
+                           <item class="wood_wall_3m_4m_90" time="5">
+                              <materials>
+                                 <material class="Lumber" count="16" />
+                              </materials>
+                           </item>
+                           <item class="wood_wall_3m_8m" time="7">
+                              <materials>
+                                 <material class="Lumber" count="16" />
+                              </materials>
+                           </item>
+                           <item class="wood_wall_3m_12m" time="12">
+                              <materials>
+                                 <material class="Lumber" count="20" />
+                              </materials>
+                           </item>
+                           <item class="wood_wall_3m_16m" time="15">
+                              <materials>
+                                 <material class="Lumber" count="24" />
+                              </materials>
+                           </item>
+                        </items>
+                     </type>
+                  </types>
+               </subcat>
+            </subcats>
+         </cat>
+      </cats>
+   </guide>
+</recipes>
