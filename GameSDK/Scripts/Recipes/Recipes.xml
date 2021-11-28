@@ -892,7 +892,7 @@
 						</items>
 					</subcat>
 					
-					<subcat name="Easter">
+					<!-- <subcat name="Easter">
 						<items>
 							<item class="KatanaBlackWidow" time="10">
 								<materials>
@@ -1025,7 +1025,7 @@
 								</materials>
 							</item>
 						</items>
-					</subcat>
+					</subcat> -->
 					
 					<subcat name="Decorations">
 						<types>
