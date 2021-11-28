@@ -79,7 +79,7 @@ cat << EOF > $outfile
 	"visibility"		"0"
 	"title"		"Miscreated-Mods-DOA"
 	"description"		"Modifications for the Miscreated D.O.A. PVP/PVE game server."
-	"changenote"		"In progress"
+	"changenote"		"[url=https://github.com/nuxy/MiscreatedMods-DOA]Github project[/url]"
 	"tags"		""
 	"publishedfileid"		"$fileid"
 }
