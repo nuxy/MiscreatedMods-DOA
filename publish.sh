@@ -63,7 +63,7 @@ fi
 #
 # Package the release.
 #
-7za a -tzip -mx0 -xr!.git* -xr!README.md -xr!publish "$PWD/DeadOnArrival.pak" "$PWD/*"
+7za a -tzip -mx0 -xr!.git* -xr!.hosting.cfg -xr!README.md -xr!publish "$PWD/DeadOnArrival.pak" "$PWD/*"
 
 #
 # Create VDF reference.
