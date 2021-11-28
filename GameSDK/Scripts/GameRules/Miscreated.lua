@@ -3,8 +3,8 @@ Script.ReloadScript("scripts/gamerules/GameRulesUtils.lua");
 Miscreated = {
 	Properties = {
 		WorldEvent = {
-			fMinTime = 3600, -- min time to spawn an event (in seconds)
-			fMaxTime = 7200, -- max time to spawn an event (in seconds)
+			fMinTime = 1800, -- min time to spawn an event (in seconds)
+			fMaxTime = 2700, -- max time to spawn an event (in seconds)
 		}
 	}
 }
@@ -30,14 +30,16 @@ SpawnWorldEvent = function(self)
 	local eventName
 	local rnd = random(1, 10)
 
-	if rnd <= 5 then
+	if rnd >= 1 and rnd <= 3 then
 		eventName = "AirDropPlane"
-	--else
-		--eventName = "AirPlaneCrash"	
-	elseif rnd <= 9 then
+	end
+
+	if rnd >= 4 and rnd <=9 then
 		eventName = "AirPlaneCrash"
-	else
-		eventName = "UFOCrash"	
+	end
+
+	if rnd >= 10 then
+		eventName = "UFOCrash"
 	end
 
 	local spawnParams = {}
@@ -107,7 +109,7 @@ end
 -- Any change to the player's position and rotation would have to be done here
 function Miscreated:InitPlayer(playerId)
 	--Log(">> Miscreated:InitPlayer");
-end
+  end
 --]]
 
 --[[
@@ -115,7 +117,7 @@ end
 -- Set player stats here - only default CryEngine stats are currently exposed, like health
 function Miscreated:RevivePlayer(playerId)
 	--Log(">> Miscreated:RevivePlayer");
-end
+  end
 --]]
 
 -- If this method is defined, then Miscreated will ONLY spawn items for a new or respawned

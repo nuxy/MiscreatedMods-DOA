@@ -8,8 +8,8 @@ AirDropPlane = {
 		-- Needs to be something very large to be seen from the ground
 		fileModel = "GameSDK/Objects/props/airdrop_plane/airdrop_plane.cgf",
 
-		fTravelHeight = 1000, -- meters
-		fTravelSpeed= 50, -- m/s
+		fTravelHeight = 800, -- meters
+		fTravelSpeed= 60, -- m/s
 
 		fStartPercentRange = 0.8, -- middle percent of map plane can start in
 		fFinishPercentRange = 0.6, -- middle percent of map plane can finish at
