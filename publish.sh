@@ -14,7 +14,7 @@
 
 TMPDIR=$PWD/tmp
 
-fileid=2665400341
+fileid=2667978097
 
 #
 # Parse script arguments.
@@ -44,7 +44,7 @@ Usage: publish.sh [--username=] [--password=] [--fileid=]
 Options:
   --username : Steam account username.
   --password : Steam account password.
-  --fileid   : Steam Workshop file ID (default: 2665400341).
+  --fileid   : Steam Workshop file ID (default: 2667978097).
 EOT
   exit 1
 fi
@@ -67,7 +67,7 @@ fi
 #
 mkdir $TMPDIR
 
-7za a -tzip -mx0 -xr!.git* -xr!hosting.cfg -xr!LICENSE -xr!README.md -xr!publish.sh "$TMPDIR/DeadOnArrival.pak" "$PWD/*"
+7za a -tzip -mx0 -xr!.git* -xr!hosting.cfg -xr!LICENSE -xr!README.md -xr!publish.sh -xr!tmp "$TMPDIR/DeadOnArrival.pak" "$PWD/*"
 
 #
 # Create VDF reference.
