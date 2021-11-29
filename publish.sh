@@ -12,6 +12,8 @@
 #   7za
 #
 
+TMPDIR=$PWD/tmp
+
 fileid=2665400341
 
 #
@@ -63,18 +65,20 @@ fi
 #
 # Package the release.
 #
-7za a -tzip -mx0 -xr!.git* -xr!.hosting.cfg -xr!README.md -xr!publish "$PWD/DeadOnArrival.pak" "$PWD/*"
+mkdir $TMPDIR
+
+7za a -tzip -mx0 -xr!.git* -xr!hosting.cfg -xr!LICENSE -xr!README.md -xr!publish.sh "$TMPDIR/DeadOnArrival.pak" "$PWD/*"
 
 #
 # Create VDF reference.
 #
-outfile=$PWD/DeadOnArrival.vdf
+outfile=$PWD/mod.vdf
 
 cat << EOF > $outfile
 "workshopitem"
 {
 	"appid"		"299740"
-	"contentfolder"		"$PWD"
+	"contentfolder"		"$TMPDIR"
 	"previewfile"		""
 	"visibility"		"0"
 	"title"		"Miscreated-Mods-DOA"
@@ -89,4 +93,4 @@ EOF
 steamcmd +login $username $password +workshop_build_item $outfile +quit
 
 # Cleanup build sources.
-rm -f $PWD/DeadOnArrival.*
+rm -rf $PWD/mod.vdf $TMPDIR
