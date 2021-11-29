@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <recipes>
-   <guide name="workbench">
+   <guide name="default" id="0">
       <cats>
          <cat name="Base Building">
             <subcats>
