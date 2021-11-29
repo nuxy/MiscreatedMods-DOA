@@ -2858,7 +2858,7 @@
 		</cats>
 	</guide>
 
-	<guide name="guide_structures_wood_ramps_1" id="8">
+	<guide name="default" id="0">
 		<cats>
 			<cat name="Base Building">
 				<subcats>
@@ -2925,7 +2925,7 @@
 		</cats>
 	</guide>
 
-	<guide name="guide_structures_wood_ramps_2" id="9">
+	<guide name="default" id="0">
 		<cats>
 			<cat name="Base Building">
 				<subcats>
@@ -3033,7 +3033,7 @@
 		</cats>
 	</guide>
 
-	<guide name="guide_structures_wood_walkways_1" id="13">
+	<guide name="default" id="0">
 		<cats>
 			<cat name="Base Building">
 				<subcats>
@@ -3065,7 +3065,7 @@
 		</cats>
 	</guide>
 
-	<guide name="guide_structures_wood_walkways_2" id="14">
+	<guide name="default" id="0">
 		<cats>
 			<cat name="Base Building">
 				<subcats>
@@ -3097,7 +3097,7 @@
 		</cats>
 	</guide>
 
-	<guide name="guide_structures_wood_walls_1" id="15">
+	<guide name="default" id="0">
 		<cats>
 			<cat name="Base Building">
 				<subcats>
@@ -3135,7 +3135,7 @@
 		</cats>
 	</guide>
 
-	<guide name="guide_structures_wood_walls_2" id="16">
+	<guide name="default" id="0">
 		<cats>
 			<cat name="Base Building">
 				<subcats>
