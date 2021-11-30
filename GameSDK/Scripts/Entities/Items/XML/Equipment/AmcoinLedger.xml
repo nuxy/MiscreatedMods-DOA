@@ -3,7 +3,7 @@
 	<params>
 		<param name="selectable" value="0"/>
 		<param name="mass" value="0.1"/>
-		<param name="stack_size" value="1000"/>
+		<param name="stack_size" value="250"/>
 		<param name="stack_size_spawned" value="5"/>
 		<param name="display_name" value="@AmcoinLedger"/>
 		<param name="description" value="@AmcoinLedgerDescription"/>
