@@ -1,10 +1,12 @@
 <item name="Berries" class="Consumable" category="any">
+
 	<params>
 		<param name="selectable" value="0"/>
 		<param name="mass" value="0.2"/>
 		<param name="stack_size" value="10"/>
 		<param name="display_name" value="@Berries"/>
 		<param name="description" value="@BerriesDescription"/>
+		<param name="vendor_cost" value="1"/>
 	</params>
 
 	<geometry>
