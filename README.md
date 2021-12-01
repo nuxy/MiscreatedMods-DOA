@@ -6,7 +6,10 @@ Modifications for the [Miscreated](https://miscreatedgame.com) D.O.A. PVP/PVE ga
 
 - Balanced Apple, Berries, and Water availabity.
 - Updated Plot Sign total items/build radius.
+- Added craftable Metal Safe Storage object.
+- Build anywhere, no restrictions.
 - Higher frequency of random air drops.
+- Updated Food Vendor purchaseable options.
 - Removed giant roaches and spiders.
 - Updated mutant spawning probability.
 - Various Crafting UI improvements.
