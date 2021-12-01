@@ -65,3 +65,8 @@ mutant6.classes =
 	{ category = "HumanSpiderSingle", percent = 30 },
 	{ category = "HumanZombieSingle", percent = 20 },
 }
+
+-- Add more deer.
+local deer = FindInTable(AISpawnerManager.aiCategories, "category", "RandomDeer")
+deer.min = 6
+deer.max = 8
