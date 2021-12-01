@@ -17,7 +17,6 @@
 								<materials>
 									<material class="Rags" count="20"/>
 									<material class="Tarp" count="4" />
-									
 									<material class="DuctTape" count="2" />
 									<material class="RK_Canvas" />
 								</materials>
@@ -26,7 +25,6 @@
 								<materials>
 									<material class="Rags" count="20"/>
 									<material class="Tarp" count="6" />
-									
 									<material class="DuctTape" count="2" />
 									<material class="RK_Canvas" count="2" />
 								</materials>
@@ -35,7 +33,6 @@
 								<materials>
 									<material class="Rags" count="20"/>
 									<material class="Tarp" />
-									
 									<material class="DuctTape" />
 									<material class="RK_Canvas" />
 								</materials>
@@ -44,7 +41,6 @@
 								<materials>
 									<material class="Rags" count="20"/>
 									<material class="Tarp" count="2" />
-									
 									<material class="DuctTape" />
 									<material class="RK_Canvas" />
 								</materials>
