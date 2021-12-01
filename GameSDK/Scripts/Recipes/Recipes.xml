@@ -221,6 +221,22 @@
 							</item>
 					    </items>
 					</subcat>
+					<subcat name="Structures">
+						<types>
+							<type name="Storage">
+								<items>
+									<item class="safe" time="10">
+										<materials>
+											<material class="ScrapMetal" count="6" />
+											<material class="SheetMetal" count="32" />
+											<material class="ElectricalParts" count="1" />
+											<material class="Amalgaduino" count="1" />
+										</materials>
+									</item>
+								</items>
+							</type>
+						</types>
+					</subcat>
 				</subcats>
 			</cat>
 		</cats>
