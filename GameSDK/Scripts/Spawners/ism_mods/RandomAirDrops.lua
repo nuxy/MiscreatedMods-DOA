@@ -1,4 +1,3 @@
--- Override defaults.
 local airDropCrate = FindInTable(ItemSpawnerManager.itemCategories, "category", "RandomAirDropCrate")
 
 local crateItem1 = FindInTable(airDropCrate.classes, "category", "RandomAirDropCratePolice")
