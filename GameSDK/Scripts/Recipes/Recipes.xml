@@ -3792,18 +3792,6 @@
 							</item>
 						</items>
 					</subcat>
-
-					<subcat name="Components">
-						<items>
-							<item class="C4Bricks" time="2" amount="1">
-								<materials>
-									<material class="Gunpowder" count="50"/>
-									<material class="Sulphur" count="10"/>
-									<material class="BioFuel" count="2"/>
-								</materials>
-							</item>
-						</items>
-					</subcat>
 				</subcats>
 			</cat>
 		</cats>
