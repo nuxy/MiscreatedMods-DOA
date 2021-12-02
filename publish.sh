@@ -77,15 +77,15 @@ outfile=$PWD/mod.vdf
 cat << EOF > $outfile
 "workshopitem"
 {
-	"appid"		"299740"
-	"contentfolder"		"$TMPDIR"
-	"previewfile"		""
-	"visibility"		"0"
-	"title"		"Miscreated-Mods-DOA"
-	"description"		"Modifications for the Miscreated D.O.A. PVP/PVE game server."
-	"changenote"		"[url=https://github.com/nuxy/MiscreatedMods-DOA]Github project[/url]"
-	"tags"		""
-	"publishedfileid"		"$fileid"
+  "appid"           "299740"
+  "contentfolder"   "$TMPDIR"
+  "previewfile"     ""
+  "visibility"      "0"
+  "title"           "Miscreated-Mods-DOA"
+  "description"     "Modifications for the Miscreated D.O.A. PVP/PVE game server."
+  "changenote"      "[url=https://github.com/nuxy/MiscreatedMods-DOA]Github project[/url]"
+  "tags"            ""
+  "publishedfileid" "$fileid"
 }
 EOF
 
