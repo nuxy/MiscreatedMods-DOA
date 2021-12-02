@@ -2,6 +2,8 @@
 
 Modifications for the [Miscreated](https://miscreatedgame.com) D.O.A. PVP/PVE game server.
 
+![Alien Invasion](https://raw.githubusercontent.com/nuxy/MiscreatedMods-DOA/master/preview.png)
+
 ## Notable Changes
 
 - Removed all mutants (Human Spiders only).
