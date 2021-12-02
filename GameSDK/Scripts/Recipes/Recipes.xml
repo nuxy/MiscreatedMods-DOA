@@ -743,12 +743,6 @@
 									<material class="ScrapMetal" count="2" />
 								</materials>
 							</item>
-							<!-- Halloween -->
-							<item class="JackOLanternHelmet" time="5">
-								<materials>
-									<material class="Pumpkin" />
-								</materials>
-							</item>
 						</items>
 					</subcat>
 				</subcats>
@@ -901,141 +895,6 @@
 						</items>
 					</subcat>
 
-					<!-- <subcat name="Easter">
-						<items>
-							<item class="KatanaBlackWidow" time="10">
-								<materials>
-									<material class="EggBlue" count="10" />
-								</materials>
-							</item>
-							<item class="BaseballBatHerMajesty" time="10">
-								<materials>
-									<material class="EggBlue" count="10" />
-								</materials>
-							</item>
-							<item class="AxePatrick" time="10">
-								<materials>
-									<material class="EggBlue" count="10" />
-								</materials>
-							</item>
-							<item class="T1Micro" time="10">
-								<materials>
-									<material class="EggBlue" count="10" />
-								</materials>
-							</item>
-							<item class="ReflexSightBow" time="5">
-								<materials>
-									<material class="EggBlue" count="10" />
-								</materials>
-							</item>
-							<item class="LaserSight" time="10">
-								<materials>
-									<material class="EggBlue" count="3" />
-								</materials>
-							</item>
-							<item class="LaserSightGreen" time="10">
-								<materials>
-									<material class="EggBlue" count="3" />
-								</materials>
-							</item>
-							<item class="LaserSightBlue" time="10">
-								<materials>
-									<material class="EggBlue" count="3" />
-								</materials>
-							</item>
-							<item class="ColtPythonGrimeyRick" time="20">
-								<materials>
-									<material class="EggGreen" count="10" />
-								</materials>
-							</item>
-							<item class="Mk18Reaver" time="20">
-								<materials>
-									<material class="EggGreen" count="13" />
-								</materials>
-							</item>
-							<item class="AKMGold" time="20">
-								<materials>
-									<material class="EggGreen" count="15" />
-								</materials>
-							</item>
-							<item class="ReddotSight" time="20">
-								<materials>
-									<material class="EggGreen" count="10" />
-								</materials>
-							</item>
-							<item class="PistolSilencer" time="20">
-								<materials>
-									<material class="EggGreen" count="20" />
-								</materials>
-							</item>
-							<item class="ReflexSight" time="10">
-								<materials>
-									<material class="EggGreen" count="10" />
-								</materials>
-							</item>
-							<item class="FlashlightMounted" time="10">
-								<materials>
-									<material class="EggGreen" count="5" />
-								</materials>
-							</item>
-							<item class="VSS" time="30">
-								<materials>
-									<material class="EggPink" count="20" />
-								</materials>
-							</item>
-							<item class="M16Vietnam" time="30">
-								<materials>
-									<material class="EggPink" count="20" />
-								</materials>
-							</item>
-							<item class="M4A1" time="30">
-								<materials>
-									<material class="EggPink" count="17" />
-								</materials>
-							</item>
-							<item class="M4V5" time="30">
-								<materials>
-									<material class="EggPink" count="30" />
-								</materials>
-							</item>
-							<item class="PSOScope" time="10">
-								<materials>
-									<material class="EggPink" count="5" />
-								</materials>
-							</item>
-							<item class="OpticScope" time="10">
-								<materials>
-									<material class="EggPink" count="10" />
-								</materials>
-							</item>
-							<item class="R3Sight" time="10">
-								<materials>
-									<material class="EggPink" count="5" />
-								</materials>
-							</item>
-							<item class="ext_762x30" time="10">
-								<materials>
-									<material class="EggPink" count="20" />
-								</materials>
-							</item>
-							<item class="ext_762x75" time="10">
-								<materials>
-									<material class="EggPink" count="25" />
-								</materials>
-							</item>
-							<item class="ext_556x75" time="10">
-								<materials>
-									<material class="EggPink" count="25" />
-								</materials>
-							</item>
-							<item class="RifleSilencer" time="10">
-								<materials>
-									<material class="EggPink" count="35" />
-								</materials>
-							</item>
-						</items>
-					</subcat> -->
-					
 					<subcat name="Decorations">
 						<types>
 							<type name="Flags">
@@ -1357,13 +1216,6 @@
 											<material class="AnimalFat" count="4" />
 											<material class="Rope" />
 									 </materials>
-									</item>
-									<!-- Halloween -->
-									<item class="jack_o_lantern" time="5">
-										<materials>
-											<material class="Pumpkin" />
-											<material class="candle_animal_fat_small" />
-										</materials>
 									</item>
 									<item class="powered_work_light" time="5">
 										<materials>

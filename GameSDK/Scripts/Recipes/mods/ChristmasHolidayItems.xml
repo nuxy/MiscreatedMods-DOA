@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<recipes>
+	<guide name="default" id="0">
+		<cats>
+			<cat name="Holidays">
+				<subcats>
+					<subcat name="Christmas">
+						<items>
+							<item class="christmas_tree" time="5">
+								<materials>
+									<material class="StickPile" count="20" />
+								</materials>
+							</item>
+							<item class="christmas_candle" time="2">
+								<materials>
+									<material class="AnimalFat" count="2" />
+									<material class="Rope" />
+								</materials>
+							</item>
+							<item class="christmas_gift_pile" time="4">
+								<materials>
+									<material class="Lumber" />
+								</materials>
+							</item>
+							<item class="christmas_light_string" time="2">
+								<materials>
+									<material class="ElectricalParts" />
+								</materials>
+							</item>
+							<item class="christmas_rug_01" time="3">
+								<materials>
+									<material class="Rags" count="10" />
+								</materials>
+							</item>
+							<item class="christmas_rug_02" time="3">
+								<materials>
+									<material class="Rags" count="10" />
+								</materials>
+							</item>
+							<item class="christmas_rug_03" time="3">
+								<materials>
+									<material class="Rags" count="10" />
+								</materials>
+							</item>
+							<item class="christmas_snowglobe" time="3">
+								<materials>
+									<material class="Lumber" />
+									<material class="EmptyBottle" />
+								</materials>
+							</item>
+							<item class="christmas_stocking" time="3">
+								<materials>
+									<material class="Rags" count="3" />
+								</materials>
+							</item>
+							<item class="christmas_wreath" time="3">
+								<materials>
+									<material class="StickPile" count="4" />
+									<material class="Rope" />
+									<material class="Thatch" />
+								</materials>
+							</item>
+						</items>
+					</subcat>
+				</subcats>
+			</cat>
+		</cats>
+	</guide>
+</recipes>
