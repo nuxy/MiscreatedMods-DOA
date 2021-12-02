@@ -8,14 +8,14 @@
 						<items>
 							<item class="PackedPupTentTan" time="15">
 								<materials>
-									<material class="Rags" count="20"/>
-									<material class="StickPile" count="4"/>
+									<material class="Rags" count="20" />
+									<material class="StickPile" count="4" />
 									<material class="Rope" count="2" />
 								</materials>
 							</item>
 							<item class="PackedCampingTentBlue" time="30">
 								<materials>
-									<material class="Rags" count="20"/>
+									<material class="Rags" count="20" />
 									<material class="Tarp" count="4" />
 									<material class="DuctTape" count="2" />
 									<material class="RK_Canvas" />
@@ -23,7 +23,7 @@
 							</item>
 							<item class="PackedTrekkingTentBlue" time="30">
 								<materials>
-									<material class="Rags" count="20"/>
+									<material class="Rags" count="20" />
 									<material class="Tarp" count="6" />
 									<material class="DuctTape" count="2" />
 									<material class="RK_Canvas" count="2" />
@@ -31,7 +31,7 @@
 							</item>
 							<item class="PackedEasyCampTentBlue" time="15">
 								<materials>
-									<material class="Rags" count="20"/>
+									<material class="Rags" count="20" />
 									<material class="Tarp" />
 									<material class="DuctTape" />
 									<material class="RK_Canvas" />
@@ -39,7 +39,7 @@
 							</item>
 							<item class="PackedTwoPersonTentBlue" time="20">
 								<materials>
-									<material class="Rags" count="20"/>
+									<material class="Rags" count="20" />
 									<material class="Tarp" count="2" />
 									<material class="DuctTape" />
 									<material class="RK_Canvas" />
@@ -54,25 +54,25 @@
 								<items>
 									<item class="PackedPupTentBlue" time="5">
 										<materials>
-											<material class="PackedPupTentTan"/>
+											<material class="PackedPupTentTan" />
 											<material class="PaintCan_Aqua" />
 										</materials>
 									</item>
 									<item class="PackedPupTentBrown" time="5">
 										<materials>
-											<material class="PackedPupTentTan"/>
+											<material class="PackedPupTentTan" />
 											<material class="PaintCan_Brown" />
 										</materials>
 									</item>
 									<item class="PackedPupTentGreen" time="5">
 										<materials>
-											<material class="PackedPupTentTan"/>
+											<material class="PackedPupTentTan" />
 											<material class="PaintCan_Green" />
 										</materials>
 									</item>
 									<item class="PackedPupTentRed" time="5">
 										<materials>
-											<material class="PackedPupTentTan"/>
+											<material class="PackedPupTentTan" />
 											<material class="PaintCan_Red" />
 										</materials>
 									</item>
@@ -83,37 +83,37 @@
 								<items>
 									<item class="PackedEasyCampTentBrown" time="5">
 										<materials>
-											<material class="PackedEasyCampTentBlue"/>
+											<material class="PackedEasyCampTentBlue" />
 											<material class="PaintCan_Brown" />
 										</materials>
 									</item>
 									<item class="PackedEasyCampTentGreen" time="5">
 										<materials>
-											<material class="PackedEasyCampTentBlue"/>
+											<material class="PackedEasyCampTentBlue" />
 											<material class="PaintCan_Green" />
 										</materials>
 									</item>
 									<item class="PackedEasyCampTentOrange" time="5">
 										<materials>
-											<material class="PackedEasyCampTentBlue"/>
+											<material class="PackedEasyCampTentBlue" />
 											<material class="PaintCan_Orange" />
 										</materials>
 									</item>
 									<item class="PackedEasyCampTentPurple" time="5">
 										<materials>
-											<material class="PackedEasyCampTentBlue"/>
+											<material class="PackedEasyCampTentBlue" />
 											<material class="PaintCan_Purple" />
 										</materials>
 									</item>
 									<item class="PackedEasyCampTentRed" time="5">
 										<materials>
-											<material class="PackedEasyCampTentBlue"/>
+											<material class="PackedEasyCampTentBlue" />
 											<material class="PaintCan_Red" />
 										</materials>
 									</item>
 									<item class="PackedEasyCampTentYellow" time="5">
 										<materials>
-											<material class="PackedEasyCampTentBlue"/>
+											<material class="PackedEasyCampTentBlue" />
 											<material class="PaintCan_Yellow" />
 										</materials>
 									</item>
@@ -124,37 +124,37 @@
 								<items>
 									<item class="PackedTwoPersonTentBrown" time="5">
 										<materials>
-											<material class="PackedTwoPersonTentBlue"/>
+											<material class="PackedTwoPersonTentBlue" />
 											<material class="PaintCan_Brown" />
 										</materials>
 									</item>
 									<item class="PackedTwoPersonTentGreen" time="5">
 										<materials>
-											<material class="PackedTwoPersonTentBlue"/>
+											<material class="PackedTwoPersonTentBlue" />
 											<material class="PaintCan_Green" />
 										</materials>
 									</item>
 									<item class="PackedTwoPersonTentOrange" time="5">
 										<materials>
-											<material class="PackedTwoPersonTentBlue"/>
+											<material class="PackedTwoPersonTentBlue" />
 											<material class="PaintCan_Orange" />
 										</materials>
 									</item>
 									<item class="PackedTwoPersonTentPurple" time="5">
 										<materials>
-											<material class="PackedTwoPersonTentBlue"/>
+											<material class="PackedTwoPersonTentBlue" />
 											<material class="PaintCan_Purple" />
 										</materials>
 									</item>
 									<item class="PackedTwoPersonTentRed" time="5">
 										<materials>
-											<material class="PackedTwoPersonTentBlue"/>
+											<material class="PackedTwoPersonTentBlue" />
 											<material class="PaintCan_Red" />
 										</materials>
 									</item>
 									<item class="PackedTwoPersonTentYellow" time="5">
 										<materials>
-											<material class="PackedTwoPersonTentBlue"/>
+											<material class="PackedTwoPersonTentBlue" />
 											<material class="PaintCan_Yellow" />
 										</materials>
 									</item>
@@ -165,37 +165,37 @@
 								<items>
 									<item class="PackedCampingTentBrown" time="5">
 										<materials>
-											<material class="PackedCampingTentBlue"/>
+											<material class="PackedCampingTentBlue" />
 											<material class="PaintCan_Brown" />
 										</materials>
 									</item>
 									<item class="PackedCampingTentGreen" time="5">
 										<materials>
-											<material class="PackedCampingTentBlue"/>
+											<material class="PackedCampingTentBlue" />
 											<material class="PaintCan_Green" />
 										</materials>
 									</item>
 									<item class="PackedCampingTentOrange" time="5">
 										<materials>
-											<material class="PackedCampingTentBlue"/>
+											<material class="PackedCampingTentBlue" />
 											<material class="PaintCan_Orange" />
 										</materials>
 									</item>
 									<item class="PackedCampingTentPurple" time="5">
 										<materials>
-											<material class="PackedCampingTentBlue"/>
+											<material class="PackedCampingTentBlue" />
 											<material class="PaintCan_Purple" />
 										</materials>
 									</item>
 									<item class="PackedCampingTentRed" time="5">
 										<materials>
-											<material class="PackedCampingTentBlue"/>
+											<material class="PackedCampingTentBlue" />
 											<material class="PaintCan_Red" />
 										</materials>
 									</item>
 									<item class="PackedCampingTentYellow" time="5">
 										<materials>
-											<material class="PackedCampingTentBlue"/>
+											<material class="PackedCampingTentBlue" />
 											<material class="PaintCan_Yellow" />
 										</materials>
 									</item>
@@ -206,37 +206,37 @@
 								<items>
 									<item class="PackedTrekkingTentBrown" time="5">
 										<materials>
-											<material class="PackedTrekkingTentBlue"/>
+											<material class="PackedTrekkingTentBlue" />
 											<material class="PaintCan_Brown" count="2" />
 										</materials>
 									</item>
 									<item class="PackedTrekkingTentGreen" time="5">
 										<materials>
-											<material class="PackedTrekkingTentBlue"/>
+											<material class="PackedTrekkingTentBlue" />
 											<material class="PaintCan_Green" count="2" />
 										</materials>
 									</item>
 									<item class="PackedTrekkingTentOrange" time="5">
 										<materials>
-											<material class="PackedTrekkingTentBlue"/>
+											<material class="PackedTrekkingTentBlue" />
 											<material class="PaintCan_Orange" count="2" />
 										</materials>
 									</item>
 									<item class="PackedTrekkingTentPurple" time="5">
 										<materials>
-											<material class="PackedTrekkingTentBlue"/>
+											<material class="PackedTrekkingTentBlue" />
 											<material class="PaintCan_Purple" count="2" />
 										</materials>
 									</item>
 									<item class="PackedTrekkingTentRed" time="5">
 										<materials>
-											<material class="PackedTrekkingTentBlue"/>
+											<material class="PackedTrekkingTentBlue" />
 											<material class="PaintCan_Red" count="2" />
 										</materials>
 									</item>
 									<item class="PackedTrekkingTentYellow" time="5">
 										<materials>
-											<material class="PackedTrekkingTentBlue"/>
+											<material class="PackedTrekkingTentBlue" />
 											<material class="PaintCan_Yellow" count="2" />
 										</materials>
 									</item>
