@@ -8,64 +8,64 @@
 						<items>
 							<item class="CraftedPistol" time="15">
 								<materials>
-									<material class="SheetMetal" count="2"/>
-									<material class="ScrapMetal" count="2"/>
+									<material class="SheetMetal" count="2" />
+									<material class="ScrapMetal" count="2" />
 									<material class="Lumber" />
 								</materials>
 							</item>
 							<item class="CraftedLongPistol" time="15">
 								<materials>
-									<material class="SheetMetal" count="2"/>
-									<material class="ScrapMetal" count="4"/>
+									<material class="SheetMetal" count="2" />
+									<material class="ScrapMetal" count="4" />
 									<material class="Lumber" count="2" />
 								</materials>
 							</item>
 							<item class="CraftedRifle9mm" time="15">
 								<materials>
-									<material class="SheetMetal" count="4"/>
-									<material class="ScrapMetal" count="4"/>
+									<material class="SheetMetal" count="4" />
+									<material class="ScrapMetal" count="4" />
 									<material class="Lumber" count="3" />
 								</materials>
 							</item>
 							<item class="CraftedSMG" time="15">
 								<materials>
-									<material class="SheetMetal" count="3"/>
-									<material class="ScrapMetal" count="3"/>
+									<material class="SheetMetal" count="3" />
+									<material class="ScrapMetal" count="3" />
 									<material class="Lumber" count="3" />
 								</materials>
 							</item>
 							<item class="CraftedPistol556" time="15">
 								<materials>
-									<material class="SheetMetal" count="3"/>
-									<material class="ScrapMetal" count="4"/>
+									<material class="SheetMetal" count="3" />
+									<material class="ScrapMetal" count="4" />
 									<material class="Lumber" count="2" />
 								</materials>
 							</item>
 							<item class="CraftedRifleLong" time="15">
 								<materials>
-									<material class="SheetMetal" count="4"/>
-									<material class="ScrapMetal" count="4"/>
+									<material class="SheetMetal" count="4" />
+									<material class="ScrapMetal" count="4" />
 									<material class="Lumber" count="3" />
 								</materials>
 							</item>
 							<item class="CraftedShortRifle556" time="15">
 								<materials>
-									<material class="SheetMetal" count="3"/>
-									<material class="ScrapMetal" count="4"/>
+									<material class="SheetMetal" count="3" />
+									<material class="ScrapMetal" count="4" />
 									<material class="Lumber" count="2" />
 								</materials>
 							</item>
 							<item class="CraftedShortShotgun" time="15">
 								<materials>
-									<material class="SheetMetal" count="3"/>
-									<material class="ScrapMetal" count="2"/>
+									<material class="SheetMetal" count="3" />
+									<material class="ScrapMetal" count="2" />
 									<material class="Lumber" count="2" />
 								</materials>
 							</item>
 							<item class="CraftedShotgun" time="15">
 								<materials>
-									<material class="SheetMetal" count="3"/>
-									<material class="ScrapMetal" count="4"/>
+									<material class="SheetMetal" count="3" />
+									<material class="ScrapMetal" count="4" />
 									<material class="Lumber" count="3" />
 								</materials>
 							</item>
@@ -76,135 +76,135 @@
 						<items>
 							<item class="Pile_9mm" time="5" amount="10">
 								<materials>
-									<material class="Gunpowder" count="10"/>
+									<material class="Gunpowder" count="10" />
 									<material class="SheetMetal" />
 								</materials>
 							</item>
 							<item class="Pile_556x45" time="5" amount="10">
 								<materials>
-									<material class="Gunpowder" count="20"/>
-									<material class="SheetMetal" count="2"/>
+									<material class="Gunpowder" count="20" />
+									<material class="SheetMetal" count="2" />
 								</materials>
 							</item>
 							<item class="Pile_12GaugePellet" time="5" amount="10">
 								<materials>
-									<material class="Gunpowder" count="15"/>
+									<material class="Gunpowder" count="15" />
 									<material class="SheetMetal" />
-									<material class="Rocks" count="2"/>
+									<material class="Rocks" count="2" />
 								</materials>
 							</item>
 						</items>
 					</subcat>
-					
+
 					<subcat name="Magazines">
 						<items>
 							<item class="9mmx10" time="5" amount="0">
 								<materials>
-									<material class="ScrapMetal" count="3"/>
-									<material class="SheetMetal" count="2"/>
+									<material class="ScrapMetal" count="3" />
+									<material class="SheetMetal" count="2" />
 								</materials>
 							</item>
 							<item class="STANAGx30" time="5" amount="0">
 								<materials>
-									<material class="ScrapMetal" count="4"/>
-									<material class="SheetMetal" count="3"/>
+									<material class="ScrapMetal" count="4" />
+									<material class="SheetMetal" count="3" />
 								</materials>
 							</item>
 							<item class="Crafted_AmmoBox_12Gauge_Slug" time="5" amount="0">
 								<materials>
-									<material class="ScrapMetal" count="5"/>
-									<material class="SheetMetal" count="5"/>
+									<material class="ScrapMetal" count="5" />
+									<material class="SheetMetal" count="5" />
 								</materials>
 							</item>
 							<item class="Crafted_AmmoBox_12Gauge_Pellet" time="5" amount="0">
 								<materials>
-									<material class="ScrapMetal" count="5"/>
-									<material class="SheetMetal" count="5"/>
+									<material class="ScrapMetal" count="5" />
+									<material class="SheetMetal" count="5" />
 								</materials>
 							</item>
 							<item class="Crafted_AmmoBox_12Gauge_Beanbag" time="5" amount="0">
 								<materials>
-									<material class="ScrapMetal" count="5"/>
-									<material class="SheetMetal" count="5"/>
+									<material class="ScrapMetal" count="5" />
+									<material class="SheetMetal" count="5" />
 								</materials>
 							</item>
 							<item class="Crafted_AmmoBox_10mm" time="5" amount="0">
 								<materials>
-									<material class="ScrapMetal" count="5"/>
-									<material class="SheetMetal" count="5"/>
+									<material class="ScrapMetal" count="5" />
+									<material class="SheetMetal" count="5" />
 								</materials>
 							</item>
 							<item class="Crafted_AmmoBox_22" time="5" amount="0">
 								<materials>
-									<material class="ScrapMetal" count="5"/>
-									<material class="SheetMetal" count="5"/>
+									<material class="ScrapMetal" count="5" />
+									<material class="SheetMetal" count="5" />
 								</materials>
 							</item>
 							<item class="Crafted_AmmoBox_223" time="5" amount="0">
 								<materials>
-									<material class="ScrapMetal" count="5"/>
-									<material class="SheetMetal" count="5"/>
+									<material class="ScrapMetal" count="5" />
+									<material class="SheetMetal" count="5" />
 								</materials>
 							</item>
 							<item class="Crafted_AmmoBox_308" time="5" amount="0">
 								<materials>
-									<material class="ScrapMetal" count="5"/>
-									<material class="SheetMetal" count="5"/>
+									<material class="ScrapMetal" count="5" />
+									<material class="SheetMetal" count="5" />
 								</materials>
 							</item>
 							<item class="Crafted_AmmoBox_357" time="5" amount="0">
 								<materials>
-									<material class="ScrapMetal" count="5"/>
-									<material class="SheetMetal" count="5"/>
+									<material class="ScrapMetal" count="5" />
+									<material class="SheetMetal" count="5" />
 								</materials>
 							</item>
 							<item class="Crafted_AmmoBox_5_45x39" time="5" amount="0">
 								<materials>
-									<material class="ScrapMetal" count="5"/>
-									<material class="SheetMetal" count="5"/>
+									<material class="ScrapMetal" count="5" />
+									<material class="SheetMetal" count="5" />
 								</materials>
 							</item>
 							<item class="Crafted_AmmoBox_5_56x45" time="5" amount="0">
 								<materials>
-									<material class="ScrapMetal" count="5"/>
-									<material class="SheetMetal" count="5"/>
+									<material class="ScrapMetal" count="5" />
+									<material class="SheetMetal" count="5" />
 								</materials>
 							</item>
 							<item class="Crafted_AmmoBox_5_70x28" time="5" amount="0">
 								<materials>
-									<material class="ScrapMetal" count="5"/>
-									<material class="SheetMetal" count="5"/>
+									<material class="ScrapMetal" count="5" />
+									<material class="SheetMetal" count="5" />
 								</materials>
 							</item>
 							<item class="Crafted_AmmoBox_7_62x39" time="5" amount="0">
 								<materials>
-									<material class="ScrapMetal" count="5"/>
-									<material class="SheetMetal" count="5"/>
+									<material class="ScrapMetal" count="5" />
+									<material class="SheetMetal" count="5" />
 								</materials>
 							</item>
 							<item class="Crafted_AmmoBox_7_62x51" time="5" amount="0">
 								<materials>
-									<material class="ScrapMetal" count="5"/>
-									<material class="SheetMetal" count="5"/>
+									<material class="ScrapMetal" count="5" />
+									<material class="SheetMetal" count="5" />
 								</materials>
 							</item>
 							<item class="Crafted_AmmoBox_9mm" time="5" amount="0">
 								<materials>
-									<material class="ScrapMetal" count="5"/>
-									<material class="SheetMetal" count="5"/>
+									<material class="ScrapMetal" count="5" />
+									<material class="SheetMetal" count="5" />
 								</materials>
 							</item>
 							<item class="Crafted_AmmoBox_acp_45" time="5" amount="0">
 								<materials>
-									<material class="ScrapMetal" count="5"/>
-									<material class="SheetMetal" count="5"/>
+									<material class="ScrapMetal" count="5" />
+									<material class="SheetMetal" count="5" />
 								</materials>
 							</item>
 						</items>
 					</subcat>
 				</subcats>
 			</cat>
-			
+
 			<cat name="Base Building">
 				<subcats>
 					<subcat name="Components">
@@ -219,7 +219,7 @@
 									<material class="IronIngot" />
 								</materials>
 							</item>
-					    </items>
+						</items>
 					</subcat>
 					<subcat name="Structures">
 						<types>
@@ -241,7 +241,7 @@
 			</cat>
 		</cats>
 	</guide>
-	
+
 	<guide name="default" id="0">
 		<cats>
 			<cat name="Weapons">
@@ -313,7 +313,7 @@
 							<item class="TrapFlare2mPacked" time="20">
 								<materials>
 									<material class="ScrapMetal" count="3" />
-									<material class="BarbedWireCoil" count="2"/>
+									<material class="BarbedWireCoil" count="2" />
 									<material class="Pile_Flare" />
 								</materials>
 							</item>
@@ -407,23 +407,23 @@
 						<items>
 							<item class="CraftedHammer" time="5">
 								<materials>
-									<material class="StickPile"/>
-									<material class="Rocks"/>
-									<material class="Rope"/>
+									<material class="StickPile" />
+									<material class="Rocks" />
+									<material class="Rope" />
 								</materials>
 							</item>
 							<item class="CraftedHatchet" time="5">
 								<materials>
-									<material class="StickPile"/>
-									<material class="Rocks"/>
-									<material class="Rope"/>
+									<material class="StickPile" />
+									<material class="Rocks" />
+									<material class="Rope" />
 								</materials>
 							</item>
 							<item class="CraftedPickaxe" time="5">
 								<materials>
-									<material class="StickPile"/>
-									<material class="Rocks"/>
-									<material class="Rope"/>
+									<material class="StickPile" />
+									<material class="Rocks" />
+									<material class="Rope" />
 								</materials>
 							</item>
 							<item class="FireDrill" time="2">
@@ -434,7 +434,7 @@
 							</item>
 							<item class="Candle" time="4">
 								<materials>
-									<material class="AnimalFat" count="2"/>
+									<material class="AnimalFat" count="2" />
 									<material class="Rope" />
 								</materials>
 							</item>
@@ -744,7 +744,6 @@
 								</materials>
 							</item>
 							<!-- Halloween -->
-
 							<item class="JackOLanternHelmet" time="5">
 								<materials>
 									<material class="Pumpkin" />
@@ -758,53 +757,53 @@
 			<cat name="Consumable">
 				<subcats>
 					<subcat name="Food">
-					    <types>
+						<types>
 							<type name="Cured Meat">
-						        <items>
-							        <item class="BearMeatCured" time="2">
-								       <materials>
-									        <material class="BearMeatRaw" />
-									        <material class="Salt" />
-								       </materials>
-							        </item>
-							        <item class="DeerMeatSteakCured" time="2">
-								        <materials>
-									        <material class="DeerMeatSteakRaw" />
-									        <material class="Salt" />
-								        </materials>
-							        </item>
-							        <item class="DonkeyMeatSteakCured" time="2">
-								        <materials>
-									        <material class="DonkeyMeatSteakRaw" />
-									        <material class="Salt" />
-								        </materials>
-							        </item>
-							        <item class="RamMeatSteakCured" time="2">
-								        <materials>
-									        <material class="RamMeatSteakRaw" />
-									        <material class="Salt" />
-								        </materials>
-							        </item>
-							        <item class="ScorpionMeatSteakCured" time="2">
-								        <materials>
-									        <material class="ScorpionMeatSteakRaw" />
-									        <material class="Salt" />
-								        </materials>
-							        </item>
-							        <item class="WolfMeatSteakCured" time="2">
-								        <materials>
-									        <material class="WolfMeatSteakRaw" />
-									        <material class="Salt" />
-								        </materials>
-							        </item>
-							        <item class="HamCured" time="2">
-								        <materials>
-									        <material class="HamRaw" />
-									        <material class="Salt" />
-								        </materials>
-							        </item>
-						        </items>
-					        </type>
+								<items>
+									<item class="BearMeatCured" time="2">
+										<materials>
+											<material class="BearMeatRaw" />
+											<material class="Salt" />
+										</materials>
+									</item>
+									<item class="DeerMeatSteakCured" time="2">
+										<materials>
+											<material class="DeerMeatSteakRaw" />
+											<material class="Salt" />
+										</materials>
+									</item>
+									<item class="DonkeyMeatSteakCured" time="2">
+										<materials>
+											<material class="DonkeyMeatSteakRaw" />
+											<material class="Salt" />
+										</materials>
+									</item>
+									<item class="RamMeatSteakCured" time="2">
+										<materials>
+											<material class="RamMeatSteakRaw" />
+											<material class="Salt" />
+										</materials>
+									</item>
+									<item class="ScorpionMeatSteakCured" time="2">
+										<materials>
+											<material class="ScorpionMeatSteakRaw" />
+											<material class="Salt" />
+										</materials>
+									</item>
+									<item class="WolfMeatSteakCured" time="2">
+										<materials>
+											<material class="WolfMeatSteakRaw" />
+											<material class="Salt" />
+										</materials>
+									</item>
+									<item class="HamCured" time="2">
+										<materials>
+											<material class="HamRaw" />
+											<material class="Salt" />
+										</materials>
+									</item>
+								</items>
+							</type>
 						</types>
 					</subcat>
 
@@ -887,12 +886,6 @@
 									<material class="WoodPile" />
 								</materials>
 							</item>
-							<!-- shelter walls now uses sticks instead of poles (Matt)
-							<item class="ShelterPole" time="0.5">
-								<materials>
-									<material class="WoodPile" count="2" />
-								</materials>
-							</item> -->
 							<item class="power_pole" time="5">
 								<materials>
 									<material class="ScrapMetal" />
@@ -907,7 +900,7 @@
 							</item>
 						</items>
 					</subcat>
-					
+
 					<!-- <subcat name="Easter">
 						<items>
 							<item class="KatanaBlackWidow" time="10">
@@ -1355,13 +1348,13 @@
 									</item>
 									<item class="candle_animal_fat_small" time="4">
 										<materials>
-											<material class="AnimalFat" count="2"/>
+											<material class="AnimalFat" count="2" />
 											<material class="Rope" />
 										</materials>
 									</item>
 									<item class="candle_animal_fat_large" time="4">
 										<materials>
-											<material class="AnimalFat" count="4"/>
+											<material class="AnimalFat" count="4" />
 											<material class="Rope" />
 									 </materials>
 									</item>
@@ -1517,7 +1510,7 @@
 									</item>
 								</items>
 							</type>
-							
+
 							<type name="Games">
 								<items>
 									<item class="tictactoe_board" time="5">
@@ -1767,13 +1760,6 @@
 											<material class="ScrapMetal" count="5" />
 										</materials>
 									</item>
-									<!-- commented out since cannot be locked and not used for that reason (Matt)
-									<item class="wood_shutter_1_6m_0_9m" time="6">
-										<materials>
-											<material class="Lumber" count="3" />
-											<material class="ScrapMetal" />
-										</materials>
-									</item> -->
 									<item class="wood_shutter_small_lockable" time="4">
 										<materials>
 											<material class="Lumber" count="2" />
@@ -1803,19 +1789,6 @@
 									</item>
 								</items>
 							</type>
-
-							<!-- Removed for 1.0 - Needs a new custom c++ class made that works like the new Campfire
-							<type name="Drying Rack">
-								<items>
-									<item class="DryingRackPacked" time="15">
-										<materials>
-											<material class="WoodPile" count="2" />
-											<material class="Rope" />
-										</materials>
-									</item>
-								</items>
-							</type>
-							-->
 
 							<type name="Farming">
 								<items>
@@ -2047,37 +2020,6 @@
 								</items>
 							</type>
 
-							<!-- commented out since useless with snapping (Matt)
-							<type name="Scaffolding">
-								<items>
-									<item class="stick_scaffolding_1m" time="2">
-										<materials>
-											<material class="StickPile" />
-										</materials>
-									</item>
-									<item class="stick_scaffolding_1_3m" time="2">
-										<materials>
-											<material class="StickPile" count="2"/>
-										</materials>
-									</item>
-									<item class="stick_scaffolding_2m" time="2">
-										<materials>
-											<material class="StickPile" count="3"/>
-										</materials>
-									</item>
-									<item class="stick_scaffolding_3m" time="2">
-										<materials>
-											<material class="StickPile" count="4"/>
-										</materials>
-									</item>
-									<item class="stick_scaffolding_4m" time="2">
-										<materials>
-											<material class="StickPile" count="5"/>
-										</materials>
-									</item>
-								</items>
-							</type> -->
-
 							<type name="Stairs">
 								<items>
 									<item class="wood_stairs_0m_1_3m_1_2m_1_6m" time="5">
@@ -2136,12 +2078,6 @@
 											<material class="Lumber" count="5" />
 										</materials>
 									</item>
-									<!-- commented out because it doesn't work right and we all hate that part. thanks Chris. (Matt)
-									<item class="wood_walkway_0m_4m_4m" time="5">
-										<materials>
-											<material class="Lumber" count="6" />
-										</materials>
-									</item> -->
 									<item class="wood_walkway_1_3m_4m_4m" time="5">
 										<materials>
 											<material class="Lumber" count="7" />
@@ -2268,9 +2204,9 @@
 							</item>
 							<item class="C4Bricks" time="2" amount="1">
 								<materials>
-									<material class="Gunpowder" count="64"/>
-									<material class="Sulphur" count="12"/>
-									<material class="BioFuel" count="4"/>
+									<material class="Gunpowder" count="64" />
+									<material class="Sulphur" count="12" />
+									<material class="BioFuel" count="4" />
 								</materials>
 							</item>
 							<item class="BioFuel" time="0.5">
@@ -2291,7 +2227,7 @@
 						<items>
 							<item class="Pile_9mm" time="5" amount="10">
 								<materials>
-									<material class="Gunpowder" count="10"/>
+									<material class="Gunpowder" count="10" />
 									<material class="SheetMetal" />
 								</materials>
 							</item>
@@ -2302,8 +2238,8 @@
 						<items>
 							<item class="9mmx10" time="5" amount="0">
 								<materials>
-									<material class="ScrapMetal" count="3"/>
-									<material class="SheetMetal" count="2"/>
+									<material class="ScrapMetal" count="3" />
+									<material class="SheetMetal" count="2" />
 								</materials>
 							</item>
 						</items>
@@ -2313,7 +2249,7 @@
 						<items>
 							<item class="CraftedArrowx8_0000" time="0.5" amount="5">
 								<materials>
-									<material class="StickPile" count="5"/>
+									<material class="StickPile" count="5" />
 									<material class="Rags" />
 								</materials>
 							</item>
@@ -2374,7 +2310,7 @@
 							</item>
 							<item class="Arrowx8" time="0.5" amount="5">
 								<materials>
-									<material class="SheetMetal" count="2"/>
+									<material class="SheetMetal" count="2" />
 									<material class="Rags" />
 								</materials>
 							</item>
@@ -2449,8 +2385,8 @@
 							</item>
 							<item class="Boltx5_0000" time="0.5" amount="5">
 								<materials>
-									<material class="ScrapMetal" count="5"/>
-									<material class="Rags" count="5"/>
+									<material class="ScrapMetal" count="5" />
+									<material class="Rags" count="5" />
 								</materials>
 							</item>
 							<item class="Boltx5_F000" time="5" amount="15">
@@ -2521,17 +2457,6 @@
 									<material class="Rags" />
 								</materials>
 							</item>
-							<!-- Can't use duplicate recipes yet -->
-							<!-- https://entrada.atlassian.net/browse/MIS-1460 -->
-							<!--
-							<item class="PipebombPickup" time="10">
-								<materials>
-									<material class="Pile_12GaugeSlug" count="6" />
-									<material class="PipeMetal" />
-									<material class="DuctTape" />
-									<material class="Nails" />
-								</materials>
-							</item> -->
 						</items>
 					</subcat>
 
@@ -2593,15 +2518,15 @@
 						<items>
 							<item class="CraftedBow" time="7">
 								<materials>
-									<material class="StickPile" count="4"/>
+									<material class="StickPile" count="4" />
 									<material class="Rope" />
 									<material class="Rags" count="2" />
 								</materials>
 							</item>
 							<item class="CraftedPistol" time="15">
 								<materials>
-									<material class="SheetMetal" count="2"/>
-									<material class="ScrapMetal" count="2"/>
+									<material class="SheetMetal" count="2" />
+									<material class="ScrapMetal" count="2" />
 									<material class="Lumber" />
 								</materials>
 							</item>
@@ -2611,7 +2536,6 @@
 			</cat>
 		</cats>
 	</guide>
-
 
 	<!-- ADVANCED GUIDES -->
 	<guide name="guide_medical_bandages" id="1">
@@ -2739,18 +2663,6 @@
 				<subcats>
 					<subcat name="Structures">
 						<types>
-							<!-- Removed by Terry since they do not work well
-							<type name="Components">
-								<items>
-									<item class="wood_wall_curve_panel" time="4">
-										<materials>
-											<material class="Lumber" count="4" />
-										</materials>
-									</item>
-								</items>
-							</type>
-							-->
-
 							<type name="Platforms">
 								<items>
 									<item class="wood_walkway_curve_1_3m_4m_4m" time="5">
@@ -2770,42 +2682,6 @@
 									</item>
 								</items>
 							</type>
-							<!-- Removed by Terry since they will kill players
-							<type name="Walls">
-								<items>
-									<item class="wood_wall_curve_1_3m_4m" time="20">
-										<materials>
-											<material class="wood_wall_curve_panel" count="3" />
-											<material class="Lumber" />
-										</materials>
-									</item>
-									<item class="wood_wall_curve_2m_4m" time="25">
-										<materials>
-											<material class="wood_wall_curve_panel" count="3" />
-											<material class="Lumber" count="2" />
-										</materials>
-									</item>
-									<item class="wood_wall_curve_3m_4m" time="30">
-										<materials>
-											<material class="wood_wall_curve_panel" count="3" />
-											<material class="Lumber" count="3" />
-										</materials>
-									</item>
-									<item class="wood_wall_door_curve_3m_4m" time="15">
-										<materials>
-											<material class="wood_wall_curve_3m_4m" />
-											<material class="wood_door_frame" />
-										</materials>
-									</item>
-									<item class="wood_wall_window_curve_3m_4m" time="15">
-										<materials>
-											<material class="wood_wall_curve_3m_4m" />
-											<material class="wood_window_frame" />
-										</materials>
-									</item>
-								</items>
-							</type>
-							-->
 						</types>
 					</subcat>
 				</subcats>
@@ -2972,30 +2848,7 @@
 			</cat>
 		</cats>
 	</guide>
-<!--
-	<guide name="guide_structures_wood_storage" id="10">
-		<cats>
-			<cat name="Base Building">
-				<subcats>
-					<subcat name="Structures">
-						<types>
-							<type name="Storage">
-								<items>
-									<item class="wood_crate_large_packed" time="5">
-										<materials>
-											<material class="WoodPile" count="5" />
-											<material class="Lumber" count="10" />
-										</materials>
-									</item>
-								</items>
-							</type>
-						</types>
-					</subcat>
-				</subcats>
-			</cat>
-		</cats>
-	</guide>
--->
+
 	<guide name="guide_structures_wood_traps_1" id="11">
 		<cats>
 			<cat name="Base Building">
@@ -3136,12 +2989,6 @@
 											<material class="Lumber" count="9" />
 										</materials>
 									</item>
-									<!-- Commented out since not working right (Matt)
-									<item class="wood_wall_shutter_3m_2m" time="5">
-										<materials>
-											<material class="Lumber" count="9" />
-										</materials>
-									</item> -->
 								</items>
 							</type>
 						</types>
@@ -3157,24 +3004,6 @@
 				<subcats>
 					<subcat name="Structures">
 						<types>
-						<!-- Door frame -->
-							<!--<type name="Components">
-								<items>
-									<item class="wood_window_frame" time="5">
-										<materials>
-											<material class="WoodPile" />
-											<material class="Lumber" />
-										</materials>
-									</item>
-									<item class="wood_door_frame" time="5">
-										<materials>
-											<material class="WoodPile" />
-											<material class="Lumber" count="2" />
-										</materials>
-									</item>
-								</items>
-							</type>-->
-
 							<type name="Walls">
 								<items>
 									<item class="wood_wall_window_3m_2m" time="5">
@@ -3187,12 +3016,6 @@
 											<material class="Lumber" count="10" />
 										</materials>
 									</item>
-									<!-- Commented out since not working right (Matt)
-									<item class="wood_wall_shutter_3m_4m" time="5">
-										<materials>
-											<material class="Lumber" count="9" />
-										</materials>
-									</item> -->
 								</items>
 							</type>
 						</types>
@@ -3283,24 +3106,6 @@
 		<cats>
 			<cat name="Base Building">
 				<subcats>
-					<!-- Waiting on Solar Power Generator Fix https://entrada.atlassian.net/browse/MIS-3150-->
-					<!-- <subcat name="Solar">
-						<types>
-							<type name="Generators">
-								<items>
-									<item class="powered_generator_small_solar" time="18">
-										<materials>
-											<material class="SolarPanelPiece" count="6"/>
-											<material class="ElectricalParts" />
-											<material class="power_pole" />
-											<material class="Lumber" count="2" />
-											<material class="Plywood" />
-										</materials>
-									</item>
-								</items>
-							</type>
-						</types>
-					</subcat> -->
 					<subcat name="Utilities">
 						<items>
 							<item class="powered_generator_small" time="5">
@@ -3349,7 +3154,7 @@
 								<materials>
 									<material class="ScrapMetal" count="2" />
 									<material class="GrenadeGasTearPickup" />
-									<material class="BarbedWireCoil" count="2"/>
+									<material class="BarbedWireCoil" count="2" />
 								</materials>
 							</item>
 						</items>
@@ -3414,7 +3219,7 @@
 								<materials>
 									<material class="C4TimedPickup" />
 									<material class="ScrapMetal" count="2" />
-									<material class="BarbedWireCoil" count="2"/>
+									<material class="BarbedWireCoil" count="2" />
 								</materials>
 							</item>
 							<item class="TrapShotgunSide2mPacked" time="10">
@@ -3430,7 +3235,7 @@
 								<materials>
 									<material class="ScrapMetal" count="2" />
 									<material class="GrenadeGasSleepPickup" />
-									<material class="BarbedWireCoil" count="2"/>
+									<material class="BarbedWireCoil" count="2" />
 								</materials>
 							</item>
 							<item class="TrapNerveGrenadePacked2m" time="10">
@@ -3444,14 +3249,14 @@
 								<materials>
 									<material class="ScrapMetal" count="2" />
 									<material class="PipebombPickup" />
-									<material class="BarbedWireCoil" count="2"/>
+									<material class="BarbedWireCoil" count="2" />
 								</materials>
 							</item>
 							<item class="TrapPropanePacked2m" time="10">
 								<materials>
 									<material class="ScrapMetal" count="2" />
 									<material class="PropaneTank" />
-									<material class="BarbedWireCoil" count="2"/>
+									<material class="BarbedWireCoil" count="2" />
 								</materials>
 							</item>
 						</items>
@@ -3591,14 +3396,6 @@
 											<material class="Lumber" count="10" />
 										</materials>
 									</item>
-									<!-- Trapdoors don't work well at all -->
-									<!--
-									<item class="wood_trapdoor_lockable_1m_2m" time="15">
-										<materials>
-											<material class="wood_wall_panel" />
-											<material class="ScrapMetal" count="2" />
-										</materials>
-									</item> -->
 								</items>
 							</type>
 						</types>
@@ -3616,22 +3413,22 @@
 						<items>
 							<item class="CraftedLongPistol" time="15">
 								<materials>
-									<material class="SheetMetal" count="2"/>
-									<material class="ScrapMetal" count="4"/>
+									<material class="SheetMetal" count="2" />
+									<material class="ScrapMetal" count="4" />
 									<material class="Lumber" count="2" />
 								</materials>
 							</item>
 							<item class="CraftedRifle9mm" time="15">
 								<materials>
-									<material class="SheetMetal" count="4"/>
-									<material class="ScrapMetal" count="4"/>
+									<material class="SheetMetal" count="4" />
+									<material class="ScrapMetal" count="4" />
 									<material class="Lumber" count="3" />
 								</materials>
 							</item>
 							<item class="CraftedSMG" time="15">
 								<materials>
-									<material class="SheetMetal" count="3"/>
-									<material class="ScrapMetal" count="3"/>
+									<material class="SheetMetal" count="3" />
+									<material class="ScrapMetal" count="3" />
 									<material class="Lumber" count="3" />
 								</materials>
 							</item>
@@ -3650,8 +3447,8 @@
 						<items>
 							<item class="Pile_556x45" time="5" amount="10">
 								<materials>
-									<material class="Gunpowder" count="20"/>
-									<material class="SheetMetal" count="2"/>
+									<material class="Gunpowder" count="20" />
+									<material class="SheetMetal" count="2" />
 								</materials>
 							</item>
 						</items>
@@ -3661,8 +3458,8 @@
 						<items>
 							<item class="STANAGx30" time="5" amount="0">
 								<materials>
-									<material class="ScrapMetal" count="4"/>
-									<material class="SheetMetal" count="3"/>
+									<material class="ScrapMetal" count="4" />
+									<material class="SheetMetal" count="3" />
 								</materials>
 							</item>
 						</items>
@@ -3672,22 +3469,22 @@
 						<items>
 							<item class="CraftedPistol556" time="15">
 								<materials>
-									<material class="SheetMetal" count="3"/>
-									<material class="ScrapMetal" count="4"/>
+									<material class="SheetMetal" count="3" />
+									<material class="ScrapMetal" count="4" />
 									<material class="Lumber" count="2" />
 								</materials>
 							</item>
 							<item class="CraftedRifleLong" time="15">
 								<materials>
-									<material class="SheetMetal" count="4"/>
-									<material class="ScrapMetal" count="4"/>
+									<material class="SheetMetal" count="4" />
+									<material class="ScrapMetal" count="4" />
 									<material class="Lumber" count="3" />
 								</materials>
 							</item>
 							<item class="CraftedShortRifle556" time="15">
 								<materials>
-									<material class="SheetMetal" count="3"/>
-									<material class="ScrapMetal" count="4"/>
+									<material class="SheetMetal" count="3" />
+									<material class="ScrapMetal" count="4" />
 									<material class="Lumber" count="2" />
 								</materials>
 							</item>
@@ -3706,9 +3503,9 @@
 						<items>
 							<item class="Pile_12GaugePellet" time="5" amount="10">
 								<materials>
-									<material class="Gunpowder" count="15"/>
+									<material class="Gunpowder" count="15" />
 									<material class="SheetMetal" />
-									<material class="Rocks" count="2"/>
+									<material class="Rocks" count="2" />
 								</materials>
 							</item>
 						</items>
@@ -3718,15 +3515,15 @@
 						<items>
 							<item class="CraftedShortShotgun" time="15">
 								<materials>
-									<material class="SheetMetal" count="3"/>
-									<material class="ScrapMetal" count="2"/>
+									<material class="SheetMetal" count="3" />
+									<material class="ScrapMetal" count="2" />
 									<material class="Lumber" count="2" />
 								</materials>
 							</item>
 							<item class="CraftedShotgun" time="15">
 								<materials>
-									<material class="SheetMetal" count="3"/>
-									<material class="ScrapMetal" count="4"/>
+									<material class="SheetMetal" count="3" />
+									<material class="ScrapMetal" count="4" />
 									<material class="Lumber" count="3" />
 								</materials>
 							</item>
@@ -3796,31 +3593,7 @@
 			</cat>
 		</cats>
 	</guide>
-<!--
-	<guide name="guide_structures_wood_storage_2" id="30">
-		<cats>
-			<cat name="Base Building">
-				<subcats>
-					<subcat name="Structures">
-						<types>
-							<type name="Storage">
-								<items>
-									<item class="metal_steam_stand" time="30">
-										<materials>
-											<material class="SheetMetal" count="64" />
-											<material class="ElectricalParts" count="5" />
-											<material class="Amalgaduino" count="3" />
-										</materials>
-									</item>
-								</items>
-							</type>
-						</types>
-					</subcat>
-				</subcats>
-			</cat>
-		</cats>
-	</guide>
--->
+
 	<guide name="guide_cooking_1" id="31">
 		<cats>
 			<cat name="Consumable">
@@ -4024,5 +3797,4 @@
 			</cat>
 		</cats>
 	</guide>
-
 </recipes>
