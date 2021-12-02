@@ -4,14 +4,14 @@ Modifications for the [Miscreated](https://miscreatedgame.com) D.O.A. PVP/PVE ga
 
 ## Notable Changes
 
+- Removed all mutants (Human Spiders only).
 - Balanced Apple, Berries, and Water availabity.
 - Updated Plot Sign total items/build radius.
-- Added craftable Metal Safe Storage object.
 - Build anywhere, no restrictions.
+- Added craftable [Metal Safe Storage](#metal-safe-storage) item.
 - Higher frequency of random air drops.
 - Updated Food Vendor purchaseable options.
-- Removed giant roaches and spiders.
-- Updated mutant spawning probability.
+- Updated spider spawning probability.
 - Various Crafting UI improvements.
 
 .. and [many others](https://github.com/nuxy/MiscreatedMods-DOA/commits/master).
@@ -29,6 +29,18 @@ The following third-party [Miscreated Workshop](https://steamcommunity.com/app/2
 - [Craftable Tents](https://steamcommunity.com/sharedfiles/filedetails/?id=1739418619)
 
 See [hosting.cfg](https://github.com/nuxy/MiscreatedMods-DOA/blob/master/hosting.cfg) for more information.
+
+## Metal Safe Storage
+
+Tired of losing your hard-earned loot.  Secure your most precious items in a safe.
+
+### Details
+
+- Used for storing gathered items securely.
+- Can only be accessed by you or your clan.
+- When health drops < 50% anyone can access.
+- Health is only reduced using a SledgeHammer or C4.
+- Supports 2 instances per base.
 
 ## Versioning
 
