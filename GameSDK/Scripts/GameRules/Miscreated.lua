@@ -20,7 +20,7 @@ end
 ----------------------------------------------------------------------------------------------------
 
 function Miscreated:CreateWorldEventTimer()
-	--Log("Miscreated:CreateWorldEventTimer")
+	--Log(">> Miscreated:CreateWorldEventTimer")
 
 	Script.SetTimerForFunction(
 		randomF(
@@ -32,7 +32,7 @@ function Miscreated:CreateWorldEventTimer()
 end
 
 SpawnWorldEvent = function(self)
-	--Log("Miscreated:SpawnWorldEvent")
+	--Log(">> Miscreated:SpawnWorldEvent")
 
 	local eventName
 	local rnd = random(1, 10)
@@ -53,7 +53,7 @@ SpawnWorldEvent = function(self)
 	spawnParams.class = eventName
 	spawnParams.name = spawnParams.class
 
-	--Log("Miscreated:SpawnWorldEvent - Spawning Event")
+	--Log(">> Miscreated:SpawnWorldEvent - Spawning Event")
 	local spawnedEntity = System.SpawnEntity(spawnParams)
 
 	if not spawnedEntity then
@@ -65,23 +65,16 @@ SpawnWorldEvent = function(self)
 end
 
 ----------------------------------------------------------------------------------------------------
--- Support for custom chat command mods
+-- Support for custom chat commands
 ----------------------------------------------------------------------------------------------------
 
--- Table for custom chat commands to use
-ChatCommands = { }
+ChatCommands = {}
 
--- Load custom chat commands (mods)
 Script.LoadScriptFolder("Scripts/GameRules/ChatCommands", true, true)
 
--- Receives all unhandled, by the core game, chat commands
--- Do not add custom chat commands directly here
--- Add new chat commands to a file in the Scripts/GameRules/ChatCommands folder,
--- so they can be uploaded as mods to Steam
 function Miscreated:ChatCommand(playerId, command)
 	--Log(">> Miscreated:ChatCommand")
 
-	-- player is an entity
 	local player = System.GetEntity(playerId)
 
 	if not player.actor then
@@ -89,7 +82,7 @@ function Miscreated:ChatCommand(playerId, command)
 		return
 	end
 
-	-- Find the requested chat command and execute it
+	-- Find the requested chat command and execute it.
 	local index = string.find(command, " ")
 
 	if not index then
@@ -111,7 +104,6 @@ end
 function Miscreated:InitPlayer(playerId)
 	--Log(">> Miscreated:InitPlayer")
 
-	-- player is an entity
 	local player = System.GetEntity(playerId)
 
 	if (player and player.actor and player:IsDead()) then
@@ -120,37 +112,37 @@ function Miscreated:InitPlayer(playerId)
 		local rnd = random(8)
 
 		-- Safe Zone spawn points.
-		if (rnd == 1) then
+		if rnd == 1 then
 			x = 4893.166015625
 			y = 4722.4150390625
 			z = 148.322998046875
 			r = -2.4210000038147
-		elseif (rnd == 2) then
+		elseif rnd == 2 then
 			x = 4915.68310546875
 			y = 4742.5458984375
 			z = 148.908004760742
 			r = -2.4210000038147
-		elseif (rnd == 3) then
+		elseif rnd == 3 then
 			x = 4887.86083984375
 			y = 4681.4482421875
 			z = 145.337005615234
 			r = -1.02900004386902
-		elseif (rnd == 4) then
+		elseif rnd == 4 then
 			x = 4898.22802734375
 			y = 4676.48583984375
 			z = 145.378997802734
 			r = 0.647000014781952
-		elseif (rnd == 5) then
+		elseif rnd == 5 then
 			x = 4940.35302734375
 			y = 4657.6328125
 			z = 148.912002563477
 			r = 0.621999979019165
-		elseif (rnd == 6) then
+		elseif rnd == 6 then
 			x = 4927.62109375
 			y = 4701.51318359375
 			z = 142.645004272461
 			r = 0.499000012874603
-		elseif (rnd == 7) then
+		elseif rnd == 7 then
 			x = 4917.18701171875
 			y = 4729.171875
 			z = 146.251998901367
@@ -177,7 +169,6 @@ end
 function Miscreated:EquipPlayer(playerId)
 	--Log(">> Miscreated:EquipPlayer")
 
-	-- player is an entity
 	local player = System.GetEntity(playerId)
 
 	if (player and player.actor) then
@@ -188,9 +179,9 @@ function Miscreated:EquipPlayer(playerId)
 		-- Hat
 		rnd = random(1, 3)
 
-		if (rnd == 1) then
+		if rnd == 1 then
 			ISM.GiveItem(playerId, "BeanieBrown")
-		elseif (rnd == 2) then
+		elseif rnd == 2 then
 			ISM.GiveItem(playerId, "BikeHelmetBlack")
 		else
 			ISM.GiveItem(playerId, "BandanaHat")
@@ -199,9 +190,9 @@ function Miscreated:EquipPlayer(playerId)
 		-- Feet
 		rnd = random(1, 3)
 
-		if (rnd == 1) then
+		if rnd == 1 then
 			ISM.GiveItem(playerId, "TennisShoes")
-		elseif (rnd == 2) then
+		elseif rnd == 2 then
 			ISM.GiveItem(playerId, "Sneakers")
 		else
 			ISM.GiveItem(playerId, "CanvasShoes")
@@ -212,11 +203,11 @@ function Miscreated:EquipPlayer(playerId)
 
 		rnd = random(1, 4)
 
-		if (rnd == 1) then
+		if rnd == 1 then
 			leg = ISM.GiveItem(playerId, "BlueJeans")
-		elseif (rnd == 2) then
+		elseif rnd == 2 then
 			leg = ISM.GiveItem(playerId, "BlueJeans2")
-		elseif (rnd == 3) then
+		elseif rnd == 3 then
 			leg = ISM.GiveItem(playerId, "BlueJeans2Brown")
 		else
 			leg = ISM.GiveItem(playerId, "BlueJeans2Green")
@@ -227,15 +218,15 @@ function Miscreated:EquipPlayer(playerId)
 
 		rnd = random(1, 6)
 
-		if (rnd == 1) then
+		if rnd == 1 then
 			torso = ISM.GiveItem(playerId, "TshirtNoImageBlack")
-		elseif (rnd == 2) then
+		elseif rnd == 2 then
 			torso = ISM.GiveItem(playerId, "TshirtNoImageBlue")
-		elseif (rnd == 3) then
+		elseif rnd == 3 then
 			torso = ISM.GiveItem(playerId, "TshirtNoImageGreen")
-		elseif (rnd == 4) then
+		elseif rnd == 4 then
 			torso = ISM.GiveItem(playerId, "TshirtNoImageGrey")
-		elseif (rnd == 5) then
+		elseif rnd == 5 then
 			torso = ISM.GiveItem(playerId, "TshirtNoImagePink")
 		else
 			torso = ISM.GiveItem(playerId, "TshirtNoImageRed")
@@ -244,9 +235,9 @@ function Miscreated:EquipPlayer(playerId)
 		-- Weapon
 		rnd = random(1, 3)
 
-		if (rnd == 1) then
+		if rnd == 1 then
 			ISM.GiveItem(playerId, "Axe")
-		elseif (rnd == 2) then
+		elseif rnd == 2 then
 			ISM.GiveItem(playerId, "BaseballBat")
 		else
 			ISM.GiveItem(playerId, "Crowbar")
@@ -257,7 +248,7 @@ function Miscreated:EquipPlayer(playerId)
 
 		rnd = random(1, 2)
 
-		if (rnd == 1) then
+		if rnd == 1 then
 			bag = ISM.GiveItem(playerId, "horshoe_pack")
 		else
 			bag = ISM.GiveItem(playerId, "CraftedFannyPack")
@@ -268,7 +259,7 @@ function Miscreated:EquipPlayer(playerId)
 
 		rnd = random(1, 2)
 
-		if (rnd == 1) then
+		if rnd == 1 then
 			food = ISM.GiveItem(bag.id, "Berries")
 			food.item:SetStackCount(8)
 		else
