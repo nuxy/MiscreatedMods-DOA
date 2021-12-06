@@ -180,7 +180,7 @@ function Miscreated:EquipPlayer(playerId)
 	-- player is an entity
 	local player = System.GetEntity(playerId)
 
-	if (player and player.player) then
+	if (player and player.actor) then
 		local rnd
 
 		ISM.GiveItem(playerId, "Flashlight")
@@ -213,30 +213,32 @@ function Miscreated:EquipPlayer(playerId)
 		rnd = random(1, 4)
 
 		if (rnd == 1) then
-			leg = ISM.GiveItem(playerId, "BlueJeans", true)
+			leg = ISM.GiveItem(playerId, "BlueJeans")
 		elseif (rnd == 2) then
-			leg = ISM.GiveItem(playerId, "BlueJeans2", true)
+			leg = ISM.GiveItem(playerId, "BlueJeans2")
 		elseif (rnd == 3) then
-			leg = ISM.GiveItem(playerId, "BlueJeans2Brown", true)
+			leg = ISM.GiveItem(playerId, "BlueJeans2Brown")
 		else
-			leg = ISM.GiveItem(playerId, "BlueJeans2Green", true)
+			leg = ISM.GiveItem(playerId, "BlueJeans2Green")
 		end
 
 		-- Torso
+		local torso
+
 		rnd = random(1, 6)
 
 		if (rnd == 1) then
-			ISM.GiveItem(playerId, "TshirtNoImageBlack")
+			torso = ISM.GiveItem(playerId, "TshirtNoImageBlack")
 		elseif (rnd == 2) then
-			ISM.GiveItem(playerId, "TshirtNoImageBlue")
+			torso = ISM.GiveItem(playerId, "TshirtNoImageBlue")
 		elseif (rnd == 3) then
-			ISM.GiveItem(playerId, "TshirtNoImageGreen")
+			torso = ISM.GiveItem(playerId, "TshirtNoImageGreen")
 		elseif (rnd == 4) then
-			ISM.GiveItem(playerId, "TshirtNoImageGrey")
+			torso = ISM.GiveItem(playerId, "TshirtNoImageGrey")
 		elseif (rnd == 5) then
-			ISM.GiveItem(playerId, "TshirtNoImagePink")
+			torso = ISM.GiveItem(playerId, "TshirtNoImagePink")
 		else
-			ISM.GiveItem(playerId, "TshirtNoImageRed")
+			torso = ISM.GiveItem(playerId, "TshirtNoImageRed")
 		end
 
 		-- Weapon
@@ -256,22 +258,32 @@ function Miscreated:EquipPlayer(playerId)
 		rnd = random(1, 2)
 
 		if (rnd == 1) then
-			bag = ISM.GiveItem(playerId, "horshoe_pack", true)
+			bag = ISM.GiveItem(playerId, "horshoe_pack")
 		else
-			bag = ISM.GiveItem(playerId, "CraftedFannyPack", true)
+			bag = ISM.GiveItem(playerId, "CraftedFannyPack")
 		end
 
 		-- Food
+		local food
+
 		rnd = random(1, 2)
 
 		if (rnd == 1) then
-			ISM.GiveItem(playerId, "Berries", false, bag.id)
+			food = ISM.GiveItem(bag.id, "Berries")
+			food.item:SetStackCount(8)
 		else
-			ISM.GiveItem(playerId, "AppleFresh", false, bag.id)
+			food = ISM.GiveItem(bag.id, "AppleFresh")
+			food.item:SetStackCount(2)
 		end
 
-		-- Other items
-		ISM.GiveItem(playerId, "Bandage", false, leg.id)
-		ISM.GiveItem(playerId, "WaterBottle", false, bag.id)
+		-- Essentials
+		local medicine = ISM.GiveItem(bag.id, "Antibiotics")
+		medicine.item:SetStackCount(3)
+
+		ISM.GiveItem(torso.id, "Bandage")
+		ISM.GiveItem(leg.id, "WaterBottle")
+
+		local ledger = ISM.GiveItem(leg.id, "AmcoinLedger")
+		ledger.item:SetStackCount(20)
 	end
 end
