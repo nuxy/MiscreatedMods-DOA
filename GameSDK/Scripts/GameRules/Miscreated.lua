@@ -108,24 +108,71 @@ end
 -- Support for custom player spawns
 ----------------------------------------------------------------------------------------------------
 
--- See BattleRoyale.lua for a more complete example of the following 3 methods
-
---[[
--- Initialize the player
--- Use this to initialize the player before the server respawns the player
--- Any change to the player's position and rotation would have to be done here
 function Miscreated:InitPlayer(playerId)
 	--Log(">> Miscreated:InitPlayer")
-  end
---]]
 
---[[
--- This is called when the character is being revived by the server
--- Set player stats here - only default CryEngine stats are currently exposed, like health
-function Miscreated:RevivePlayer(playerId)
-	--Log(">> Miscreated:RevivePlayer")
-  end
---]]
+	-- player is an entity
+	local player = System.GetEntity(playerId)
+
+	if (player and player.actor and player:IsDead()) then
+		local x, y, z, r
+
+		local rnd = random(8)
+
+		-- Safe Zone spawn points.
+		if (rnd == 1) then
+			x = 4893.166015625
+			y = 4722.4150390625
+			z = 148.322998046875
+			r = -2.4210000038147
+		elseif (rnd == 2) then
+			x = 4915.68310546875
+			y = 4742.5458984375
+			z = 148.908004760742
+			r = -2.4210000038147
+		elseif (rnd == 3) then
+			x = 4887.86083984375
+			y = 4681.4482421875
+			z = 145.337005615234
+			r = -1.02900004386902
+		elseif (rnd == 4) then
+			x = 4898.22802734375
+			y = 4676.48583984375
+			z = 145.378997802734
+			r = 0.647000014781952
+		elseif (rnd == 5) then
+			x = 4940.35302734375
+			y = 4657.6328125
+			z = 148.912002563477
+			r = 0.621999979019165
+		elseif (rnd == 6) then
+			x = 4927.62109375
+			y = 4701.51318359375
+			z = 142.645004272461
+			r = 0.499000012874603
+		elseif (rnd == 7) then
+			x = 4917.18701171875
+			y = 4729.171875
+			z = 146.251998901367
+			r = -0.510999977588654
+		else
+			x = 4927.0859375
+			y = 4722.0029296875
+			z = 134.914001464844
+			r = -0.0189999993890524
+		end
+
+		g_Vectors.temp_v1.x = x
+		g_Vectors.temp_v1.y = y
+		g_Vectors.temp_v1.z = z
+
+		local angle = player:GetAngles()
+		angle.z = r
+
+		player:SetAngles(angle)
+		player:SetWorldPos(g_Vectors.temp_v1)
+	end
+end
 
 function Miscreated:EquipPlayer(playerId)
 	--Log(">> Miscreated:EquipPlayer")
@@ -133,7 +180,7 @@ function Miscreated:EquipPlayer(playerId)
 	-- player is an entity
 	local player = System.GetEntity(playerId)
 
-	if (player and player.actor) then
+	if (player and player.player) then
 		local rnd
 
 		ISM.GiveItem(playerId, "Flashlight")
