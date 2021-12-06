@@ -1,4 +1,4 @@
-Script.ReloadScript("scripts/gamerules/GameRulesUtils.lua");
+Script.ReloadScript("scripts/gamerules/GameRulesUtils.lua")
 
 Miscreated = {
 	Properties = {
@@ -9,7 +9,7 @@ Miscreated = {
 	}
 }
 
-GameRulesSetStandardFuncs(Miscreated);
+GameRulesSetStandardFuncs(Miscreated)
 
 function Miscreated.Server:OnInit()
 	self:CreateWorldEventTimer()
@@ -20,8 +20,15 @@ end
 ----------------------------------------------------------------------------------------------------
 
 function Miscreated:CreateWorldEventTimer()
-	--Log("Miscreated.CreateWorldEventTimer")
-	Script.SetTimerForFunction(randomF(self.Properties.WorldEvent.fMinTime*1000, self.Properties.WorldEvent.fMaxTime*1000), "SpawnWorldEvent", self)
+	--Log("Miscreated:CreateWorldEventTimer")
+
+	Script.SetTimerForFunction(
+		randomF(
+			self.Properties.WorldEvent.fMinTime * 1000,
+			self.Properties.WorldEvent.fMaxTime * 1000
+		),
+		"SpawnWorldEvent", self
+	)
 end
 
 SpawnWorldEvent = function(self)
@@ -38,7 +45,7 @@ SpawnWorldEvent = function(self)
 		eventName = "AirPlaneCrash"
 	end
 
-	if rnd >= 10 then
+	if rnd == 10 then
 		eventName = "UFOCrash"
 	end
 
@@ -53,7 +60,7 @@ SpawnWorldEvent = function(self)
 		Log("Miscreated:SpawnWorldEvent - entity could not be spawned")
 	end
 
-	-- set timer up for the next world event
+	-- Set timer up for the next world event.
 	self:CreateWorldEventTimer()
 end
 
@@ -72,7 +79,7 @@ Script.LoadScriptFolder("Scripts/GameRules/ChatCommands", true, true)
 -- Add new chat commands to a file in the Scripts/GameRules/ChatCommands folder,
 -- so they can be uploaded as mods to Steam
 function Miscreated:ChatCommand(playerId, command)
-	--Log(">> Miscreated:ChatCommand");
+	--Log(">> Miscreated:ChatCommand")
 
 	-- player is an entity
 	local player = System.GetEntity(playerId)
@@ -108,7 +115,7 @@ end
 -- Use this to initialize the player before the server respawns the player
 -- Any change to the player's position and rotation would have to be done here
 function Miscreated:InitPlayer(playerId)
-	--Log(">> Miscreated:InitPlayer");
+	--Log(">> Miscreated:InitPlayer")
   end
 --]]
 
@@ -116,16 +123,17 @@ function Miscreated:InitPlayer(playerId)
 -- This is called when the character is being revived by the server
 -- Set player stats here - only default CryEngine stats are currently exposed, like health
 function Miscreated:RevivePlayer(playerId)
-	--Log(">> Miscreated:RevivePlayer");
+	--Log(">> Miscreated:RevivePlayer")
   end
 --]]
 
 function Miscreated:EquipPlayer(playerId)
 	--Log(">> Miscreated:EquipPlayer")
-	
+
+	-- player is an entity
 	local player = System.GetEntity(playerId)
 
-	if (player and player.player) then
+	if (player and player.actor) then
 		local rnd
 
 		ISM.GiveItem(playerId, "Flashlight")
