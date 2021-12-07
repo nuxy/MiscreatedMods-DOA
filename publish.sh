@@ -14,8 +14,6 @@
 
 TMPDIR=$PWD/tmp
 
-fileid=2667978097
-
 #
 # Parse script arguments.
 #
@@ -38,13 +36,14 @@ for value in $argc; do
     argv=$value
 done
 
-if [[ -z "$username" ]] && [[ -z "$password" ]]; then
+if [[ -z "$username" ]] || [[ -z "$password" ]] || [[ -z "$fileid" ]]; then
     cat <<EOT
 Usage: publish.sh [--username=] [--password=] [--fileid=]
 Options:
   --username : Steam account username.
   --password : Steam account password.
-  --fileid   : Steam Workshop file ID (default: 2667978097).
+  --fileid   : Steam Workshop file ID.
+  --public   : Adds workshop to Steam results (optional).
 EOT
   exit 1
 fi
@@ -80,9 +79,9 @@ cat << EOF > $outfile
   "appid"           "299740"
   "contentfolder"   "$TMPDIR"
   "previewfile"     "$PWD/preview.png"
-  "visibility"      "0"
+  "visibility"      "$([[ $argv == '--public' ]] && echo '0' || echo '3')"
   "title"           "Miscreated-Mods-DOA"
-  "description"     "Modifications for the Miscreated D.O.A. PVP/PVE game server."
+  "description"     "Miscreated D.O.A. PVP/PVE game server."
   "changenote"      "[url=https://github.com/nuxy/MiscreatedMods-DOA]Github project[/url]"
   "tags"            ""
   "publishedfileid" "$fileid"
