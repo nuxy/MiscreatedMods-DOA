@@ -171,6 +171,7 @@ function Miscreated:EquipPlayer(playerId)
 		local rnd
 
 		ISM.GiveItem(playerId, "Flashlight")
+		ISM.GiveItem(playerId, "Map")
 
 		-- Hat
 		rnd = random(1, 3)
@@ -272,5 +273,9 @@ function Miscreated:EquipPlayer(playerId)
 
 		local ledger = ISM.GiveItem(leg.id, "AmcoinLedger")
 		ledger.item:SetStackCount(20)
+
+		-- Override defaults.
+		player.player:SetFood(2000.0)
+		player.player:SetWater(2000.0)
 	end
 end
