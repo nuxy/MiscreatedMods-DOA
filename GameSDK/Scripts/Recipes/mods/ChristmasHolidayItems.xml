@@ -60,6 +60,18 @@
 									<material class="Thatch" />
 								</materials>
 							</item>
+							<item class="snowman" time="6">
+								<materials>
+									<material class="WaterBottle" count="4" />
+									<material class="Rags" count="3" />
+									<material class="Carrots" count="1" />
+								</materials>
+							</item>
+							<item class="ChristmasHat" time="3">
+								<materials>
+									<material class="Rags" count="3" />
+								</materials>
+							</item>
 						</items>
 					</subcat>
 				</subcats>
