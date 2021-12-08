@@ -97,12 +97,26 @@ end
 -- Support for custom player spawns
 ----------------------------------------------------------------------------------------------------
 
+local function IsNoob(player)
+	local noob = true
+
+	-- Check player has a base or is part of a clan.
+	for _, plotsign in ipairs(BaseBuildingSystem:GetPlotSigns()) do
+		if ((plotsign.plotsign:GetOwnerSteam64Id() == player.player:GetSteam64Id()) or player.player:GetClanId()) then
+			noob = false
+			break
+		end
+	end
+
+	return noob
+end
+
 function Miscreated:InitPlayer(playerId)
 	--Log(">> Miscreated:InitPlayer")
 
 	local player = System.GetEntity(playerId)
 
-	if (player and player.actor and player:IsDead()) then
+	if (player and player.player and player:IsDead() and IsNoob(player)) then
 		local x, y, z, r
 
 		local rnd = random(8)
@@ -167,7 +181,7 @@ function Miscreated:EquipPlayer(playerId)
 
 	local player = System.GetEntity(playerId)
 
-	if (player and player.actor) then
+	if (player and player.player) then
 		local rnd
 
 		ISM.GiveItem(playerId, "Flashlight")
@@ -229,50 +243,53 @@ function Miscreated:EquipPlayer(playerId)
 			torso = ISM.GiveItem(playerId, "TshirtNoImageRed")
 		end
 
-		-- Weapon
-		rnd = random(1, 3)
+		if IsNoob(player) then
 
-		if rnd == 1 then
-			ISM.GiveItem(playerId, "Axe")
-		elseif rnd == 2 then
-			ISM.GiveItem(playerId, "BaseballBat")
-		else
-			ISM.GiveItem(playerId, "Crowbar")
+			-- Weapon
+			rnd = random(1, 3)
+
+			if rnd == 1 then
+				ISM.GiveItem(playerId, "Axe")
+			elseif rnd == 2 then
+				ISM.GiveItem(playerId, "BaseballBat")
+			else
+				ISM.GiveItem(playerId, "Crowbar")
+			end
+
+			-- Bag
+			local bag
+
+			rnd = random(1, 2)
+
+			if rnd == 1 then
+				bag = ISM.GiveItem(playerId, "horshoe_pack")
+			else
+				bag = ISM.GiveItem(playerId, "CraftedFannyPack")
+			end
+
+			-- Food
+			local food
+
+			rnd = random(1, 2)
+
+			if rnd == 1 then
+				food = ISM.GiveItem(bag.id, "Berries")
+				food.item:SetStackCount(8)
+			else
+				food = ISM.GiveItem(bag.id, "AppleFresh")
+				food.item:SetStackCount(2)
+			end
+
+			-- Essentials
+			local medicine = ISM.GiveItem(bag.id, "Antibiotics")
+			medicine.item:SetStackCount(3)
+
+			ISM.GiveItem(torso.id, "Bandage")
+			ISM.GiveItem(leg.id, "WaterBottle")
+
+			local ledger = ISM.GiveItem(leg.id, "AmcoinLedger")
+			ledger.item:SetStackCount(random(20, 50))
 		end
-
-		-- Bag
-		local bag
-
-		rnd = random(1, 2)
-
-		if rnd == 1 then
-			bag = ISM.GiveItem(playerId, "horshoe_pack")
-		else
-			bag = ISM.GiveItem(playerId, "CraftedFannyPack")
-		end
-
-		-- Food
-		local food
-
-		rnd = random(1, 2)
-
-		if rnd == 1 then
-			food = ISM.GiveItem(bag.id, "Berries")
-			food.item:SetStackCount(8)
-		else
-			food = ISM.GiveItem(bag.id, "AppleFresh")
-			food.item:SetStackCount(2)
-		end
-
-		-- Essentials
-		local medicine = ISM.GiveItem(bag.id, "Antibiotics")
-		medicine.item:SetStackCount(3)
-
-		ISM.GiveItem(torso.id, "Bandage")
-		ISM.GiveItem(leg.id, "WaterBottle")
-
-		local ledger = ISM.GiveItem(leg.id, "AmcoinLedger")
-		ledger.item:SetStackCount(20)
 
 		-- Override defaults.
 		player.player:SetFood(2000.0)
