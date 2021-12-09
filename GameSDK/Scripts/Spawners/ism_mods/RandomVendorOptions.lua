@@ -1,0 +1,153 @@
+local item1 = FindInTable(ItemSpawnerManager.itemCategories, "category", "RandomEquipmentTrader")
+item1.classes =
+{
+	{ class = "camping_lantern", percent = 35 },
+	{ class = "camping_water_jug", percent = 65 },
+	{ class = "Cb_radio", percent = 10 },
+}
+
+local item2 = FindInTable(ItemSpawnerManager.itemCategories, "category", "VendorAKM")
+item2.group =
+{
+	{ class = "AKM", percent = 100 },
+	{ class = "762x30", percent = 100 },
+	{ class = "AK74U", percent = 100 },
+	{ class = "545x30", percent = 100 },
+	{ class = "Pile_762x39", percent = 100 },
+	{ class = "Pile_545x39", percent = 100 },
+	{ class = "AmmoBox_7_62x39", percent = 100 },
+	{ class = "AmmoBox_5_45x39", percent = 100 },
+	{ category = "RandomAccessoryTrader", percent = 70 },
+	{ category = "RandomEquipmentTrader", percent = 50 },
+	{ category = "RandomMilitaryHelmet", percent = 10 },
+	{ category = "RandomMilitaryArmor", percent = 10 },
+	{ category = "RandomPolicebodyArmor", percent = 10 },
+	{ category = "RandomTacticalVestPure", percent = 10 },
+	{ class = "SwatHelmet", percent = 10 },
+	{ class = "AntiradiationPills", percent = 100 },
+	{ class = "Antibiotics", percent = 100 },
+	{ class = "PotassiumIodidePills", percent = 40 },
+	{ class = "WaterPurificationTablets", percent = 25 },
+}
+
+local item3 = FindInTable(ItemSpawnerManager.itemCategories, "category", "VendorSMG")
+item3.group =
+{
+	{ class = "R90", percent = 100 },
+	{ class = "57x50", percent = 100 },
+	{ class = "MP5", percent = 100 },
+	{ class = "10mmx30", percent = 100 },
+	{ class = "KrissV", percent = 100 },
+	{ class = "10mmx15", percent = 100 },
+	{ class = "AUMP45", percent = 100 },
+	{ class = "acp_45x30", percent = 100 },
+	{ class = "MAK10", percent = 100 },
+	{ class = "9x19_mac10", percent = 100 },
+	{ class = "Pile_10mm", percent = 100 },
+	{ class = "Pile_9mm", percent = 100 },
+	{ class = "Pile_57x28", percent = 100 },
+	{ class = "Pile_45ACP", percent = 100 },
+	{ class = "AmmoBox_10mm", percent = 100 },
+	{ class = "AmmoBox_acp_45", percent = 100 },
+	{ class = "AmmoBox_9mm", percent = 100 },
+	{ class = "AmmoBox_5_70x28", percent = 100 },
+	{ category = "RandomOther", percent = 100 },
+	{ category = "RandomAccessoryTrader", percent = 70 },
+	{ category = "RandomEquipmentTrader", percent = 50 },
+	{ category = "RandomMilitaryHelmet", percent = 10 },
+	{ category = "RandomMilitaryArmor", percent = 10 },
+	{ category = "RandomPolicebodyArmor", percent = 10 },
+	{ category = "RandomTacticalVestPure", percent = 10 },
+	{ class = "SwatHelmet", percent = 10 },
+	{ class = "AntiradiationPills", percent = 100 },
+	{ class = "Antibiotics", percent = 100 },
+	{ class = "PotassiumIodidePills", percent = 40 },
+	{ class = "WaterPurificationTablets", percent = 25 },
+}
+
+local item4 = FindInTable(ItemSpawnerManager.itemCategories, "category", "VendorAR")
+item4.group =
+{
+	{ class = "AT15", percent = 100 },
+	{ class = "AK5D", percent = 10 },
+	{ class = "Bulldog", percent = 100 },
+	{ class = "M16", percent = 100 },
+	{ class = "Mk18", percent = 100 },
+	{ class = "STANAGx30", percent = 100 },
+	{ class = "Pile_556x45", percent = 100 },
+	{ class = "AmmoBox_5_56x45", percent = 100 },
+	{ class = "IronsightKit", percent = 100 },
+	{ category = "RandomOther", percent = 100 },
+	{ category = "RandomAccessoryTrader", percent = 70 },
+	{ category = "RandomEquipmentTrader", percent = 50 },
+	{ category = "RandomMilitaryHelmet", percent = 10 },
+	{ category = "RandomMilitaryArmor", percent = 10 },
+	{ category = "RandomPolicebodyArmor", percent = 10 },
+	{ category = "RandomTacticalVestPure", percent = 10 },
+	{ class = "SwatHelmet", percent = 10 },
+	{ class = "AntiradiationPills", percent = 100 },
+	{ class = "Antibiotics", percent = 100 },
+	{ class = "PotassiumIodidePills", percent = 40 },
+	{ class = "WaterPurificationTablets", percent = 25 },
+}
+
+local item5 = FindInTable(ItemSpawnerManager.itemCategories, "category", "VendorSniper")
+item5.group =
+{
+	{ class = "M40A5", percent = 100 },
+	{ class = "M40x5", percent = 100 },
+	{ class = "ACAW", percent = 100 },
+	{ class = "762x5", percent = 100 },
+	{ class = "Pile_762x51", percent = 100 },
+	{ class = "Rem700", percent = 100 },
+	{ class = "Pile_308", percent = 100 },
+	{ class = "Sako_85", percent = 100 },
+	{ class = "Model70", percent = 100 },
+	{ class = "Pile_223", percent = 100 },
+	{ class = "GhillieHood1", percent = 100 },
+	{ class = "GhillieSuit1", percent = 100 },
+	{ class = "GhillieHood2", percent = 100 },
+	{ class = "GhillieSuit2", percent = 100 },
+	{ class = "GhillieHood3", percent = 100 },
+	{ class = "GhillieSuit3", percent = 100 },
+	{ class = "GhillieHood4", percent = 100 },
+	{ class = "GhillieSuit4", percent = 100 },
+	{ class = "HuntingScope", percent = 100 },
+	{ category = "RandomOther", percent = 100 },
+	{ category = "RandomAccessoryTrader", percent = 70 },
+	{ category = "RandomEquipmentTrader", percent = 50 },
+	{ class = "AntiradiationPills", percent = 100 },
+	{ class = "Antibiotics", percent = 100 },
+	{ class = "PotassiumIodidePills", percent = 40 },
+	{ class = "WaterPurificationTablets", percent = 25 },
+}
+
+local item6 = FindInTable(ItemSpawnerManager.itemCategories, "category", "VendorShotgun")
+item6.group =
+{
+	{ class = "SAS12", percent = 10 },
+	{ class = "Shotgun870Tactical", percent = 100 },
+	{ class = "AA12", percent = 100 },
+	{ class = "12Gaugex8_Pellet_AA12", percent = 100 },
+	{ class = "12Gaugex8_Slug_AA12", percent = 100 },
+	{ class = "12Gaugex8_Beanbag_AA12", percent = 100 },
+	{ class = "Pile_12GaugePellet", percent = 100 },
+	{ class = "Pile_12GaugeSlug", percent = 100 },
+	{ class = "Pile_12GaugeBeanbag", percent = 100 },
+	{ class = "AmmoBox_12Gauge_Pellet", percent = 100 },
+	{ class = "AmmoBox_12Gauge_Slug", percent = 100 },
+	{ class = "AmmoBox_12Gauge_Beanbag", percent = 100 },
+	{ class = "IronsightKit", percent = 100 },
+	{ category = "RandomOther", percent = 100 },
+	{ category = "RandomAccessoryTrader", percent = 70 },
+	{ category = "RandomEquipmentTrader", percent = 50 },
+	{ category = "RandomMilitaryHelmet", percent = 10 },
+	{ category = "RandomMilitaryArmor", percent = 10 },
+	{ category = "RandomPolicebodyArmor", percent = 10 },
+	{ category = "RandomTacticalVestPure", percent = 10 },
+	{ class = "SwatHelmet", percent = 10 },
+	{ class = "AntiradiationPills", percent = 100 },
+	{ class = "Antibiotics", percent = 100 },
+	{ class = "PotassiumIodidePills", percent = 40 },
+	{ class = "WaterPurificationTablets", percent = 25 },
+}
