@@ -25,12 +25,14 @@ Modifications for the [Miscreated](https://miscreatedgame.com) D.O.A. Alien Inva
 The following third-party [Miscreated Workshop](https://steamcommunity.com/app/299740/workshop) mods must be installed prior to this package.  These packages are used to enhance the game experience and in some cases have been extended with additional functionality.
 
 - [mFramework](https://steamcommunity.com/sharedfiles/filedetails/?id=1942750114)
+- [MisDB](https://steamcommunity.com/sharedfiles/filedetails/?id=1841357578)
 - [Amalgamated Terminal](https://steamcommunity.com/sharedfiles/filedetails/?id=2444612166)
 - [Climates of Orca](https://steamcommunity.com/sharedfiles/filedetails/?id=1807643206)
 - [Base Building Expansion](https://steamcommunity.com/sharedfiles/filedetails/?id=1699198355)
 - [Landscaping](https://steamcommunity.com/sharedfiles/filedetails/?id=1673502088)
 - [Large Plane Crash](https://steamcommunity.com/sharedfiles/filedetails/?id=1987245557)
 - [Craftable Tents](https://steamcommunity.com/sharedfiles/filedetails/?id=1739418619)
+- [PVP/PVE Stats](https://steamcommunity.com/sharedfiles/filedetails/?id=1879915972)
 
 See [hosting.cfg](https://github.com/nuxy/MiscreatedMods-DOA/blob/master/hosting.cfg) for more information.
 
