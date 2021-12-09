@@ -20,7 +20,7 @@ Modifications for the [Miscreated](https://miscreatedgame.com) D.O.A. PVP/PVE [g
 
 ## Dependencies
 
-The following third-party [Miscreated Workshop](https://steamcommunity.com/app/299740/workshop) mods must be installed prior to this package.
+The following third-party [Miscreated Workshop](https://steamcommunity.com/app/299740/workshop) mods must be installed prior to this package.  These packages are used to enhance the game experience and in some cases have been extended with additional functionality.
 
 - [mFramework](https://steamcommunity.com/sharedfiles/filedetails/?id=1942750114)
 - [Amalgamated Terminal](https://steamcommunity.com/sharedfiles/filedetails/?id=2444612166)
@@ -43,6 +43,11 @@ Tired of losing your hard-earned loot.  Secure your most precious items in a saf
 - When health drops < 50% anyone can access.
 - Health is only reduced using a SledgeHammer or C4.
 - Supports 2 instances per base.
+
+## References
+
+- [Miscreated C++, Lua Script Bindings](https://github.com/hendrikp/MisScriptBinds)
+- [Steam Console Client](https://developer.valvesoftware.com/wiki/SteamCMD)
 
 ## Versioning
 
