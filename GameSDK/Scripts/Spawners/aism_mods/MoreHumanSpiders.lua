@@ -63,3 +63,10 @@ mutant10.classes =
 {
 	{ category = "HumanSpiderSingle", percent = 100 },
 }
+
+-- Resolve log error "Missing AI category"
+local mutant11 = FindInTable(AISpawnerManager.aiCategories, "category", "CrazySingle")
+mutant11.classes =
+{
+	{ category = "HumanSpiderSingle", percent = 100 },
+}
