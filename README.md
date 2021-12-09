@@ -1,15 +1,15 @@
 # MiscreatedMods-DOA
 
-Modifications for the [Miscreated](https://miscreatedgame.com) D.O.A. PVP/PVE [game server](https://miscreated-servers.com/server/16531).
+Modifications for the [Miscreated](https://miscreatedgame.com) D.O.A. Alien Invasion (PVP/PVE) [game server](https://miscreated-servers.com/server/16531).
 
 ![Alien Invasion](https://raw.githubusercontent.com/nuxy/MiscreatedMods-DOA/master/preview.png)
 
 ## Notable Changes
 
-- Removed all mutants (Human Spiders only).
+- Removed ALL mutants (Human Spiders only).
 - Balanced Apple, Berries, and Water availabity.
 - Updated Plot Sign total items/build radius.
-- Build anywhere, no restrictions.
+- Build anywhere, &ast;**no restrictions**.
 - Added craftable [Metal Safe Storage](#metal-safe-storage) item.
 - Higher frequency of random air drops.
 - Updated Food Vendor purchaseable options.
@@ -17,6 +17,8 @@ Modifications for the [Miscreated](https://miscreatedgame.com) D.O.A. PVP/PVE [g
 - Various Crafting UI improvements.
 
 .. and [many others](https://github.com/nuxy/MiscreatedMods-DOA/commits/master).
+
+(&ast;) _Feature is only available on whitelisted servers._
 
 ## Dependencies
 
