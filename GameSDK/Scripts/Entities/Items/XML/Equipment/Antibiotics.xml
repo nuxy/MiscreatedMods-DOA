@@ -1,8 +1,8 @@
 <item name="Antibiotics" class="Item" category="any">
 	<params>
 		<param name="selectable" value="0"/>
-		<param name="mass" value="0.2"/>
-		<param name="stack_size" value="3"/>
+		<param name="mass" value="0.3"/>
+		<param name="stack_size" value="6"/>
 		<param name="display_name" value="@Antibiotics"/>
 		<param name="description" value="@AntibioticsDescription"/>
 		<param name="vendor_cost" value="2"/>
