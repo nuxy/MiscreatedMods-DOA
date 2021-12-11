@@ -15,6 +15,13 @@ function Miscreated.Server:OnInit()
 	self:CreateWorldEventTimer()
 end
 
+-- Globally callout connecting players.
+function Miscreated.Server:OnClientEnteredGame(channelId, player, loadingSaveGame)
+	local message = player:GetName() .. " has entered the game"
+
+	g_gameRules.game:SendTextMessage(0, 0, message)
+end
+
 ----------------------------------------------------------------------------------------------------
 -- Support for the world events to spawn
 ----------------------------------------------------------------------------------------------------
@@ -119,7 +126,7 @@ function Miscreated:InitPlayer(playerId)
 	if (player and player.player and player:IsDead() and IsNoob(player)) then
 		local x, y, z, r
 
-		local rnd = random(8)
+		local rnd = random(9)
 
 		-- Safe Zone spawn points.
 		if rnd == 1 then
@@ -157,6 +164,11 @@ function Miscreated:InitPlayer(playerId)
 			y = 4729.171875
 			z = 146.251998901367
 			r = -0.510999977588654
+		elseif rnd == 8 then
+			x = 4945.2001953125
+			y = 4679.51513671875
+			z = 134.957992553711
+			r = -0.806999981403351
 		else
 			x = 4927.0859375
 			y = 4722.0029296875
