@@ -6,13 +6,14 @@ Modifications for the [Miscreated](https://miscreatedgame.com) **D.O.A. ★ Alie
 
 ## Notable Changes
 
-- Removed ALL mutants (Human Spiders only).
+- Removed ALL mutants (Human Spiders only, i.e. _Aliens_).
+- Aliens shoot radiating, explosive venom - far distances.
 - Balanced Apple, Berries, and Water availabity.
 - Updated Plot Sign total items/build radius.
 - Build anywhere, &ast;**no restrictions**.
 - Added craftable [Metal Safe Storage](#metal-safe-storage) item.
-- Higher frequency of random air drops.
-- Updated Food Vendor purchaseable options.
+- Higher frequency of random air drops, UFO crashes.
+- Updated Food/Random Vendor purchaseable options.
 - Updated spider spawning probability.
 - Various Crafting UI improvements.
 
@@ -22,17 +23,17 @@ Modifications for the [Miscreated](https://miscreatedgame.com) **D.O.A. ★ Alie
 
 ## Dependencies
 
-The following third-party [Miscreated Workshop](https://steamcommunity.com/app/299740/workshop) mods must be installed prior to this package.  These packages are used to enhance the game experience and in some cases have been extended with additional functionality.
+The following third-party [Miscreated Workshop](https://steamcommunity.com/app/299740/workshop) mods _should be installed_ prior to this package.  These packages are used to enhance the game experience and in some cases have been extended with additional functionality.  Required packages have been identified accordingly, all others being optional.
 
 - [mFramework](https://steamcommunity.com/sharedfiles/filedetails/?id=1942750114)
-- [MisDB](https://steamcommunity.com/sharedfiles/filedetails/?id=1841357578)
+- [MisDB](https://steamcommunity.com/sharedfiles/filedetails/?id=1841357578) (Required)
 - [Amalgamated Terminal](https://steamcommunity.com/sharedfiles/filedetails/?id=2444612166)
 - [Climates of Orca](https://steamcommunity.com/sharedfiles/filedetails/?id=1807643206)
 - [Base Building Expansion](https://steamcommunity.com/sharedfiles/filedetails/?id=1699198355)
 - [Landscaping](https://steamcommunity.com/sharedfiles/filedetails/?id=1673502088)
 - [Large Plane Crash](https://steamcommunity.com/sharedfiles/filedetails/?id=1987245557)
 - [Craftable Tents](https://steamcommunity.com/sharedfiles/filedetails/?id=1739418619)
-- [PVP/PVE Stats](https://steamcommunity.com/sharedfiles/filedetails/?id=1879915972)
+- [PVP/PVE Stats](https://steamcommunity.com/sharedfiles/filedetails/?id=1879915972) (Required)
 
 See [hosting.cfg](https://github.com/nuxy/MiscreatedMods-DOA/blob/master/hosting.cfg) for more information.
 
