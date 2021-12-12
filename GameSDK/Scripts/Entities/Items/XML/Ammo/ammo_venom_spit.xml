@@ -1,0 +1,82 @@
+<ammo name="ammo_venom_spit" class="Bullet">
+
+	<geometry>
+		<firstperson name="Objects/ammo/rocks/ammo_rock_acidspit.cgf" scale="1"/>
+	</geometry>
+
+	<flags>
+		<param name="serverspawn" value="1"/>
+		<param name="reusable" value="1"/>
+	</flags>
+
+	<physics type="rigid">
+		<param name="mass" value="0.35"/>
+		<param name="speed" value="50"/>
+		<param name="radius" value="0.25"/>
+		<param name="air_resistance" value="0.0026"/>
+		<param name="water_resistance" value="10.0"/>
+		<param name="gravity" value="0, 0, -9.81"/>
+		<param name="water_gravity" value="0, 0, -9.81"/>
+		<param name="material" value="mat_plastic"/>
+		<param name="max_logged_collisions" value="1"/>
+		<param name="traceable" value="1"/>
+		<param name="pierceability" value="14"/>
+		<param name="single_contact" value="1"/>
+	</physics>
+
+	<chemlight>
+		<param name="color" value="17, 150, 0, 0.8"/>
+		<param name="radius" value="20.0"/>
+		<param name="diffuseMult" value="100"/>
+		<param name="specularMult" value="0.01"/>
+		<param name="HDRDynamic" value="0.0"/>
+		<param name="style" value="10"/>
+		<param name="animSpeed" value="1"/>
+		<param name="castShadows" value="1"/>
+		<param name="light_bulb_size" value="1"/>
+		<param name="light_material" value="materials/lights/lens_flares/generic/lens_optics"/>
+		<param name="lens_flare_name" value="miscreated.flaregun.flare"/>
+		<param name="lens_flare_fov" value="360"/>
+	</chemlight>
+
+	<explosion>
+		<param name="pressure" value="1000"/>
+		<param name="torpidity" value="10"/>
+		<param name="stamina" value="15"/>
+		<param name="min_radius" value="3"/>
+		<param name="max_radius" value="15"/>
+		<param name="min_phys_radius" value="3"/>
+		<param name="max_phys_radius" value="8"/>
+		<param name="sound_radius" value="75"/>
+		<param name="hole_size" value="2"/>
+		<param name="terrain_hole_size" value="3"/>
+		<param name="radialblurdist" value="30"/>
+		<param name="type" value="frag"/>
+	</explosion>
+
+	<params>
+		<param name="damage" value="6"/>
+		<param name="acid" value="35"/>
+		<param name="torpidity" value="10.0"/>
+		<param name="stamina" value="5.0"/>
+		<param name="poison_percent" value="25"/>
+		<param name="showtime" value="0.05"/>
+		<param name="lifetime" value="3.0"/>
+		<param name="hit_type" value="arrow"/>
+		<param name="quietRemoval" value="1"/>
+		<param name="aitype" value="grenade"/>
+	</params>
+
+	<trail>
+		<param name="effect" value="weapon_fx.arrow.trail_burning"/>
+		<param name="prime" value="false"/>
+	</trail>
+
+	<grenade>
+		<param name="onImpactLifetime" value="0.0"/>
+		<param name="detonateOnImpact" value="1"/>
+		<param name="detonateOnActorImpact" value="1"/>
+		<param name="allowDetonationDelay" value="0"/>
+	</grenade>
+
+</ammo>
