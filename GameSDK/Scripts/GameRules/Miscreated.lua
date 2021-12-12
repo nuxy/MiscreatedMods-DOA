@@ -105,17 +105,15 @@ end
 ----------------------------------------------------------------------------------------------------
 
 local function IsNoob(player)
-	local noob = true
 
 	-- Check player has a base or is part of a clan.
 	for _, plotsign in ipairs(BaseBuildingSystem:GetPlotSigns()) do
 		if ((plotsign.plotsign:GetOwnerSteam64Id() == player.player:GetSteam64Id()) or player.player:GetClanId()) then
-			noob = false
-			break
+			return false
 		end
 	end
 
-	return noob
+	return true
 end
 
 function Miscreated:InitPlayer(playerId)
@@ -123,7 +121,7 @@ function Miscreated:InitPlayer(playerId)
 
 	local player = System.GetEntity(playerId)
 
-	if (player and player.player and player:IsDead() and IsNoob(player)) then
+	if (player and player.player and (IsNoob(player) or (player:IsDead() and IsNoob(player)))) then
 		local x, y, z, r
 
 		local rnd = random(9)
