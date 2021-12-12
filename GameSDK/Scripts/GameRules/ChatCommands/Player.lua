@@ -2,7 +2,13 @@
 ChatCommands["!help"] = function(playerId)
 	Log(">> !help")
 
-	local message = "Supported commands:\n  !stats <pve|pvp>\n  !kills <pve|pvp>\n  !top10 <pve|pvp>"
+	local message = [[
+Supported Commands
+  !stats <pve|pvp>
+  !kills <pve|pvp>
+  !top10 <pve|pvp>
+  !report <player>
+]]
 
 	g_gameRules.game:SendTextMessage(4, playerId, message)
 end
