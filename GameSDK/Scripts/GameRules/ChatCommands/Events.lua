@@ -74,17 +74,14 @@ end
 ChatCommands["!report"] = function(playerId, actorName)
 	Log(">> !report %s", actorName)
 
-	local message = "Currently in testing. Will be enabled shortly."
+	local message = "Player has been reported. Action pending."
 
-	local player = System.GetEntity(playerId)
-	local steamId = player.player:GetSteam64Id()
+	if IsValidInput(actorName) then
+		local player = System.GetEntity(playerId)
+		local steamId = player.player:GetSteam64Id()
 
-	-- Temporarily restrict for testing purposes.
-	if IsAdminPlayer(steamId) and IsValidInput(actorName) then
 		ReportActor(actorName, steamId)
 		EnableLogging()
-
-		message = "Player has been reported. Action pending."
 	end
 
 	g_gameRules.game:SendTextMessage(4, playerId, message)
@@ -95,9 +92,8 @@ ChatCommands["!events"] = function(playerId)
 	Log(">> !events")
 
 	local player = System.GetEntity(playerId)
-	local steamId = player.player:GetSteam64Id()
 
-	if IsAdminPlayer(steamId) then
+	if IsAdminPlayer(player.player:GetSteam64Id()) then
 		g_gameRules.game:SendTextMessage(4, playerId, GetEvents())
 	end
 end
