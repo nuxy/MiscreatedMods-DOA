@@ -18,10 +18,10 @@ ChatCommands["!rcon"] = function(playerId, command)
 end
 
 -- Send a screen message to all players.
-ChatCommands["!attn"] = function(playerId, textMessage)
-	Log(">> !attn %s", textMessage)
+ChatCommands["!wall"] = function(playerId, textMessage)
+	Log(">> !wall %s", textMessage)
 
-	local message = "Invalid command. Usage:\n  !attn <message>"
+	local message = "Invalid command. Usage:\n  !wall <message>"
 
 	local player = System.GetEntity(playerId)
 
@@ -46,5 +46,27 @@ ChatCommands["!safezone"] = function(playerId)
 		g_Vectors.temp_v1.z = 142.735000610352
 
 		player.player:TeleportTo(g_Vectors.temp_v1)
+	end
+end
+
+-- Ban player by Steam ID.
+ChatCommands["!ban"] = function(playerId, steamId)
+	Log(">> !ban %s", steamId)
+
+	local player = System.GetEntity(playerId)
+
+	if IsAdminPlayer(player.player:GetSteam64Id()) then
+		ChatCommands["!rcon"](playerId, "mis_ban_steamid " .. steamId)
+	end
+end
+
+-- Kick player by Steam ID.
+ChatCommands["!kick"] = function(playerId, steamId)
+	Log(">> !kick %s", steamId)
+
+	local player = System.GetEntity(playerId)
+
+	if IsAdminPlayer(player.player:GetSteam64Id()) then
+		ChatCommands["!rcon"](playerId, "mis_kick " .. steamId)
 	end
 end
