@@ -1,31 +1,44 @@
 <ammo name="ammo_venom_spit" class="Bullet">
 
 	<geometry>
-		<firstperson name="Objects/ammo/rocks/ammo_rock_acidspit.cgf" scale="1"/>
+		<firstperson name="objects/ammo/12Gauge_Flare/flare_projectile.cgf" scale="1"/>
 	</geometry>
 
 	<flags>
 		<param name="serverspawn" value="1"/>
-		<param name="reusable" value="1"/>
 	</flags>
+
+	<ricochet>
+		<param name="sound" value="Play_spider_acid_hit" />
+		<param name="distance" value="30.0" />
+	</ricochet>
+
+	<sonic_boom>
+		<param name="sound" value="Play_spider_acid_hit" />
+		<param name="distance" value="50.0" />
+	</sonic_boom>
+
+	<whiz>
+		<param name="sound" value="Play_spider_acid_hit" />
+		<param name="distance" value="10.0" />
+	</whiz>
 
 	<physics type="rigid">
 		<param name="mass" value="0.35"/>
-		<param name="speed" value="50"/>
+		<param name="speed" value="40"/>
 		<param name="radius" value="0.25"/>
 		<param name="air_resistance" value="0.0026"/>
 		<param name="water_resistance" value="10.0"/>
 		<param name="gravity" value="0, 0, -9.81"/>
 		<param name="water_gravity" value="0, 0, -9.81"/>
 		<param name="material" value="mat_plastic"/>
-		<param name="max_logged_collisions" value="1"/>
 		<param name="traceable" value="1"/>
 		<param name="pierceability" value="14"/>
 		<param name="single_contact" value="1"/>
 	</physics>
 
 	<chemlight>
-		<param name="color" value="17, 150, 0, 0.8"/>
+		<param name="color" value="245, 221, 39, 0.8"/>
 		<param name="radius" value="20.0"/>
 		<param name="diffuseMult" value="100"/>
 		<param name="specularMult" value="0.01"/>
@@ -55,13 +68,13 @@
 	</explosion>
 
 	<params>
-		<param name="damage" value="6"/>
-		<param name="acid" value="35"/>
-		<param name="torpidity" value="10.0"/>
+		<param name="damage" value="5"/>
+		<param name="acid" value="10"/>
+		<param name="torpidity" value="5.0"/>
 		<param name="stamina" value="5.0"/>
-		<param name="poison_percent" value="25"/>
+		<param name="poison_percent" value="10"/>
 		<param name="showtime" value="0.05"/>
-		<param name="lifetime" value="3.0"/>
+		<param name="lifetime" value="2.0"/>
 		<param name="hit_type" value="arrow"/>
 		<param name="quietRemoval" value="1"/>
 		<param name="aitype" value="grenade"/>
