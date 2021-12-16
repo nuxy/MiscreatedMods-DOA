@@ -108,7 +108,10 @@ local function IsNoob(player)
 
 	-- Check player has a base or is part of a clan.
 	for _, plotsign in ipairs(BaseBuildingSystem:GetPlotSigns()) do
-		if ((plotsign.plotsign:GetOwnerSteam64Id() == player.player:GetSteam64Id()) or player.player:GetClanId()) then
+		local steamId = player.player:GetSteam64Id()
+		local clanId = tonumber(player.player:GetClanId())
+
+		if ((plotsign.plotsign:GetOwnerSteam64Id() == steamId) or (clanId ~= nil and clanId > 0)) then
 			return false
 		end
 	end
