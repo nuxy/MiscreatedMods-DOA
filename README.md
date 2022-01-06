@@ -1,12 +1,12 @@
 # MiscreatedMods-DOA
 
-Modifications for the [Miscreated](https://miscreatedgame.com) **D.O.A. ★ Alien Invasion ★ PVP/PVE** [game server](https://miscreated-servers.com/server/16657).
+Modifications for the [Miscreated](https://miscreatedgame.com) **D.O.A. ★ Alien Invasion ★ PVP/PVE** [game server](https://miscreated-servers.com/server/16803).
 
 ![Alien Invasion](https://raw.githubusercontent.com/nuxy/MiscreatedMods-DOA/master/preview.png)
 
 ## Notable Changes
 
-- Removed ALL mutants (Human Spiders only, i.e. _Aliens_).
+- Removed ALL mutants (Human Spiders only, e.g. _Aliens_).
 - Aliens shoot radiating, explosive venom - far distances.
 - Balanced Apple, Berries, and Water availabity.
 - Updated Plot Sign total items/build radius.
