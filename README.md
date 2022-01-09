@@ -49,6 +49,21 @@ Tired of losing your hard-earned loot.  Secure your most precious items in a saf
 - Health is only reduced using a SledgeHammer or C4.
 - Supports 2 instances per base.
 
+## PlotSign Decay
+
+While you cannot fully disable _PlotSign_ decay, you can update the `AbandonTimer` when character actions occur.  This ensures that as long as any player accesses the game server within a 7 day period, the decay timeout **will be extended by 28 days for ALL bases**.
+
+NOTE: The folling SQL statement must be executed on the `miscreated.db` [SQLite](https://www.sqlite.org/index.html) database.
+
+```sql
+CREATE TRIGGER PlotSignUpdate AFTER UPDATE ON Characters
+BEGIN
+    UPDATE Structures SET
+        AbandonTimer = 2500000
+    WHERE ClassName = "PlotSign";
+END;
+```
+
 ## References
 
 - [CRYENGINE 3 Manual](https://docs.cryengine.com/display/SDKDOC2/Home)
