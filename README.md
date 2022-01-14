@@ -51,9 +51,9 @@ Tired of losing your hard-earned loot.  Secure your most precious items in a saf
 
 ## PlotSign Decay
 
-While you cannot fully disable _PlotSign_ decay, you can update the `AbandonTimer` when character actions occur.  This ensures that as long as any player accesses the game server within a 7 day period, the decay timeout **will be extended by 28 days for ALL bases**.
+While you cannot fully disable _PlotSign_ decay, you can update the `AbandonTimer` when character actions occur.  This ensures that as long as any player accesses the game server within a 28 day window, the decay timeout **will be extended by another 28 days for ALL bases**.
 
-NOTE: The folling SQL statement must be executed on the `miscreated.db` [SQLite](https://www.sqlite.org/index.html) database.
+NOTE: The following SQL statement must be executed on the `miscreated.db` [SQLite](https://www.sqlite.org/index.html) database.
 
 ```sql
 CREATE TRIGGER PlotSignUpdate AFTER UPDATE ON Characters
