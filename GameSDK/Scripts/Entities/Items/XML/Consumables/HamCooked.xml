@@ -3,6 +3,7 @@
 	<params>
 		<param name="selectable" value="0"/>
 		<param name="mass" value="1.0"/>
+		<param name="stack_size" value="3"/>
 		<param name="display_name" value="@HamCooked"/>
 		<param name="description" value="@HamCookedDescription"/>
 		<param name="vendor_cost" value="2"/>
