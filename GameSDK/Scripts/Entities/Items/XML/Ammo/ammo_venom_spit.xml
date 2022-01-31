@@ -18,11 +18,6 @@
 		<param name="distance" value="50.0" />
 	</sonic_boom>
 
-	<whiz>
-		<param name="sound" value="Play_spider_acid_hit" />
-		<param name="distance" value="10.0" />
-	</whiz>
-
 	<physics type="rigid">
 		<param name="mass" value="0.35"/>
 		<param name="speed" value="40"/>
