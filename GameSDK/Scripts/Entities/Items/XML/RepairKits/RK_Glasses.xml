@@ -1,0 +1,35 @@
+<item name="RK_Glasses" class="Item" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="itemClass" value="RK_Glasses"/>
+		<param name="mass" value="1.0"/>
+		<param name="healthMax" value="100.0"/>
+		<param name="damage_scale" value="0.25"/>
+		<param name="destroyWhenDegraded" value="1"/>
+		<param name="display_name" value="Repair Kit (Glasses)"/>
+		<param name="description" value="Used to repair glasses like Aviators, Sunglasses, etc"/>
+	</params>
+
+	<geometry>
+		<thirdperson name="objects/basebuilding/wood/wood_part.cgf"/>
+	</geometry>
+
+	<repair>
+		<item name="RK_Glasses" percentage="100"/> <!-- Allow self-repairs -->
+		<item name="Aviators" percentage="100"/>
+		<item name="SunglassesABlack" percentage="100"/>
+		<item name="SunglassesAGold" percentage="100"/>
+		<item name="SunglassesASilver" percentage="100"/>
+		<item name="SunglassesBBlack" percentage="100"/>
+		<item name="SunglassesBMaroon" percentage="100"/>
+		<item name="SunglassesBSilver" percentage="100"/>
+	</repair>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+		</locations>
+	</storage>
+
+</item>
