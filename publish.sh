@@ -66,7 +66,7 @@ fi
 #
 mkdir $TMPDIR
 
-7za a -tzip -mx0 -xr!.git* -xr!hosting.cfg -xr!LICENSE -xr!D.O.A.* -xr!README.md -xr!publish.sh -xr!tmp "$TMPDIR/DeadOnArrival.pak" "$PWD/*"
+7za a -tzip -mx0 -xr!.git* -xr!hosting.cfg -xr!LICENSE -xr!PSD -xr!README.md -xr!publish.sh -xr!tmp "$TMPDIR/DeadOnArrival.pak" "$PWD/*"
 
 #
 # Create VDF reference.
