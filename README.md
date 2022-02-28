@@ -71,6 +71,7 @@ END;
 - [CRYENGINE 3 Manual](https://docs.cryengine.com/display/SDKDOC2/Home)
 - [Miscreated C++, Lua Script Bindings](https://github.com/hendrikp/MisScriptBinds)
 - [Steam Console Client](https://developer.valvesoftware.com/wiki/SteamCMD)
+- [Steam Error Codes](https://steamerrors.com)
 
 ## Versioning
 
