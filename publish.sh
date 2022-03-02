@@ -45,20 +45,20 @@ Options:
   --fileid   : Steam Workshop file ID.
   --public   : Adds workshop to Steam results (optional).
 EOT
-  exit 1
+    exit 1
 fi
 
 #
 # Check dependencies.
 #
 if [ ! `which steamcmd` ]; then
-  echo "steamcmd is not installed. Exiting."
-  exit 1
+    echo "steamcmd is not installed. Exiting."
+    exit 1
 fi
 
 if [ ! `which 7za` ]; then
-  echo "7za is not installed. Exiting."
-  exit 1
+    echo "7za is not installed. Exiting."
+    exit 1
 fi
 
 #
