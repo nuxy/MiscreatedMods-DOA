@@ -33,7 +33,6 @@ The following third-party [Miscreated Workshop](https://steamcommunity.com/app/2
 - [Climates of Orca](https://steamcommunity.com/sharedfiles/filedetails/?id=1807643206)
 - [Base Building Expansion](https://steamcommunity.com/sharedfiles/filedetails/?id=1699198355)
 - [Landscaping](https://steamcommunity.com/sharedfiles/filedetails/?id=1673502088)
-- [Large Plane Crash](https://steamcommunity.com/sharedfiles/filedetails/?id=1987245557)
 - [Craftable Tents](https://steamcommunity.com/sharedfiles/filedetails/?id=1739418619)
 - [PVP/PVE Stats](https://steamcommunity.com/sharedfiles/filedetails/?id=1879915972) (Required)
 

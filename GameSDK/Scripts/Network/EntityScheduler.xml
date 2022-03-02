@@ -2127,7 +2127,6 @@
 	<Class name="AirDropCrate" policy="obj"/>
 	<Class name="AirDropSantaCrate" policy="obj" />
 	<Class name="AirPlaneCrash" policy="obj"/>
-    <Class name="DroneCrash" policy="obj"/>
 	<Class name="UFOCrash" policy="obj" />
 	<Class name="UFOCrate" policy="obj" />
 
@@ -2171,9 +2170,9 @@
 	<Class name="ForbiddenArea" policy="capt"/>
 	<Class name="FireHeatArea" policy="obj"/>
 	<Class name="FireDamageArea" policy="obj"/>
-  <Class name="NPCTeleportToBase" policy="obj"/>
+	<Class name="NPCTeleportToBase" policy="obj"/>
 
-  <Class name="AIAnchor" policy="obj"/>
+	<Class name="AIAnchor" policy="obj"/>
 	<Class name="CameraSource" policy="obj"/>
 	<Class name="Fog" policy="obj"/>
 	<Class name="ParticleEffect" policy="obj"/>
