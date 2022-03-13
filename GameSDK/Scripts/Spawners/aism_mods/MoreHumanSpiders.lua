@@ -1,72 +1,47 @@
-local mutant1 = FindInTable(AISpawnerManager.aiCategories, "category", "Spiker")
-mutant1.classes =
-{
-	{ category = "HumanSpiderSingle", percent = 100 },
+--
+-- Replace all entities with HumanSpider(s).
+--
+local spider = FindInTable(AISpawnerManager.aiCategories, "category", "HumanSpiderSingle")
+
+local aiCategories = {
+	"BabySpiderSingle",
+	"BruteMutantArmored",
+	"BruteMutantSingle",
+	"CrazySingle",
+	"GiantRoachSingle",
+	"GiantScorpion",
+	"HumanZombieSingle",
+	"SpikerSingle",
+	"TwoHeadDog"
 }
 
-local mutant2 = FindInTable(AISpawnerManager.aiCategories, "category", "brute")
-mutant2.classes =
-{
-	{ category = "HumanSpiderSingle", percent = 100 },
+for _, category in pairs(aiCategories) do
+	local mutant = FindInTable(AISpawnerManager.aiCategories, "category", category)
+	mutant.classes = spider.classes
+end
+
+--
+-- Increase entity group spawn count.
+--
+local aiCategories = {
+	brute_pack = {4, 6},
+	brute_hunting_pack = {4, 7},
+	spiker_pack = {4, 5}
 }
 
-local mutant3 = FindInTable(AISpawnerManager.aiCategories, "category", "brute_armored")
-mutant3.classes =
-{
-	{ category = "HumanSpiderSingle", percent = 100 },
-}
+for category, v in pairs(aiCategories) do
+	local mutant = FindInTable(AISpawnerManager.aiCategories, "category", category)
+	mutant.min = v[0]
+	mutant.max = v[1]
+end
 
-local mutant4 = FindInTable(AISpawnerManager.aiCategories, "category", "twoheaddog")
-mutant4.classes =
-{
-	{ category = "HumanSpiderSingle", percent = 100 },
-}
+--
+-- Remove hard-coded (stubborn) entities.
+--
+local mutant1 = FindInTable(AISpawnerManager.aiCategories, "category", "twoheaddog")
+local mutant2 = FindInTable(AISpawnerManager.aiCategories, "category", "twoheaddog_invasion")
 
-local mutant5 = FindInTable(AISpawnerManager.aiCategories, "category", "spiker_pack")
-mutant5.classes =
-{
-	{ category = "HumanSpiderSingle", percent = 100 },
-}
-mutant5.min = 4
-mutant5.max = 5
+RemoveFromTable(AISpawnerManager.aiCategories, mutant1)
+RemoveFromTable(AISpawnerManager.aiCategories, mutant2)
 
-local mutant6 = FindInTable(AISpawnerManager.aiCategories, "category", "brute_pack")
-mutant6.classes =
-{
-	{ category = "HumanSpiderSingle", percent = 100 },
-}
-mutant6.min = 4
-mutant6.max = 6
-
-local mutant7 = FindInTable(AISpawnerManager.aiCategories, "category", "brute_hunting_pack")
-mutant7.classes =
-{
-	{ category = "HumanSpiderSingle", percent = 100 },
-}
-mutant7.min = 4
-mutant7.max = 7
-
-local mutant8 = FindInTable(AISpawnerManager.aiCategories, "category", "horde")
-mutant8.classes =
-{
-	{ category = "HumanSpiderSingle", percent = 100 },
-}
-
-local mutant9 = FindInTable(AISpawnerManager.aiCategories, "category", "mutant_invasion")
-mutant9.classes =
-{
-	{ category = "HumanSpiderSingle", percent = 100 },
-}
-
-local mutant10 = FindInTable(AISpawnerManager.aiCategories, "category", "twoheaddog_invasion")
-mutant10.classes =
-{
-	{ category = "HumanSpiderSingle", percent = 100 },
-}
-
--- Resolve log error "Missing AI category"
-local mutant11 = FindInTable(AISpawnerManager.aiCategories, "category", "CrazySingle")
-mutant11.classes =
-{
-	{ category = "HumanSpiderSingle", percent = 100 },
-}
+dump(AISpawnerManager)

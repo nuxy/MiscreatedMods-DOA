@@ -1,29 +1,23 @@
-local mutant1 = FindInTable(AIRoundRobinManager.rraiSpawnGroups.islands, "name", "RRAIGlobal_Spider")
-mutant1.spawnCategory = "HumanSpiderSingle"
+--
+-- Replace all entities with HumanSpider(s).
+--
+local rraiNames = {
+	"RRAIGlobal_Spider",
+	"RRAIGlobal_Roach",
+	"RRAIZone_Brute",
+	"RRAIZone_BruteArmored",
+	"RRAIZone_Crazy",
+	"RRAIZone_HumanZombie",
+	"RRAIZone_Roach",
+	"RRAIZone_Spider",
+	"RRAIZone_Spiker",
+	"RRAIZone_TwoHeadDog"
+}
 
-local mutant2 = FindInTable(AIRoundRobinManager.rraiSpawnGroups.islands, "name", "RRAIGlobal_Roach")
-mutant2.spawnCategory = "HumanSpiderSingle"
+for _, name in pairs(rraiNames) do
+	local mutant = FindInTable(AIRoundRobinManager.rraiSpawnGroups.islands, "name", name)
 
-local mutant3 = FindInTable(AIRoundRobinManager.rraiSpawnGroups.islands, "name", "RRAIZone_HumanZombie")
-mutant3.spawnCategory = "HumanSpiderSingle"
+	mutant.spawnCategory = "HumanSpiderSingle"
+end
 
-local mutant4 = FindInTable(AIRoundRobinManager.rraiSpawnGroups.islands, "name", "RRAIZone_TwoHeadDog")
-mutant4.spawnCategory = "HumanSpiderSingle"
-
-local mutant5 = FindInTable(AIRoundRobinManager.rraiSpawnGroups.islands, "name", "RRAIZone_Brute")
-mutant5.spawnCategory = "HumanSpiderSingle"
-
-local mutant6 = FindInTable(AIRoundRobinManager.rraiSpawnGroups.islands, "name", "RRAIZone_BruteArmored")
-mutant6.spawnCategory = "HumanSpiderSingle"
-
-local mutant7 = FindInTable(AIRoundRobinManager.rraiSpawnGroups.islands, "name", "RRAIZone_Spider")
-mutant7.spawnCategory = "HumanSpiderSingle"
-
-local mutant8 = FindInTable(AIRoundRobinManager.rraiSpawnGroups.islands, "name", "RRAIZone_Roach")
-mutant8.spawnCategory = "HumanSpiderSingle"
-
-local mutant9 = FindInTable(AIRoundRobinManager.rraiSpawnGroups.islands, "name", "RRAIZone_Crazy")
-mutant9.spawnCategory = "HumanSpiderSingle"
-
-local mutant10 = FindInTable(AIRoundRobinManager.rraiSpawnGroups.islands, "name", "RRAIZone_Spiker")
-mutant10.spawnCategory = "HumanSpiderSingle"
+dump(AISpawnerManager)
