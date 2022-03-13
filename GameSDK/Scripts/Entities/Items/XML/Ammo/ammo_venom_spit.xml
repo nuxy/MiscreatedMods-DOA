@@ -1,7 +1,7 @@
 <ammo name="ammo_venom_spit" class="Bullet">
 
 	<geometry>
-		<firstperson name="objects/ammo/12Gauge_Flare/flare_projectile.cgf" scale="1"/>
+		<firstperson name="Objects/ammo/arrow/explosive_arrow_onground.cgf" scale="1"/>
 	</geometry>
 
 	<flags>
@@ -22,7 +22,7 @@
 		<param name="mass" value="0.35"/>
 		<param name="speed" value="40"/>
 		<param name="radius" value="0.25"/>
-		<param name="air_resistance" value="0.0026"/>
+		<param name="air_resistance" value="0.003"/>
 		<param name="water_resistance" value="10.0"/>
 		<param name="gravity" value="0, 0, -9.81"/>
 		<param name="water_gravity" value="0, 0, -9.81"/>
@@ -34,7 +34,7 @@
 
 	<chemlight>
 		<param name="color" value="245, 166, 39, 0.8"/>
-		<param name="radius" value="20.0"/>
+		<param name="radius" value="15.0"/>
 		<param name="diffuseMult" value="100"/>
 		<param name="specularMult" value="0.01"/>
 		<param name="HDRDynamic" value="0.0"/>
@@ -59,7 +59,7 @@
 		<param name="hole_size" value="2"/>
 		<param name="terrain_hole_size" value="3"/>
 		<param name="radialblurdist" value="30"/>
-		<param name="type" value="frag"/>
+		<param name="type" value="acid"/>
 	</explosion>
 
 	<params>
@@ -73,6 +73,7 @@
 		<param name="hit_type" value="arrow"/>
 		<param name="quietRemoval" value="1"/>
 		<param name="aitype" value="grenade"/>
+		<param name="bulletType" value="6"/>
 	</params>
 
 	<trail>
