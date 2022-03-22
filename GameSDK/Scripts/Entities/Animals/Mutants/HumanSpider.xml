@@ -11,7 +11,7 @@
 	</properties>
 
 	<damage>
-		<param name="Health" value="125"/>
+		<param name="Health" value="90"/>
 		<param name="FatalImpulse" value="0"/>
 		<param name="fileBodyDamage" value="Libs/BodyDamage/BodyDamage_HumanSpider.xml"/>
 		<param name="fileBodyDamageParts" value="Libs/BodyDamage/BodyParts_HumanSpider.xml"/>
