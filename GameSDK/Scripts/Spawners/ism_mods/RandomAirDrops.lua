@@ -7,10 +7,10 @@ local crateItem2 = FindInTable(airDropCrate.classes, "category", "RandomAirDropC
 crateItem2.percent = 15
 
 local crateItem3 = FindInTable(airDropCrate.classes, "category", "RandomAirDropCrateCivilian")
-crateItem3.percent = 18
+crateItem3.percent = 14
 
 local crateItem4 = FindInTable(airDropCrate.classes, "category", "RandomAirDropCrateExplosives")
-crateItem4.percent = 7
+crateItem4.percent = 8
 
 local crateItem5 = FindInTable(airDropCrate.classes, "category", "RandomAirDropCrateBaseBuilding")
 crateItem5.percent = 20
@@ -20,8 +20,8 @@ crateItem6.percent = 15
 
 -- Add additional Air Drop event.
 local newCrateItem = {
-	class = "RandomAirDropCrateSalt",
-	percent = 5,
+	class = "RandomAirDropCrateExplosives",
+	percent = 8,
 }
 
 InsertIntoTable(airDropCrate.classes, newCrateItem)
