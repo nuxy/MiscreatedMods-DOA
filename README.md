@@ -11,7 +11,7 @@ Modifications for the [Miscreated](https://miscreatedgame.com) **D.O.A. ★ Alie
 - Balanced Apple, Berries, and Water availabity.
 - Updated Plot Sign total items/build radius.
 - Updated noob player Spawn Points.
-- Build anywhere, &ast;**no restrictions**.
+- Build anywhere, **no restrictions**.
 - Added craftable [Metal Safe Storage](#metal-safe-storage) item.
 - Added Glasses Repair Kit item.
 - Higher frequency of Random Air Drops, Plane and UFO crashes.
@@ -20,8 +20,6 @@ Modifications for the [Miscreated](https://miscreatedgame.com) **D.O.A. ★ Alie
 - Various Crafting UI improvements.
 
 .. and [many others](https://github.com/nuxy/MiscreatedMods-DOA/commits/master).
-
-(&ast;) _Feature is only available on whitelisted servers._
 
 ## Dependencies
 
