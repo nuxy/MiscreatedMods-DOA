@@ -10,14 +10,14 @@ Modifications for the [Miscreated](https://miscreatedgame.com) **D.O.A. ★ Alie
 - Aliens shoot radiating, explosive venom - far distances.
 - Balanced Apple, Berries, and Water availabity.
 - Updated Plot Sign total items/build radius.
-- Updated noob player Spawn Points.
+- Updated noob player Spawn Point equipment/inventory items.
 - Build anywhere, **no restrictions**.
 - Added craftable [Metal Safe Storage](#metal-safe-storage) item.
 - Added Glasses Repair Kit item.
 - Higher frequency of Random Air Drops, Plane and UFO crashes.
 - Updated Food/Random Vendor purchaseable options.
 - Updated enemy/horde spawning probability.
-- Various Crafting UI improvements.
+- Various Crafting UI improvements, Chat Console additions.
 
 .. and [many others](https://github.com/nuxy/MiscreatedMods-DOA/commits/master).
 
