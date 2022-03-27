@@ -21,7 +21,7 @@ local function SaveLocation(player, name)
 	local pos = player:GetWorldPos()
 	local rot = player:GetAngles()
 
-	local createdTime = os.date('%A, %B %d %Y at %I:%M:%S %p')
+	local createdTime = os.date("%A, %B %d %Y at %I:%M:%S %p")
 	local locationInfo =
 	{
 		["name"] = name,
@@ -31,21 +31,9 @@ local function SaveLocation(player, name)
 		["posR"] = tostring(rot.z);
 	}
 
-	-- Simplify iterating over stored pages.
-	local lastInsertId = DBCollection:GetPage("lastInsertId")
+	SetPageData(DBCollection, locationInfo)
 
-	if lastInsertId ~= nil and lastInsertId > 0 then
-		lastInsertId = (lastInsertId + 1)
-	else
-		lastInsertId = 1
-	end
-
-	DBCollection:SetPage("lastInsertId", lastInsertId)
-	DBCollection:SetPage("location_" .. lastInsertId, locationInfo)
-
-	local str = string.format('Saved location "%s"', name)
-
-	return str
+	return string.format('Saved location "%s"', name)
 end
 
 -- Delete player location by record ID.
@@ -53,14 +41,12 @@ local function DeleteLocation(id)
 	local str = "No location record found."
 
 	if not IsEmptyCollection(DB, "LocationCollection") then
-		local record = "location_" .. id
-
-		local data = DBCollection:GetPage(record)
+		local data = GetPageData(DBCollection, id)
 
 		if data ~= nil then
-			DBCollection:PurgePage(record)
+			PurgePageData(DBCollection, id)
 
-			str = string.format("Removed record: %s", data['name'])
+			str = string.format("Removed record: %s", data["name"])
 		end
 	end
 
@@ -74,14 +60,13 @@ local function GetLocations()
 	if not IsEmptyCollection(DB, "LocationCollection") then
 		str = "Spawn Point Locations\n"
 		
-		local lastInsertId = DBCollection:GetPage("lastInsertId")
+		local lastInsertId = GetLastInsertId(DBCollection)
 
 		for i = 1, lastInsertId do
-			local data = DBCollection:GetPage("location_" .. i)
+			local data = GetPageData(DBCollection, i)
 
 			if data ~= nil then
-				str = str .. "Record #" .. i .. "\n"
-				str = str .. "Name: " .. data["name"] .. "\n"
+				str = str .. "Record #" .. i .. " [" .. data["name"] .. "]\n"
 				str = str .. "X: " .. data["posX"] .. "\n"
 				str = str .. "Y: " .. data["posY"] .. "\n"
 				str = str .. "Z: " .. data["posZ"] .. "\n"
@@ -106,13 +91,13 @@ ChatCommands["!sp"] = function(playerId, args)
 
 		message = message .. [[
 Supported Commands
-  !sp create <name>
-  !sp delete <record #>
+  !sp save <name>
+  !sp delete <RECORDID>
   !sp list
 ]]
 
 		if IsValidInput(arg) then
-			if action == "create" then
+			if action == "save" then
 				message = SaveLocation(player, arg)
 			end
 

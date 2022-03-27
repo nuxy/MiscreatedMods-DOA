@@ -14,10 +14,9 @@ function Miscreated:InitPlayer(playerId)
 
 	if player and player.player then
 		if not IsEmptyCollection(DB, "LocationCollection") then
-			local lastInsertId = DBCollection:GetPage("lastInsertId")
 
 			-- Get random location.
-			local data = GetRandomPage(DBCollection, lastInsertId)
+			local data = GetRandomPage(DBCollection)
 
 			if data ~= nil then
 				g_Vectors.temp_v1.x = tonumber(data["posX"])

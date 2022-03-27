@@ -25,7 +25,7 @@ end
 -- Write the actor name, reporter, and timestamp of submission.
 local function ReportActor(name, reporterId)
 	if name and reporterId then
-		local reportedTime = os.date('%A, %B %d %Y at %I:%M:%S %p')
+		local reportedTime = os.date("%A, %B %d %Y at %I:%M:%S %p")
 		local eventInfo =
 		{
 			["actorName"] = name,
@@ -34,17 +34,7 @@ local function ReportActor(name, reporterId)
 			["time"] = reportedTime
 		}
 
-		-- Simplify iterating over stored pages.
-		local lastInsertId = DBCollection:GetPage("lastInsertId")
-
-		if lastInsertId ~= nil and lastInsertId > 0 then
-			lastInsertId = (lastInsertId + 1)
-		else
-			lastInsertId = 1
-		end
-
-		DBCollection:SetPage("lastInsertId", lastInsertId)
-		DBCollection:SetPage("event_" .. lastInsertId, eventInfo)
+		SetPageData(DBCollection, eventInfo)
 	end
 end
 
@@ -55,10 +45,10 @@ local function GetEvents()
 	if not IsEmptyCollection(DB, "EventCollection") then
 		str = "Reported Events\n"
 
-		local lastInsertId = DBCollection:GetPage("lastInsertId")
+		local lastInsertId = GetLastInsertId(DBCollection)
 
 		for i = 1, lastInsertId do
-			local data = DBCollection:GetPage("event_" .. i)
+			local data = GetPageData(DBCollection, i)
 
 			if data ~= nil then
 				str = str .. "Actor Name: " .. data["actorName"] .. "\n"
