@@ -9,6 +9,7 @@
 #
 # Dependencies:
 #   steamcmd
+#   git
 #   7za
 #
 
@@ -56,6 +57,11 @@ if [ ! `which steamcmd` ]; then
     exit 1
 fi
 
+if [ ! `which git` ]; then
+    echo "git is not installed. Exiting."
+    exit 1
+fi
+
 if [ ! `which 7za` ]; then
     echo "7za is not installed. Exiting."
     exit 1
@@ -65,6 +71,8 @@ fi
 # Package the release.
 #
 mkdir $TMPDIR
+
+git describe --abbrev=0 > $PWD/VERSION
 
 7za a -tzip -mx0 -xr!.git* -xr!hosting.cfg -xr!LICENSE -xr!Artwork -xr!PSD -xr!README.md -xr!publish.sh -xr!tmp "$TMPDIR/DeadOnArrival.pak" "$PWD/*"
 
@@ -78,7 +86,7 @@ cat << EOF > $outfile
 {
   "appid"           "299740"
   "contentfolder"   "$TMPDIR"
-  "previewfile"     "$PWD/preview.png"
+  "previewfile"     "$PWD/Artwork/preview.png"
   "visibility"      "$([[ $argv == '--public' ]] && echo '0' || echo '3')"
   "title"           "D.O.A. ★ Alien Invasion"
   "description"     "Modifications for the Miscreated D.O.A. ★ Alien Invasion ★ PVP/PVE game server."
@@ -92,4 +100,4 @@ EOF
 steamcmd +login $username $password +workshop_build_item $outfile +quit
 
 # Cleanup build sources.
-rm -rf $PWD/mod.vdf $TMPDIR
+rm -rf $PWD/mod.vdf $PWD/VERSION $TMPDIR
