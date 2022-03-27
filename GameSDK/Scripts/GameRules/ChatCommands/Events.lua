@@ -1,5 +1,7 @@
-Script.ReloadScript("scripts/gamerules/AccessControl.lua")
+Script.LoadScript("scripts/gamerules/AccessControl.lua")
+
 Script.ReloadScript("scripts/MisDB/MisDB.lua")
+Script.ReloadScript("scripts/utils/MisDB.lua")
 
 local DB = MisDB:Create("ChatReportDB/", "ChatReportData")
 local DBCollection = DB:Collection("EventCollection")
@@ -50,12 +52,12 @@ end
 local function GetEvents()
 	local str = "There are no reported events."
 
-	if (DBCollection.parent.db["EventCollection"] ~= nil and DBCollection.parent.db["EventCollection"] ~= {}) then
+	if not IsEmptyCollection(DB, "EventCollection") then
 		str = "Reported Events\n"
 
 		local lastInsertId = DBCollection:GetPage("lastInsertId")
 
-		for i = 1,lastInsertId do
+		for i = 1, lastInsertId do
 			local data = DBCollection:GetPage("event_" .. i)
 
 			if data ~= nil then
