@@ -56,6 +56,13 @@ function GetPageData(DBCollection, id)
 end
 
 --
+-- Purge page data for a given collection by ID.
+--
+function PurgePageData(DBCollection, id)
+	DBCollection:PurgePage("record_" .. id)
+end
+
+--
 -- Set page data for a given collection.
 --
 function SetPageData(DBCollection, obj)
