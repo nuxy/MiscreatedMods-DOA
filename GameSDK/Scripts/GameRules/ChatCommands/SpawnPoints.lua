@@ -1,5 +1,4 @@
 Script.LoadScript("scripts/gamerules/AccessControl.lua")
-Script.LoadScript("scripts/gamerules/ChatCommands/Common.lua")
 
 Script.ReloadScript("scripts/MisDB/MisDB.lua")
 Script.ReloadScript("scripts/utils/MisDB.lua")
