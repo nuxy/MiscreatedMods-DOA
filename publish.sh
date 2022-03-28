@@ -3,7 +3,7 @@
 # publish.sh
 # Deploy GameSDK modifications to Miscreated Workshop.
 #
-#  Copyright 2021, Marc S. Brooks (https://mbrooks.info)
+#  Copyright 2022, Marc S. Brooks (https://mbrooks.info)
 #  Licensed under the MIT license:
 #  http://www.opensource.org/licenses/mit-license.php
 #
@@ -29,21 +29,21 @@ for value in $argc; do
         '--password')
             password=$value
             ;;
-        '--fileid')
-            fileid=$value
+        '--workshop')
+            workshop=$value
             ;;
     esac
 
     argv=$value
 done
 
-if [[ -z "$username" ]] || [[ -z "$password" ]] || [[ -z "$fileid" ]]; then
+if [[ -z "$username" ]] || [[ -z "$password" ]] || [[ -z "$workshop" ]]; then
     cat <<EOT
-Usage: publish.sh [--username=] [--password=] [--fileid=]
+Usage: publish.sh [--username=] [--password=] [--workshop=] [--public]
 Options:
   --username : Steam account username.
   --password : Steam account password.
-  --fileid   : Steam Workshop file ID.
+  --workshop : Workshop name to publish.
   --public   : Adds workshop to Steam results (optional).
 EOT
     exit 1
@@ -70,15 +70,24 @@ fi
 #
 # Package the release.
 #
+package=$PWD/Workshop/$workshop
+
+if [ ! -d "$package" ]; then
+    echo "Workshop not found. Exiting."
+    exit 1
+fi
+
 mkdir $TMPDIR
 
 git describe --abbrev=0 > $PWD/VERSION
 
-7za a -tzip -mx0 -xr!.git* -xr!hosting.cfg -xr!LICENSE -xr!Artwork -xr!PSD -xr!README.md -xr!publish.sh -xr!tmp "$TMPDIR/DeadOnArrival.pak" "$PWD/*"
+7za a -tzip -mx0 "$TMPDIR/$workshop.pak" @"$package/MANIFEST" LICENSE VERSION
 
 #
 # Create VDF reference.
 #
+. $package/info.inc
+
 outfile=$PWD/mod.vdf
 
 cat << EOF > $outfile
@@ -86,13 +95,13 @@ cat << EOF > $outfile
 {
   "appid"           "299740"
   "contentfolder"   "$TMPDIR"
-  "previewfile"     "$PWD/Artwork/preview.png"
+  "previewfile"     "$package/preview.png"
   "visibility"      "$([[ $argv == '--public' ]] && echo '0' || echo '3')"
-  "title"           "D.O.A. ★ Alien Invasion"
-  "description"     "Modifications for the Miscreated D.O.A. ★ Alien Invasion ★ PVP/PVE game server."
-  "changenote"      "[url=https://github.com/nuxy/MiscreatedMods-DOA]Github project[/url]"
+  "title"           "$TITLE"
+  "description"     "$DESCRIPTION"
+  "changenote"      "$CHANGENOTE"
   "tags"            ""
-  "publishedfileid" "$fileid"
+  "publishedfileid" "$FILEID"
 }
 EOF
 
