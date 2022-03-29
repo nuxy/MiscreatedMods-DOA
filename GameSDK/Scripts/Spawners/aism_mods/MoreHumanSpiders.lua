@@ -9,10 +9,9 @@ local aiCategories = {
 	"BruteMutantSingle",
 	"CrazySingle",
 	"GiantRoachSingle",
-	"GiantScorpion",
 	"HumanZombieSingle",
 	"SpikerSingle",
-	"TwoHeadDog"
+	"twoheaddog"
 }
 
 for _, category in pairs(aiCategories) do
@@ -31,8 +30,8 @@ local aiCategories = {
 
 for category, v in pairs(aiCategories) do
 	local mutant = FindInTable(AISpawnerManager.aiCategories, "category", category)
-	mutant.min = v[0]
-	mutant.max = v[1]
+	mutant.min = v[1]
+	mutant.max = v[2]
 end
 
 --
@@ -43,5 +42,3 @@ local mutant2 = FindInTable(AISpawnerManager.aiCategories, "category", "twoheadd
 
 RemoveFromTable(AISpawnerManager.aiCategories, mutant1)
 RemoveFromTable(AISpawnerManager.aiCategories, mutant2)
-
-dump(AISpawnerManager)

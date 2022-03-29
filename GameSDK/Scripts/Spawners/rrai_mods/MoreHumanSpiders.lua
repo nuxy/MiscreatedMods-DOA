@@ -8,16 +8,11 @@ local rraiNames = {
 	"RRAIZone_BruteArmored",
 	"RRAIZone_Crazy",
 	"RRAIZone_HumanZombie",
-	"RRAIZone_Roach",
-	"RRAIZone_Spider",
 	"RRAIZone_Spiker",
 	"RRAIZone_TwoHeadDog"
 }
 
 for _, name in pairs(rraiNames) do
 	local mutant = FindInTable(AIRoundRobinManager.rraiSpawnGroups.islands, "name", name)
-
 	mutant.spawnCategory = "HumanSpiderSingle"
 end
-
-dump(AISpawnerManager)
