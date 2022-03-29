@@ -10,17 +10,17 @@
 
 	<ricochet>
 		<param name="sound" value="Play_spider_acid_hit" />
-		<param name="distance" value="30.0" />
+		<param name="distance" value="10.0" />
 	</ricochet>
 
-	<sonic_boom>
-		<param name="sound" value="Play_spider_acid_hit" />
-		<param name="distance" value="50.0" />
-	</sonic_boom>
+	<whiz>
+		<param name="sound" value="Play_torch_melee_3p"/>
+		<param name="distance" value="10.0"/>
+	</whiz>
 
 	<physics type="rigid">
 		<param name="mass" value="0.35"/>
-		<param name="speed" value="40"/>
+		<param name="speed" value="33"/>
 		<param name="radius" value="0.25"/>
 		<param name="air_resistance" value="0.003"/>
 		<param name="water_resistance" value="10.0"/>
@@ -33,7 +33,7 @@
 	</physics>
 
 	<chemlight>
-		<param name="color" value="245, 166, 39, 0.8"/>
+		<param name="color" value="215, 85, 17, 0.8"/>
 		<param name="radius" value="15.0"/>
 		<param name="diffuseMult" value="100"/>
 		<param name="specularMult" value="0.01"/>
@@ -58,7 +58,7 @@
 		<param name="sound_radius" value="75"/>
 		<param name="hole_size" value="2"/>
 		<param name="terrain_hole_size" value="3"/>
-		<param name="radialblurdist" value="30"/>
+		<param name="radialblurdist" value="20"/>
 		<param name="type" value="acid"/>
 	</explosion>
 
@@ -68,9 +68,9 @@
 		<param name="torpidity" value="5.0"/>
 		<param name="stamina" value="5.0"/>
 		<param name="poison_percent" value="10"/>
-		<param name="showtime" value="0.05"/>
-		<param name="lifetime" value="2.0"/>
-		<param name="hit_type" value="arrow"/>
+		<param name="showtime" value="0.1"/>
+		<param name="lifetime" value="3.0"/>
+		<param name="hit_type" value="bullet"/>
 		<param name="quietRemoval" value="1"/>
 		<param name="aitype" value="grenade"/>
 		<param name="bulletType" value="6"/>
@@ -78,7 +78,7 @@
 
 	<trail>
 		<param name="effect" value="weapon_fx.arrow.trail_burning"/>
-		<param name="prime" value="false"/>
+		<param name="scale" value="1"/>
 	</trail>
 
 	<grenade>
