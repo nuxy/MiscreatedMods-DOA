@@ -87,5 +87,3 @@ GameSDK/Scripts/mods/RandomSpawnPoint.lua
 GameSDK/Scripts/mods/SpawnWorldEvent.lua
 GameSDK/Scripts/mods/EquipPlayer.lua
 GameSDK/Scripts/mods/GlobalPlayerCallout.lua
-GameSDK/Scripts/DedicatedConfigs/ProtectDedicated.xmlx
-GameSDK/Scripts/DedicatedConfigs/AntiCheatConfig.xml
