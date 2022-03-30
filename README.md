@@ -2,7 +2,7 @@
 
 Modifications for the [Miscreated](https://miscreatedgame.com) **D.O.A. ★ Alien Invasion ★ PVP/PVE** [game server](https://miscreated-servers.com/server/16803).
 
-![Alien Invasion](https://raw.githubusercontent.com/nuxy/MiscreatedMods-DOA/master/Artwork/preview.png)
+![Alien Invasion](https://raw.githubusercontent.com/nuxy/MiscreatedMods-DOA/master/Workshop/AlienInvasion/preview.png)
 
 ## Notable Changes
 
