@@ -1,4 +1,4 @@
-TITLE="D.O.A. ★ Alien Invasion"
+TITLE="D.O.A. ★ Alien Invasion ★ PVP/PVE"
 DESCRIPTION=$(cat << EOF
 Modifications for the [b]Miscreated D.O.A. ★ Alien Invasion ★ PVP/PVE[/b] game server.
 
@@ -6,18 +6,18 @@ Modifications for the [b]Miscreated D.O.A. ★ Alien Invasion ★ PVP/PVE[/b] ga
 
 [h1] Notable Changes [/h1]
 [list]
-    [*]Removed ALL mutants (Human Spiders only, e.g. Aliens).
-    [*]Aliens shoot radiating, explosive venom - far distances.
-    [*]Balanced Apple, Berries, and Water availabity.
-    [*]Updated Plot Sign total items/build radius.
-    [*]Updated noob player Spawn Point equipment/inventory items.
-    [*][b]Build anywhere, no restrictions[/b].
-    [*]Added craftable Metal Safe Storage item.
-    [*]Added Glasses Repair Kit item.
-    [*]Higher frequency of Random Air Drops, Plane and UFO crashes.
-    [*]Updated Food/Random Vendor purchaseable options.
-    [*]Updated enemy/horde spawning probability.
-    [*]Various Crafting UI improvements, Chat Console additions.
+  [*]Removed ALL mutants (Human Spiders only, e.g. Aliens).
+  [*]Aliens shoot radiating, explosive venom - far distances.
+  [*]Balanced Apple, Berries, and Water availabity.
+  [*]Updated Plot Sign total items/build radius.
+  [*]Updated noob player Spawn Point equipment/inventory items.
+  [*][b]Build anywhere, no restrictions[/b].
+  [*]Added craftable Metal Safe Storage item.
+  [*]Added Glasses Repair Kit item.
+  [*]Higher frequency of Random Air Drops, Plane and UFO crashes.
+  [*]Updated Food/Random Vendor purchaseable options.
+  [*]Updated enemy/horde spawning probability.
+  [*]Various Crafting UI improvements, Chat Console additions.
 [/list]
 .. and [url=https://github.com/nuxy/MiscreatedMods-DOA/commits/master]many others.[/url]
 
