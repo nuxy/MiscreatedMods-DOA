@@ -1,0 +1,10 @@
+GameSDK/Scripts/Kythera/Behaviors/humanspidermutant_combat.json
+GameSDK/Scripts/Kythera/Behaviors/humanspidermutant_seek.json
+GameSDK/Scripts/Spawners/rrai_mods/MoreHumanSpiders.lua
+GameSDK/Scripts/Spawners/ism_mods/RandomUFOContents.lua
+GameSDK/Scripts/Spawners/aism_mods/MoreHumanSpiders.lua
+GameSDK/Scripts/Entities/Animals/Mutants/HumanSpider.xml
+GameSDK/Scripts/Entities/Events/UFOCrash.lua
+GameSDK/Scripts/Entities/Items/XML/Ammo/ammo_venom_spit.xml
+GameSDK/Scripts/Entities/Items/XML/Equipment/Antibiotics.xml
+GameSDK/Scripts/mods/SpawnWorldEvent.lua
