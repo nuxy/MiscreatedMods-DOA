@@ -6,14 +6,12 @@ Modifications for the [Miscreated](https://miscreatedgame.com) **D.O.A. ★ Alie
 
 ## Notable Changes
 
-- Removed ALL mutants (Human Spiders only, e.g. _Aliens_).
+- Removed ALL mutants (Human Spiders only, e.g. Aliens).
 - Aliens shoot radiating, explosive venom - far distances.
 - Balanced Apple, Berries, and Water availabity.
 - Updated Plot Sign total items/build radius.
 - Updated noob player Spawn Point equipment/inventory items.
 - Build anywhere, **no restrictions**.
-- Added craftable [Metal Safe Storage](#metal-safe-storage) item.
-- Added Glasses Repair Kit item.
 - Higher frequency of Random Air Drops, Plane and UFO crashes.
 - Updated Food/Random Vendor purchaseable options.
 - Updated enemy/horde spawning probability.
@@ -25,28 +23,20 @@ Modifications for the [Miscreated](https://miscreatedgame.com) **D.O.A. ★ Alie
 
 The following third-party [Miscreated Workshop](https://steamcommunity.com/app/299740/workshop) mods _should be installed_ prior to this package.  These packages are used to enhance the game experience and in some cases have been extended with additional functionality.  Required packages have been identified accordingly, all others being optional.
 
-- [mFramework](https://steamcommunity.com/sharedfiles/filedetails/?id=1942750114)
+- [mFramework](https://steamcommunity.com/sharedfiles/filedetails/?id=1942750114) (Required)
 - [MisDB](https://steamcommunity.com/sharedfiles/filedetails/?id=1841357578) (Required)
+- [Alien Invasion](https://steamcommunity.com/sharedfiles/filedetails/?id=2787393227)
 - [Amalgamated Terminal](https://steamcommunity.com/sharedfiles/filedetails/?id=2444612166)
-- [Climates of Orca](https://steamcommunity.com/sharedfiles/filedetails/?id=1807643206)
 - [Base Building Expansion](https://steamcommunity.com/sharedfiles/filedetails/?id=1699198355)
-- [Landscaping](https://steamcommunity.com/sharedfiles/filedetails/?id=1673502088)
+- [Climates of Orca](https://steamcommunity.com/sharedfiles/filedetails/?id=1807643206)
+- [Craftable Metal Storage](https://steamcommunity.com/sharedfiles/filedetails/?id=2787400078)
 - [Craftable Tents](https://steamcommunity.com/sharedfiles/filedetails/?id=1739418619)
+- [Glasses Repair Kit](https://steamcommunity.com/sharedfiles/filedetails/?id=2787407832)
+- [Landscaping](https://steamcommunity.com/sharedfiles/filedetails/?id=1673502088)
 - [PVP/PVE Stats](https://steamcommunity.com/sharedfiles/filedetails/?id=1879915972) (Required)
+- [Spawn Anywhere](https://steamcommunity.com/sharedfiles/filedetails/?id=2787415227)
 
 See [hosting.cfg](https://github.com/nuxy/MiscreatedMods-DOA/blob/master/hosting.cfg) for more information.
-
-## Metal Safe Storage
-
-Tired of losing your hard-earned loot.  Secure your most precious items in a safe.
-
-### Details
-
-- Used for storing gathered items securely.
-- Can only be accessed by you or your clan.
-- When health drops < 50% anyone can access.
-- Health is only reduced using a SledgeHammer or C4.
-- Supports 2 instances per base.
 
 ## PlotSign Decay
 
@@ -66,7 +56,7 @@ END;
 ## Survival Tips
 
 - Build a base (or drop Plot Sign). **Bases never decay** (must be removed by user).
-- Protect your loot with a [storage safe](#metal-safe-storage). Stores up to 40 items. Requires explosives to raid.
+- Protect your loot with a [storage safe](https://steamcommunity.com/sharedfiles/filedetails/?id=2787400078). Stores up to 40 items.
 - Carry Antibiotics (Alien venom remedy) which can be purchased in the safe zone.
 - Aliens spawn everywhere, including indoors. Be careful when searching loot.
 - Only melee Aliens in tight areas. In most cases, long rifles are preferred.
