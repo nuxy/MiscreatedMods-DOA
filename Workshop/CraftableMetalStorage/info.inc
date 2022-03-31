@@ -1,4 +1,4 @@
-TITLE="D.O.A. ★ Craftable Metal Storage"
+TITLE="D.O.A. ★ Craftable Metal Storage Mod"
 DESCRIPTION=$(cat << EOF
 Tired of losing your hard-earned loot. Secure your most precious items in a safe.
 

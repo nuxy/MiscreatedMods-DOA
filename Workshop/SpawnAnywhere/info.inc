@@ -1,4 +1,4 @@
-TITLE="D.O.A. ★ Spawn Anywhere"
+TITLE="D.O.A. ★ Spawn Anywhere Mod"
 DESCRIPTION=$(cat << EOF
 Create custom Spawn Points that override in-game defaults.
 

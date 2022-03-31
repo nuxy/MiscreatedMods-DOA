@@ -1,4 +1,4 @@
-TITLE="D.O.A. ★  Glasses Repair Kit"
+TITLE="D.O.A. ★  Glasses Repair Kit Mod"
 DESCRIPTION=$(cat << EOF
 [h1] Mod Info [/h1]
 [list]
