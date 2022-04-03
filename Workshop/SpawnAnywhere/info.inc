@@ -5,6 +5,7 @@ Create custom Spawn Points that override in-game defaults.
 [h1] Mod Info [/h1]
 [list]
   [*]Can be managed using the [i]Chat console[/i].
+  [*]Restricted to whitelisted Steam IDs.
   [*]Supports unlimited instances.
 [/list]
 
@@ -22,7 +23,8 @@ Create custom Spawn Points that override in-game defaults.
 [/list]
 
 [h1] Installation [/h1]
-Add this module to your game server [b]hosting.cfg[/b]. Note the UGC order below.
+1. Add a file called [i]admins.txt[/i] that contains a list of [i]64BITSTEAMID[/i] (one-per line).  This file should be [b]placed in the root[/b] of the Miscreated game directory.
+2. Add this module to your game server [b]hosting.cfg[/b]. Note the UGC order below.
 [code] steam_ugc=1942750114,1841357578,2787415227 [/code]
 EOF
 )
