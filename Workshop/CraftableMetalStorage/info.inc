@@ -14,6 +14,9 @@ Tired of losing your hard-earned loot. Secure your most precious items in a safe
 [h1] Installation [/h1]
 Add this module to your game server [b]hosting.cfg[/b]
 [code] steam_ugc=2787400078 [/code]
+
+[h1] Located In [/h1]
+Inventory > Base Building > Structures > Storage
 EOF
 )
 CHANGENOTE="[url=https://github.com/nuxy/MiscreatedMods-DOA]Github project[/url]"
