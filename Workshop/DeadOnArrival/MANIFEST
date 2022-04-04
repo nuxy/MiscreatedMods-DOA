@@ -83,6 +83,7 @@ GameSDK/Scripts/Entities/Items/XML/Weapons/Throwable/C4TimedPickup.xml
 GameSDK/Scripts/Entities/Items/XML/Weapons/Melee/Sledgehammer.xml
 GameSDK/Scripts/Entities/Items/XML/basebuilding/PlotSign.xml
 GameSDK/Scripts/Entities/Items/XML/basebuilding/metal/safe.xml
+GameSDK/Scripts/mods/FreeTaxiTeleport.lua
 GameSDK/Scripts/mods/RandomSpawnPoint.lua
 GameSDK/Scripts/mods/SpawnWorldEvent.lua
 GameSDK/Scripts/mods/EquipPlayer.lua
