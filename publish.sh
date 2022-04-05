@@ -83,6 +83,10 @@ git describe --abbrev=0 > $PWD/VERSION
 
 7za a -tzip -mx0 "$TMPDIR/$workshop.pak" @"$package/MANIFEST" LICENSE VERSION
 
+if [ $? != 0 ]; then
+    exit 1
+fi
+
 #
 # Create VDF reference.
 #
