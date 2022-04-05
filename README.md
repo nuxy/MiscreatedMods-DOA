@@ -19,22 +19,27 @@ Modifications for the [Miscreated](https://miscreatedgame.com) **D.O.A. ★ Alie
 
 .. and [many others](https://github.com/nuxy/MiscreatedMods-DOA/commits/master).
 
-## Dependencies
+## Bundled Workshops
+
+The following mods are bundled with this workshop which can also be installed independently on your game server.
+
+- [Alien Invasion](https://steamcommunity.com/sharedfiles/filedetails/?id=2787393227)
+- [Craftable Metal Storage](https://steamcommunity.com/sharedfiles/filedetails/?id=2787400078)
+- [Glasses Repair Kit](https://steamcommunity.com/sharedfiles/filedetails/?id=2787407832)
+- [Spawn Anywhere](https://steamcommunity.com/sharedfiles/filedetails/?id=2787415227)
+
+## Other Dependencies
 
 The following third-party [Miscreated Workshop](https://steamcommunity.com/app/299740/workshop) mods _should be installed_ prior to this package.  These packages are used to enhance the game experience and in some cases have been extended with additional functionality.  Required packages have been identified accordingly, all others being optional.
 
 - [mFramework](https://steamcommunity.com/sharedfiles/filedetails/?id=1942750114) (Required)
 - [MisDB](https://steamcommunity.com/sharedfiles/filedetails/?id=1841357578) (Required)
-- [Alien Invasion](https://steamcommunity.com/sharedfiles/filedetails/?id=2787393227)
 - [Amalgamated Terminal](https://steamcommunity.com/sharedfiles/filedetails/?id=2444612166)
 - [Base Building Expansion](https://steamcommunity.com/sharedfiles/filedetails/?id=1699198355)
 - [Climates of Orca](https://steamcommunity.com/sharedfiles/filedetails/?id=1807643206)
-- [Craftable Metal Storage](https://steamcommunity.com/sharedfiles/filedetails/?id=2787400078)
 - [Craftable Tents](https://steamcommunity.com/sharedfiles/filedetails/?id=1739418619)
-- [Glasses Repair Kit](https://steamcommunity.com/sharedfiles/filedetails/?id=2787407832)
 - [Landscaping](https://steamcommunity.com/sharedfiles/filedetails/?id=1673502088)
 - [PVP/PVE Stats](https://steamcommunity.com/sharedfiles/filedetails/?id=1879915972) (Required)
-- [Spawn Anywhere](https://steamcommunity.com/sharedfiles/filedetails/?id=2787415227)
 
 See [hosting.cfg](https://github.com/nuxy/MiscreatedMods-DOA/blob/master/hosting.cfg) for more information.
 
