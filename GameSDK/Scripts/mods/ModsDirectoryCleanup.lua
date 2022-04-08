@@ -1,6 +1,8 @@
 --
+-- Create a Shortcut link when the user exits the game.
+--
 -- This process works as follows:
---   1) Create/run BATCH script when client to disconnects from the server.
+--   1) Create/run BATCH script when game client disconnects from the server.
 --   2) BATCH creates new VB script to create Shortcut LNK on user Desktop.
 --   3) Execute, cleanup, and Profit!
 --

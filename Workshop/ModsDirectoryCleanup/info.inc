@@ -13,6 +13,9 @@ Due to a bug in the Miscreated game client you must exit to menu (e.g. “Leave 
 
 Also note, [b]the mod UGC can be removed at any time[/b] once the [i]Shortcut link[/i] has been created.  If left enabled the process will be skipped until the Desktop [i]Shortcut link[/i] is removed.
 
+[h1] Compatibility [/h1]
+While I'm only able to reproduce the issue in [i]Windows 10[/i], based on the many complaints I have read, this seems to be common in other Windows releases.  That said, this package likely works in [i]Windows 7[/i] but has not been tested nor confirmed.
+
 [h1] Installation [/h1]
 Add this module to your game server [b]hosting.cfg[/b]
 [code] steam_ugc=2790920967 [/code]
