@@ -25,6 +25,7 @@ The following mods are bundled with this workshop which can also be installed in
 
 - [Alien Invasion](https://steamcommunity.com/sharedfiles/filedetails/?id=2787393227)
 - [Craftable Metal Storage](https://steamcommunity.com/sharedfiles/filedetails/?id=2787400078)
+- [FreeTaxiTeleport](https://steamcommunity.com/sharedfiles/filedetails/?id=2789568378)
 - [Glasses Repair Kit](https://steamcommunity.com/sharedfiles/filedetails/?id=2787407832)
 - [Spawn Anywhere](https://steamcommunity.com/sharedfiles/filedetails/?id=2787415227)
 
