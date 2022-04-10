@@ -1,4 +1,4 @@
-GameSDK/Scripts/GameRules/ChatCommands/SpawnPoints.lua
 GameSDK/Scripts/GameRules/AccessControl.lua
+GameSDK/Scripts/GameRules/ChatCommands/SpawnPoints.lua
 GameSDK/Scripts/Utils/MisDB.lua
 GameSDK/Scripts/mods/RandomSpawnPoint.lua
