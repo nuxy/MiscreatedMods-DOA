@@ -10,12 +10,12 @@
 
 	<ricochet>
 		<param name="sound" value="Play_spider_acid_hit" />
-		<param name="distance" value="10.0" />
+		<param name="distance" value="2.0" />
 	</ricochet>
 
 	<whiz>
 		<param name="sound" value="Play_torch_melee_3p"/>
-		<param name="distance" value="10.0"/>
+		<param name="distance" value="1.0"/>
 	</whiz>
 
 	<physics type="rigid">
