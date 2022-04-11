@@ -52,6 +52,25 @@ local function DeleteLocation(id)
 	return str
 end
 
+-- Teleport player to location by record ID.
+local function TestLocation(player, id)
+	local str = "No location record found."
+
+	if not IsEmptyCollection(DB, "LocationCollection") then
+		local data = GetPageData(DBCollection, id)
+
+		if data ~= nil then
+			g_Vectors.temp_v1.x = tonumber(data["posX"])
+			g_Vectors.temp_v1.y = tonumber(data["posY"])
+			g_Vectors.temp_v1.z = tonumber(data["posZ"])
+
+			player.player:TeleportTo(g_Vectors.temp_v1)
+		end
+	end
+
+	return str
+end
+
 -- Return list of spawn point locations as string.
 local function GetLocations()
 	local str = "There are no locations defined."
@@ -92,6 +111,7 @@ ChatCommands["!sp"] = function(playerId, args)
 Supported Commands
   !sp save <name>
   !sp delete <RECORDID>
+  !sp test <RECORDID>
   !sp list
 ]]
 
@@ -102,6 +122,10 @@ Supported Commands
 
 			if action == "delete" then
 				message = DeleteLocation(arg)
+			end
+
+			if action == "test" then
+				message = TestLocation(player, arg)
 			end
 		else
 			if action == "list" then
