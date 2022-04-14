@@ -15,6 +15,7 @@ If the player has a base (and dies) they will be [b]respawned at the Plot Sign p
 [code]
 !sp save <name>
 !sp delete <RECORDID>
+!sp test <RECORDID>
 !sp list
 [/code]
 
