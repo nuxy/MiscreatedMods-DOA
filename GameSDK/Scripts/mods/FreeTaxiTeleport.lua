@@ -8,9 +8,10 @@ Miscreated.PerformAction = function(self, srcId, objId, name)
 	--Log(">> Miscreated.PerformAction")
 
 	if name == "@teleport_to_base" then
-		local player = System.GetEntity(srcId);
+		local player = System.GetEntity(srcId)
+
 		if (player and player.IsActionable) then
-			return player.player:RequestTeleportToBase(0);
+			return player.player:RequestTeleportToBase(0)
 		end
 	end
 
