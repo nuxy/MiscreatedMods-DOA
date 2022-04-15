@@ -45,6 +45,8 @@ ECHO link.WorkingDirectory = "%GAMEDIR%" >> %TMPOUT%
 ECHO link.TargetPath = "C:\Windows\System32\cmd.exe" >> %TMPOUT%
 ECHO link.Arguments = "/c RMDIR /s /q %GAMEDIR%\Mods & %GAMEDIR%\Miscreated.exe" >> %TMPOUT%
 ECHO link.IconLocation = "C:\Program Files (x86)\Steam\steam\games\1ae20339de3855d8b1eb362854b49428132c96a0.ico" >> %TMPOUT%
+ECHO link.WindowStyle = 7 >> %TMPOUT%
+
 ECHO link.Save >> %TMPOUT%
 
 CSCRIPT %TMPOUT%
