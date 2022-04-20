@@ -21,7 +21,6 @@ If the player has a base (and dies) they will be [b]respawned at the Plot Sign p
 
 [h1] Dependencies [/h1]
 [list]
-  [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=1942750114]mFramework[/url]
   [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=1841357578]MisDB[/url]
 [/list]
 
@@ -30,7 +29,7 @@ If the player has a base (and dies) they will be [b]respawned at the Plot Sign p
   [*]Add a file called [i]admins.txt[/i] that contains a list of [i]64BITSTEAMID[/i] (one-per line).  This file should be [b]placed in the root[/b] of the Miscreated game directory.
   [*]Add this module to your game server [b]hosting.cfg[/b]. Note the UGC order below.
 [/olist]
-[code] steam_ugc=1942750114,1841357578,2787415227 [/code]
+[code] steam_ugc=1841357578,2787415227 [/code]
 EOF
 )
 CHANGENOTE="[url=https://github.com/nuxy/MiscreatedMods-DOA]Github project[/url]"
