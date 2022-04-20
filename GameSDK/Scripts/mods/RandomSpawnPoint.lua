@@ -7,8 +7,8 @@ local DBCollection = DB:Collection("LocationCollection")
 --
 -- Support for custom player spawns.
 --
-RegisterCallback(Miscreated, "InitPlayer", nil,
-	function(playerId)
+RegisterCallback(Miscreated, "InitPlayer",
+	function(self, playerId)
 		--Log(">> Miscreated:InitPlayer")
 
 		local player = System.GetEntity(playerId)

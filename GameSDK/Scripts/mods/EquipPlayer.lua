@@ -3,8 +3,8 @@ Script.ReloadScript("scripts/gamerules/AccessControl.lua")
 ---
 -- Equip player with custom items.
 --
-RegisterCallback(Miscreated, "EquipPlayer", nil,
-	function(playerId)
+RegisterCallback(Miscreated, "EquipPlayer",
+	function(self, playerId)
 		--Log(">> Miscreated:EquipPlayer")
 
 		local player = System.GetEntity(playerId)
