@@ -17,7 +17,7 @@ RegisterCallback(Miscreated, "InitPlayer",
 			local pos = {x=0, y=0, z=0}
 			local rot = {x=0, y=0, z=0}
 
-			-- Spawn at base PlotSign position.
+			-- Spawn at base PlotSign when "Repawn At Base" is selected.
 			for _, plotsign in ipairs(BaseBuildingSystem:GetPlotSigns()) do
 				local steamId = player.player:GetSteam64Id()
 
