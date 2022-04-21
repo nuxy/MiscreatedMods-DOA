@@ -1,14 +1,14 @@
 Script.ReloadScript("scripts/MisDB/MisDB.lua")
 Script.ReloadScript("scripts/utils/MisDB.lua")
 
-local DB = MisDB:Create("SpawnPointDB/", "SpawnPointData")
-local DBCollection = DB:Collection("LocationCollection")
-
 --
 -- Support for custom player spawns.
 --
 RegisterCallbackReturnAware(Miscreated, "InitPlayer",
 	function(self, ret, playerId)
+		local DB = MisDB:Create("SpawnPointDB/", "SpawnPointData")
+		local DBCollection = DB:Collection("LocationCollection")
+
 		local player = System.GetEntity(playerId)
 
 		if player and player.player then
