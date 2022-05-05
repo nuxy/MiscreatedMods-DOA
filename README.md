@@ -33,7 +33,6 @@ The following mods are bundled with this workshop which can also be installed in
 
 The following third-party [Miscreated Workshop](https://steamcommunity.com/app/299740/workshop) mods _should be installed_ prior to this package.  These packages are used to enhance the game experience and in some cases have been extended with additional functionality.  Required packages have been identified accordingly, all others being optional.
 
-- [mFramework](https://steamcommunity.com/sharedfiles/filedetails/?id=1942750114) (Required)
 - [MisDB](https://steamcommunity.com/sharedfiles/filedetails/?id=1841357578) (Required)
 - [Amalgamated Terminal](https://steamcommunity.com/sharedfiles/filedetails/?id=2444612166)
 - [Base Building Expansion](https://steamcommunity.com/sharedfiles/filedetails/?id=1699198355)
@@ -62,8 +61,8 @@ END;
 ## Survival Tips
 
 - Build a base (or drop Plot Sign). **Bases never decay** (must be removed by user).
-- Protect your loot with a [storage safe](https://steamcommunity.com/sharedfiles/filedetails/?id=2787400078). Stores up to 40 items.
-- Carry Antibiotics (Alien venom remedy) which can be purchased in the safe zone.
+- Protect your loot with a [Storage Safe](https://steamcommunity.com/sharedfiles/filedetails/?id=2787400078). Stores up to 40 items.
+- Carry Antibiotics (Alien venom remedy) which can be purchased in the [Safe Zone](https://store.steampowered.com/news/app/299740/view/2463980472079899483).
 - Aliens spawn everywhere, including indoors. Be careful when searching loot.
 - Only melee Aliens in tight areas. In most cases, long rifles are preferred.
 - In many cases running (strafe left/right) is your best defense.
