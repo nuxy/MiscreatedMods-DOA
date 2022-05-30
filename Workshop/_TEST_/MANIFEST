@@ -1,1 +1,8 @@
-
+GameSDK/Scripts/Entities/Items/RemoteInventory.lua
+GameSDK/Scripts/Entities/Items/RemoteInventoryStorage.lua
+GameSDK/Scripts/Entities/Items/XML/basebuilding/misc/RemoteInventory.xml
+GameSDK/Scripts/Entities/Items/XML/basebuilding/misc/RemoteInventoryStorage.xml
+GameSDK/Scripts/Entities/Items/XML/basebuilding/misc/RemoveInventoryStorage_packed.xml
+GameSDK/Scripts/GameRules/ChatCommands/RemoteInventory.lua
+GameSDK/Scripts/mods/RemoteInventory.lua
+GameSDK/Scripts/Recipes/mods/RemoteInventory.xml
