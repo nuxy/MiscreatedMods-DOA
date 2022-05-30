@@ -1,0 +1,18 @@
+<item name="RemoteInventoryStorage" class="BaseBuildingItem" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="-1"/>
+	</params>
+
+	<geometry>
+		<thirdperson name="objects/basebuilding/wood/locked_crate_large.cgf"/>
+	</geometry>
+
+	<storage>
+		<types>
+			<type category="any" capacity="120"/>
+		</types>
+	</storage>
+
+</item>

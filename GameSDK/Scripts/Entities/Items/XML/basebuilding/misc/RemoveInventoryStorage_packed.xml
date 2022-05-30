@@ -1,0 +1,23 @@
+<item name="RemoteInventoryStorage_packed" class="Placeable" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="6"/>
+		<param name="display_name" value="Remote Inventory"/>
+	</params>
+
+	<base_part class="entity" type="7634" name="RemoteInventoryStorage_packed" max_health="1000000" limit="1" repair_sound="Play_wall_repair">
+		<entity class="RemoteInventoryStorage"/>
+	</base_part>
+
+	<geometry>
+		<thirdperson name="objects/basebuilding/wood/wood_part.cgf"/>
+	</geometry>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+		</locations>
+	</storage>
+
+</item>
