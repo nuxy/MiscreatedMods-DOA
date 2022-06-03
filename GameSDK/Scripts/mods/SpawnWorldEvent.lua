@@ -25,7 +25,7 @@ SpawnWorldEvent = function(self)
 	local spawnedEntity = System.SpawnEntity(spawnParams)
 
 	if not spawnedEntity then
-		LogError("% entity could not be spawned", className)
+		LogError("Entity %s could not be spawned", className)
 	end
 
 	-- Set timer up for the next world event.
