@@ -33,15 +33,6 @@ GameSDK/Scripts/Entities/Items/XML/guides/guide_weapons_ranged_1.xml
 GameSDK/Scripts/Entities/Items/XML/guides/guide_weapons_ranged_2.xml
 GameSDK/Scripts/Entities/Items/XML/guides/guide_weapons_ranged_3.xml
 GameSDK/Scripts/Entities/Items/XML/RepairKits/RK_Glasses.xml
-GameSDK/Scripts/Entities/Items/XML/Seeds/SeedsBeets.xml
-GameSDK/Scripts/Entities/Items/XML/Seeds/SeedsBrushPeas.xml
-GameSDK/Scripts/Entities/Items/XML/Seeds/SeedsCarrots.xml
-GameSDK/Scripts/Entities/Items/XML/Seeds/SeedsPotatoes.xml
-GameSDK/Scripts/Entities/Items/XML/Seeds/SeedsPumpkins.xml
-GameSDK/Scripts/Entities/Items/XML/Seeds/SeedsRadishes.xml
-GameSDK/Scripts/Entities/Items/XML/Seeds/SeedsSnapPeas.xml
-GameSDK/Scripts/Entities/Items/XML/Seeds/SeedsTomatoes.xml
-GameSDK/Scripts/Entities/Items/XML/Seeds/SeedsWatermelons.xml
 GameSDK/Scripts/Entities/Items/XML/Weapons/Melee/Sledgehammer.xml
 GameSDK/Scripts/Entities/Items/XML/Weapons/Throwable/C4TimedPickup.xml
 GameSDK/Scripts/Entities/Items/XML/Weapons/Throwable/GrenadePickup.xml
