@@ -2,7 +2,9 @@
 
 Modifications for the [Miscreated](https://miscreatedgame.com) **D.O.A. ★ Alien Invasion ★ PVP/PVE** [game server](https://miscreated-servers.com/server/16803).
 
-![Alien Invasion](https://raw.githubusercontent.com/nuxy/MiscreatedMods-DOA/master/Workshop/DeadOnArrival/preview.png)
+![Steam Demo](https://raw.githubusercontent.com/nuxy/MiscreatedMods-DOA/master/Artwork/demo.gif)
+
+“It was a battleground of fear and curiosity.” - H.G. Wells, The War of the Worlds
 
 ## Notable Changes
 
