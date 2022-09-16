@@ -32,9 +32,6 @@ Modifications for the [b]Miscreated D.O.A. ★ Alien Invasion ★ PVP/PVE[/b] ga
 [h1] Known Issues [/h1]
 [b] Inventory items (Vendor, Storage - Not backpacks) are messed up, or missing [/b]
 This is due to a bug [i]in the Miscreated client[/i], not the workshop itself. When you connect from an existing i3D-hosted or third-party server the inventory cache gets corrupted. To mitigate this you need to connect to the game server using a new client session (i.e. launch game, connect to server).
-
-[b] Death when searching a Large Plane Crash (air drop) [/b]
-This is due to a bug in the [url=https://steamcommunity.com/workshop/filedetails/?id=1987245557]Large Plane Crash workshop[/url].  Entities may not always being on solid footing (e.g. flatland), or invisible (floating) debris exists which leads to being crushed.  As such the [i]module has been removed[/i] as a dependency of this workshop.
 EOF
 )
 CHANGENOTE="[url=https://github.com/nuxy/MiscreatedMods-DOA]Github project[/url]"

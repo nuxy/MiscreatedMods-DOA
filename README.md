@@ -76,10 +76,6 @@ END;
 
 This is due to a bug _in the Miscreated client_, not the workshop itself. When you connect from an existing i3D hosted or third-party server the inventory cache gets corrupted. To mitigate this you need to connect to the game server using a new client session (i.e. launch game, connect to server).
 
-### Death when searching a Large Plane Crash (air drop)
-
-This is due to a bug in the [Large Plane Crash workshop](https://steamcommunity.com/workshop/filedetails/?id=1987245557).  Entities may not always being on solid footing (e.g. flatland), or invisible (floating) debris exists which leads to being crushed.  As such the _module has been removed_ as a dependency of this workshop.
-
 ## References
 
 - [CRYENGINE 3 Manual](https://docs.cryengine.com/display/SDKDOC2/Home)
