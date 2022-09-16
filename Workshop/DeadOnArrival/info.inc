@@ -2,7 +2,7 @@ TITLE="D.O.A. ★ Alien Invasion ★ PVP/PVE"
 DESCRIPTION=$(cat << EOF
 Modifications for the [b]Miscreated D.O.A. ★ Alien Invasion ★ PVP/PVE[/b] game server.
 
-[url=https://github.com/nuxy/MiscreatedMods-DOA#miscreatedmods-doa]Project source[/url] ★ [url=https://miscreated-servers.com/server/16803]Game server[/url]
+[url=https://github.com/nuxy/MiscreatedMods-DOA#miscreatedmods-doa]Project source[/url] ★ [url=https://miscreated-servers.com/server/17768]Game server[/url]
 
 [h1] Notable Changes [/h1]
 [list]

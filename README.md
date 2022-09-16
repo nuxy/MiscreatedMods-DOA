@@ -1,6 +1,6 @@
 # MiscreatedMods-DOA
 
-Modifications for the [Miscreated](https://miscreatedgame.com) **D.O.A. ★ Alien Invasion ★ PVP/PVE** [game server](https://miscreated-servers.com/server/16803).
+Modifications for the [Miscreated](https://miscreatedgame.com) **D.O.A. ★ Alien Invasion ★ PVP/PVE** [game server](https://miscreated-servers.com/server/17768).
 
 ![Steam Demo](https://raw.githubusercontent.com/nuxy/MiscreatedMods-DOA/master/Artwork/demo.gif)
 
