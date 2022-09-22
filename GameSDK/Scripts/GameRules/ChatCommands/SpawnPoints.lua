@@ -24,10 +24,10 @@ local function SaveLocation(player, name)
 	local locationInfo =
 	{
 		["name"] = name,
-		["posX"] = tostring(pos.x);
-		["posY"] = tostring(pos.y);
-		["posZ"] = tostring(pos.z);
-		["posR"] = tostring(rot.z);
+		["posX"] = tostring(pos.x),
+		["posY"] = tostring(pos.y),
+		["posZ"] = tostring(pos.z),
+		["posR"] = tostring(rot.z),
 	}
 
 	SetPageData(DBCollection, locationInfo)
@@ -72,14 +72,18 @@ local function TestLocation(player, id)
 end
 
 -- Return list of spawn point locations as string.
-local function GetLocations()
+local function GetLocations(groupNum)
+	groupNum = tonumber(groupNum) or 1
+
 	local str = "There are no locations defined."
 
 	if not IsEmptyCollection(DB, "LocationCollection") then
-		str = "Spawn Point Locations\n"
-		
 		local lastInsertId = GetLastInsertId(DBCollection)
+		local itemsPerGroup = 10
 
+		local results = {}
+
+		-- Group items (SendTextMessage workaround).
 		for i = 1, lastInsertId do
 			local data = GetPageData(DBCollection, i)
 
@@ -89,7 +93,26 @@ local function GetLocations()
 				str = str .. "Y: " .. data["posY"] .. "\n"
 				str = str .. "Z: " .. data["posZ"] .. "\n"
 				str = str .. "R: " .. data["posR"] .. "\n\n"
+
+				if i == lastInsertId or i % itemsPerGroup == 0 then
+					table.insert(results, str)
+
+					str = ""
+				end
 			end
+		end
+
+		-- Construct per-group results.
+		local resultCount = count(results)
+
+		if groupNum <= resultCount then
+			str = "Spawn Point Locations\n\n"
+			str = str .. results[groupNum]
+			str = str .. string.format(
+				"Showing group %s of %s\n\n", groupNum, resultCount
+			)
+		else
+			str = "No data for group\n\n"
 		end
 	end
 
@@ -112,7 +135,7 @@ Supported Commands
   !sp save <name>
   !sp delete <RECORDID>
   !sp test <RECORDID>
-  !sp list
+  !sp list <GROUPNUM>
 ]]
 
 		if IsValidInput(arg) then
@@ -122,6 +145,10 @@ Supported Commands
 
 			if action == "delete" then
 				message = DeleteLocation(arg)
+			end
+
+			if action == "list" then
+				message = GetLocations(arg)
 			end
 
 			if action == "test" then
