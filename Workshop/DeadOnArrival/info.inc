@@ -12,7 +12,7 @@ Modifications for the [b]Miscreated D.O.A. ★ Alien Invasion ★ PVP/PVE[/b] ga
   [*]Updated Plot Sign total items/build radius.
   [*]Updated noob player Spawn Point equipment/inventory items.
   [*][b]Build anywhere, no restrictions[/b].
-  [*]Higher frequency of Random Air Drops, Plane and UFO crashes.
+  [*]Higher frequency of hard to find Loot (craftable).
   [*]Updated Food/Random Vendor purchaseable options.
   [*]Updated enemy/horde spawning probability.
   [*]Various Crafting UI improvements, Chat Console additions.
