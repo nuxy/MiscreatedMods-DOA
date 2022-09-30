@@ -7,7 +7,6 @@ Script.ReloadScript("scripts/utils/MisDB.lua")
 RegisterCallbackReturnAware(Miscreated, "InitPlayer",
 	function(self, ret, playerId)
 		local DB = MisDB:Create("SpawnPointDB/", "SpawnPointData")
-		local DBCollection = DB:Collection("LocationCollection")
 
 		local player = System.GetEntity(playerId)
 
@@ -30,6 +29,8 @@ RegisterCallbackReturnAware(Miscreated, "InitPlayer",
 
 			-- Spawn at Admin defined location.
 			if IsNullVector(pos) and not IsEmptyCollection(DB, "LocationCollection") then
+				local DBCollection = DB:Collection("LocationCollection")
+
 				local data = GetRandomPage(DBCollection)
 
 				if data ~= nil then
