@@ -74,7 +74,9 @@ END;
 
 ### Inventory items (Vendor, Storage - Not backpacks) are messed up, or missing
 
-This is due to a bug _in the Miscreated client_, not the workshop itself. When you connect from an existing i3D hosted or third-party server the inventory cache gets corrupted. To mitigate this you need to connect to the game server using a new client session (i.e. launch game, connect to server).
+This is due to a bug _in the Miscreated client_, not the workshop itself.  When you connect from an existing i3D hosted or third-party server the inventory cache gets corrupted.  To mitigate this you need to connect to the game server using a new client session (i.e. launch game, connect to server).
+
+That being said, I have created the module [Mods Directory Cleanup](https://steamcommunity.com/sharedfiles/filedetails/?id=2790920967) for this exact purpose.
 
 ## References
 
