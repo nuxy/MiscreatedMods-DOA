@@ -5,13 +5,13 @@ UFOCrash = {
 	Server = {},
 
 	Properties = {
-		mass = 4000,
+		mass = 3000,
 
 		fileModel = "Objects/props/ufo_event/ufo.cgf",
 		fileModelCrashed = "Objects/props/ufo_event/ufo.cgf",
 
-		fTravelHeight = 3500, -- meters
-		fTravelSpeed= 25, -- m/s
+		fTravelHeight = 1500, -- meters
+		fTravelSpeed= 50, -- m/s
 
 		fStartPercentRange = 0.8, -- middle percent of map plane can start in
 		fFinishPercentRange = 0.8, -- middle percent of map plane can finish at
@@ -94,6 +94,8 @@ SpawnUFOCrashLoot = function(self)
 
 	-- Items that spawn in when the plane crashes
 	ISM.SpawnCategory("UFOCrashCrate", vSpawnPos)
+	ISM.SpawnCategory("UFOCrashCrate", vSpawnPos)
+	ISM.SpawnCategory("UFOCrashCrate", vSpawnPos)
 end
 
 -- Spawn the horde
@@ -108,5 +110,5 @@ SpawnAI = function(self)
 	local vSpawnPos = {x=0,y=0,z=0}
 	FastSumVectors(vSpawnPos, vForwardOffset, self:GetWorldPos())
 
-	AISM.SpawnHorde(vSpawnPos, "horde")
+	AISM.SpawnHorde(vSpawnPos, "brute_pack")
 end
