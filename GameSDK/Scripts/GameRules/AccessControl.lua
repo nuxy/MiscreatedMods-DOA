@@ -6,13 +6,16 @@
 
 function IsAdminPlayer(steamId)
 	local fh = io.open("./admins.txt", "r")
-	local text = fh:read("*all")
 
-	for line in string.gmatch(text, "[^\r\n]+") do
-		m = string.match(line, "%d+")
+	if fh then
+		local text = fh:read("*all")
 
-		if m == steamId then
-			return true
+		for line in string.gmatch(text, "[^\r\n]+") do
+			m = string.match(line, "%d+")
+
+			if m == steamId then
+				return true
+			end
 		end
 	end
 
