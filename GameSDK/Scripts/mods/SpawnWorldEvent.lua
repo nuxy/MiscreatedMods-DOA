@@ -2,8 +2,8 @@
 -- Support for the world events to spawn.
 --
 
-Miscreated.Properties.WorldEvent.fMaxTime = 1800
-Miscreated.Properties.WorldEvent.fMinTime = 1200
+Miscreated.Properties.WorldEvent.fMaxTime = 3600
+Miscreated.Properties.WorldEvent.fMinTime = 2400
 
 SpawnWorldEvent = function(self)
 	--Log(">> Miscreated:SpawnWorldEvent")
