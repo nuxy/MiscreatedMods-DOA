@@ -110,5 +110,5 @@ SpawnAI = function(self)
 	local vSpawnPos = {x=0,y=0,z=0}
 	FastSumVectors(vSpawnPos, vForwardOffset, self:GetWorldPos())
 
-	AISM.SpawnHorde(vSpawnPos, "brute_pack")
+	AISM.SpawnHorde(vSpawnPos, "horde")
 end
