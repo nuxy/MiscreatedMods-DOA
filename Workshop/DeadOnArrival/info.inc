@@ -11,7 +11,7 @@ Modifications for the [b]Miscreated D.O.A. ★ Alien Invasion ★ PVP/PVE[/b] ga
   [*]Balanced Apple, Berries, and Water availabity.
   [*]Updated Plot Sign total items/build radius.
   [*]Updated noob player Spawn Point equipment/inventory items.
-  [*][b]Build anywhere, no restrictions[/b].
+  [*][b]Build anywhere, no restrictions[/b] (bases never decay).
   [*]Higher frequency of hard to find Loot (craftable).
   [*]Updated Food/Random Vendor purchaseable options.
   [*]Updated enemy/horde spawning probability.
