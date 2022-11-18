@@ -13,7 +13,7 @@ Modifications for the [Miscreated](https://miscreatedgame.com) **D.O.A. ★ Alie
 - Balanced Apple, Berries, and Water availabity.
 - Updated Plot Sign total items/build radius.
 - Updated noob player Spawn Point equipment/inventory items.
-- Build anywhere, **no restrictions**.
+- Build anywhere, **no restrictions** (bases never decay).
 - Higher frequency of hard to find Loot (craftable).
 - Updated Food/Random Vendor purchaseable options.
 - Updated enemy/horde spawning probability.
@@ -26,6 +26,7 @@ Modifications for the [Miscreated](https://miscreatedgame.com) **D.O.A. ★ Alie
 The following mods are bundled with this workshop which can also be installed independently on your game server.
 
 - [Alien Invasion](https://steamcommunity.com/sharedfiles/filedetails/?id=2787393227)
+- [Base Decay Disabler](https://steamcommunity.com/sharedfiles/filedetails/?id=2890240581)
 - [Craftable Metal Storage](https://steamcommunity.com/sharedfiles/filedetails/?id=2787400078)
 - [FreeTaxiTeleport](https://steamcommunity.com/sharedfiles/filedetails/?id=2789568378)
 - [Glasses Repair Kit](https://steamcommunity.com/sharedfiles/filedetails/?id=2787407832)
@@ -45,21 +46,6 @@ The following third-party [Miscreated Workshop](https://steamcommunity.com/app/2
 - [PVP/PVE Stats](https://steamcommunity.com/sharedfiles/filedetails/?id=1879915972) (Required)
 
 See [hosting.cfg](https://github.com/nuxy/MiscreatedMods-DOA/blob/master/hosting.cfg) for more information.
-
-## PlotSign Decay
-
-While you cannot fully disable _PlotSign_ decay, you can update the `AbandonTimer` when character actions occur.  This ensures that as long as any player accesses the game server within a 28 day window, the decay timeout **will be extended by another 28 days for ALL bases**.
-
-NOTE: The following SQL statement must be executed on the `miscreated.db` [SQLite](https://www.sqlite.org/index.html) database.
-
-```sql
-CREATE TRIGGER PlotSignUpdate AFTER UPDATE ON Characters
-BEGIN
-    UPDATE Structures SET
-        AbandonTimer = 2500000
-    WHERE ClassName = "PlotSign";
-END;
-```
 
 ## Survival Tips
 
