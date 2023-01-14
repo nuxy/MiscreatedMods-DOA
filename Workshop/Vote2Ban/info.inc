@@ -4,8 +4,8 @@ Using the [i]Chat console[/i] initiate a vote to ban cheaters, game hackers, or 
 
 [h1] Commands [/h1]
 [code]
-!vb player <name>
-!vb players
+!vb ban <name>
+!vb list <GROUPNUM>
 [/code]
 
 [h1] Dependencies [/h1]

@@ -1,1 +1,3 @@
+GameSDK/Scripts/GameRules/ChatCommands/Vote2Ban.lua
 GameSDK/Scripts/Utils/MisDB.lua
+GameSDK/Scripts/mods/Vote2Ban.lua
