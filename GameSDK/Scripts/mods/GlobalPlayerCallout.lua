@@ -1,7 +1,7 @@
 --
 -- Globally callout connecting players.
 --
-function Miscreated.Server:OnClientEnteredGame(channelId, player, loadingSaveGame)
+function Miscreated.Server:OnClientEnteredGame(channelId, player)
 	--Log(">> Miscreated.Server:OnClientEnteredGame")
 
 	local message = player:GetName() .. " has entered the game"
