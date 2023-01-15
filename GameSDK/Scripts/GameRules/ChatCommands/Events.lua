@@ -3,8 +3,12 @@ Script.LoadScript("scripts/gamerules/AccessControl.lua")
 Script.ReloadScript("scripts/MisDB/MisDB.lua")
 Script.ReloadScript("scripts/utils/MisDB.lua")
 
-local DB = MisDB:Create("ChatReportDB/", "ChatReportData")
-local DBCollection = DB:Collection("EventCollection")
+local DB, DBCollection
+
+if CryAction.IsDedicatedServer() then
+	DB = MisDB:Create("ChatReportDB/", "ChatReportData")
+	DBCollection = DB:Collection("EventCollection")
+end
 
 -- Check string is contains valid console input.
 local function IsValidInput(v)

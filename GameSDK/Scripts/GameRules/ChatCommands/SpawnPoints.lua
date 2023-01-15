@@ -3,8 +3,12 @@ Script.LoadScript("scripts/gamerules/AccessControl.lua")
 Script.ReloadScript("scripts/MisDB/MisDB.lua")
 Script.ReloadScript("scripts/utils/MisDB.lua")
 
-local DB = MisDB:Create("SpawnPointDB/", "SpawnPointData")
-local DBCollection = DB:Collection("LocationCollection")
+local DB, DBCollection
+
+if CryAction.IsDedicatedServer() then
+	DB = MisDB:Create("SpawnPointDB/", "SpawnPointData")
+	DBCollection = DB:Collection("LocationCollection")
+end
 
 -- Check string is contains valid console input.
 local function IsValidInput(v)
