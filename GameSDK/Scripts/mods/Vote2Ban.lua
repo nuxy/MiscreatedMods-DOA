@@ -9,6 +9,23 @@ if CryAction.IsDedicatedServer() then
 end
 
 --
+-- Force system exit for banned players.
+--
+local forceExit = function(playerId)
+	local message = "You are banned on this server. Exiting"
+
+	g_gameRules.game:SendTextMessage(0, playerId, message)
+
+	local delayExit = function()
+		player.actor:ShutDown()
+
+		System.Quit()
+	end
+
+	Script.SetTimerForFunction(2000, delayExit)
+end
+
+--
 -- Write player to database on game entry.
 --
 function Miscreated.Server:OnClientEnteredGame(channelId, player)
@@ -27,17 +44,8 @@ function Miscreated.Server:OnClientEnteredGame(channelId, player)
 			if data ~= nil and data["steamId"] == steamId then
 				found = true
 
-				-- Force system exit for banned players.
 				if data["status"] == "banned" then
-					g_gameRules.game:SendTextMessage(0, player.id, "You are banned on this server. Exiting")
-
-					local forceExit = function()
-						player.actor:ShutDown()
-
-						System.Quit()
-					end
-
-					Script.SetTimerForFunction(2000, forceExit)
+					forceExit(player.id)
 				end
 			end
 		end
