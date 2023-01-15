@@ -60,6 +60,9 @@ end
 --
 function PurgePageData(DBCollection, id)
 	DBCollection:PurgePage("record_" .. id)
+
+	-- Force table state IO update.
+	DBCollection.parent.db:save()
 end
 
 --
