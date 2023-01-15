@@ -29,7 +29,7 @@ end
 -- Write player to database on game entry.
 --
 function Miscreated.Server:OnClientEnteredGame(channelId, player)
-	Log(">> Miscreated.Server:OnClientEnteredGame")
+	--Log(">> Miscreated.Server:OnClientEnteredGame")
 
 	local steamId = player.player:GetSteam64Id()
 
@@ -68,7 +68,7 @@ end
 -- Remove player from database on exit.
 --
 function Miscreated.Server:OnClientDisconnect(channelId)
-	Log(">> Miscreated.Server:OnClientDisconnect")
+	--Log(">> Miscreated.Server:OnClientDisconnect")
 
 	if not IsEmptyCollection(DB, "PlayerCollection") then
 		local lastInsertId = GetLastInsertId(DBCollection)
