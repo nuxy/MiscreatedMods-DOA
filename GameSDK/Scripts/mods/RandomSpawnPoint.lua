@@ -6,6 +6,8 @@ Script.ReloadScript("scripts/utils/MisDB.lua")
 --
 RegisterCallbackReturnAware(Miscreated, "InitPlayer",
 	function(self, ret, playerId)
+		--Log(">> Miscreated:InitPlayer")
+
 		local DB = MisDB:Create("SpawnPointDB/", "SpawnPointData")
 
 		local player = System.GetEntity(playerId)
