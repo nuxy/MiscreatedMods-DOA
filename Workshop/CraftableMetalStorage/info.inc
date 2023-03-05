@@ -17,6 +17,9 @@ Add this module to your game server [b]hosting.cfg[/b]
 
 [h1] Located In [/h1]
 Inventory > Base Building > Structures > Storage
+
+[h1] Reporting issues [/h1]
+If you are experiencing an issue, or found a bug, you can [url=https://github.com/nuxy/MiscreatedMods-DOA/issues]report it here[/url].
 EOF
 )
 CHANGENOTE="[url=https://github.com/nuxy/MiscreatedMods-DOA]Github project[/url]"

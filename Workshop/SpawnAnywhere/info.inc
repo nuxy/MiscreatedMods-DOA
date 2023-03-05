@@ -30,6 +30,9 @@ If the player has a base (and dies) they will be [b]respawned at the Plot Sign p
   [*]Add this module to your game server [b]hosting.cfg[/b]. Note the UGC order below.
 [/olist]
 [code] steam_ugc=1841357578,2787415227 [/code]
+
+[h1] Reporting issues [/h1]
+If you are experiencing an issue, or found a bug, you can [url=https://github.com/nuxy/MiscreatedMods-DOA/issues]report it here[/url].
 EOF
 )
 CHANGENOTE="[url=https://github.com/nuxy/MiscreatedMods-DOA]Github project[/url]"
