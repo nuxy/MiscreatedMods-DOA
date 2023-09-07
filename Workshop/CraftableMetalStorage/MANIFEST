@@ -1,3 +1,5 @@
 GameSDK/Libs/UI/Inventory/item_images/safe_48.png
 GameSDK/Scripts/Entities/Items/XML/basebuilding/metal/safe.xml
+GameSDK/Scripts/Recipes/Recipes.xml
+GameSDK/Scripts/Recipes/mods/CraftingDefaults.xml
 GameSDK/Scripts/Recipes/mods/CraftableMetalStorage.xml

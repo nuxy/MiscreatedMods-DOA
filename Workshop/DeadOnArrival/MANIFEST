@@ -55,6 +55,7 @@ GameSDK/Scripts/Recipes/mods/BaseBuildingExpansion.xml
 GameSDK/Scripts/Recipes/mods/ChristmasHolidayItems.xml
 GameSDK/Scripts/Recipes/mods/CraftableMetalStorage.xml
 GameSDK/Scripts/Recipes/mods/CraftableTents.xml
+GameSDK/Scripts/Recipes/mods/CraftingDefaults.xml
 GameSDK/Scripts/Recipes/mods/EasterHolidayItems.xml
 GameSDK/Scripts/Recipes/mods/HalloweenHolidayItems.xml
 GameSDK/Scripts/Recipes/Recipes.xml
