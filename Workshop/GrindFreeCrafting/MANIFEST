@@ -1,0 +1,6 @@
+GameSDK/Libs/UI/Inventory/item_images/GrindFreeCrafting_48.png
+GameSDK/Scripts/Entities/Items/XML/GrindFreeCrafting.xml
+GameSDK/Scripts/mods/GrindFreeCrafting.lua
+GameSDK/Scripts/Recipes/mods/CraftingDefaults.xml
+GameSDK/Scripts/Recipes/mods/GrindFreeCrafting.xml
+GameSDK/Scripts/Recipes/Recipes.xml

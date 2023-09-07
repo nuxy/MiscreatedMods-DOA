@@ -1,0 +1,2426 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<recipes>
+	<guide name="default" id="0">
+		<cats>
+			<cat name="Weapons">
+				<subcats>
+					<subcat name="Ranged">
+						<items>
+							<item class="CraftedBow" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="CraftedPistol" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="CraftedLongPistol" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="CraftedRifle9mm" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="CraftedSMG" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="CraftedPistol556" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="CraftedRifleLong" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="CraftedShortRifle556" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="CraftedShortShotgun" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="CraftedShotgun" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+						</items>
+					</subcat>
+					<subcat name="Components">
+						<items>
+							<item class="Gunpowder" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="C4Bricks" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="BioFuel" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="PipeMetal" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+						</items>
+					</subcat>
+					<subcat name="Ammo">
+						<items>
+							<item class="Pile_9mm" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="Pile_12GaugePellet" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="Pile_556x45" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+						</items>
+					</subcat>
+					<subcat name="Magazines">
+						<items>
+							<item class="9mmx10" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="STANAGx30" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="Crafted_AmmoBox_12Gauge_Slug" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="Crafted_AmmoBox_12Gauge_Pellet" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="Crafted_AmmoBox_12Gauge_Beanbag" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="Crafted_AmmoBox_10mm" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="Crafted_AmmoBox_22" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="Crafted_AmmoBox_223" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="Crafted_AmmoBox_308" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="Crafted_AmmoBox_357" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="Crafted_AmmoBox_5_45x39" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="Crafted_AmmoBox_5_56x45" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="Crafted_AmmoBox_5_70x28" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="Crafted_AmmoBox_7_62x39" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="Crafted_AmmoBox_7_62x51" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="Crafted_AmmoBox_9mm" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="Crafted_AmmoBox_acp_45" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+						</items>
+					</subcat>
+					<subcat name="Traps">
+						<items>
+							<item class="TrapSmokeGrenadeGreenPacked" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="TrapSmokeGrenadeWhitePacked" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="TrapSmokeGrenadeRedPacked" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="TrapSmokeGrenadeMagentaPacked" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="TrapSmokeGrenadeYellowPacked" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="TrapCansPacked" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="TrapFlarePacked" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="TrapMolotovPacked" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<!-- 2 Meters -->
+							<item class="TrapCans2mPacked" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="TrapFlare2mPacked" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="TrapMolotov2mPacked" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="TrapSmokeGrenadeGreenPacked2m" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="TrapSmokeGrenadeWhitePacked2m" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="TrapSmokeGrenadeRedPacked2m" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="TrapSmokeGrenadeMagentaPacked2m" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="TrapSmokeGrenadeYellowPacked2m" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="TrapGrenadeFragPacked" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="TrapTearGrenadePacked" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<!-- 2 Meter -->
+							<item class="TrapGrenadeFrag2mPacked" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="TrapTearGrenadePacked2m" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="TrapC4Packed" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="TrapShotgunSidePacked" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="TrapSleepGrenadePacked" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="TrapNerveGrenadePacked" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="TrapPipebombPacked" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="TrapPropanePacked" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<!-- 2 meter -->
+							<item class="TrapC4Packed2m" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="TrapShotgunSide2mPacked" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="TrapSleepGrenadePacked2m" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="TrapNerveGrenadePacked2m" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="TrapPipebombPacked2m" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="TrapPropanePacked2m" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+						</items>
+					</subcat>
+					<subcat name="Arrows and Bolts">
+						<items>
+							<item class="CraftedArrowx8_0000" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="CraftedArrowx8_F000" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="CraftedArrowx8_000P" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="CraftedArrowx8_00R0" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="CraftedArrowx8_00RP" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="CraftedArrowx8_0B00" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="CraftedArrowx8_0B0P" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="CraftedArrowx8_0BR0" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="CraftedArrowx8_0BRP" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="Arrowx8" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="Arrowx8_F000" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="Arrowx8_000P" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="Arrowx8_00R0" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="Arrowx8_00RP" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="Arrowx8_0B00" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="Arrowx8_0B0P" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="Arrowx8_0BR0" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="Arrowx8_0BRP" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="CraftedExplosiveArrowx8_0000" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="ExplosiveArrowx8_0000" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="Boltx5_0000" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="Boltx5_F000" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="Boltx5_000P" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="Boltx5_00R0" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="Boltx5_00RP" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="Boltx5_0B00" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="Boltx5_0B0P" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="Boltx5_0BR0" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="Boltx5_0BRP" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+						</items>
+					</subcat>
+					<subcat name="Throwable">
+						<items>
+							<item class="GrenadeMolotovPickup" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="PipebombPickup" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="C4TimedPickup" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+						</items>
+					</subcat>
+					<subcat name="Melee">
+						<items>
+							<item class="BaseballBatNails" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="BaseballBatScrapNails" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="NailsPaddle" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="WoodPaddle" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="NailKnuckles" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="FahQPaddle" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="BaseballBatSawBlade" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="BaseballBatSawBladeNails" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+						</items>
+					</subcat>
+					<subcat name="Attachments">
+						<items>
+							<item class="FlashlightRifle" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="CraftedPistolSilencer" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="CraftedSilencer" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+						</items>
+					</subcat>
+				</subcats>
+			</cat>
+			<cat name="Base Building">
+				<subcats>
+					<subcat name="Components">
+						<items>
+							<item class="Lumber" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="StickPile" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="SheetMetal" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="Nails" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="PlotSignPacked" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="power_pole" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+						</items>
+					</subcat>
+					<subcat name="Decorations">
+						<types>
+							<type name="Flags">
+								<items>
+									<item class="flagpole_amalgamated" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="flagpole_amalgamated_glow" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="flagpole_america" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="flagpole_australia" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="flagpole_black" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="flagpole_blue" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="flagpole_canada" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="flagpole_capitalmunch" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="flagpole_china" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="flagpole_donut_glow" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="flagpole_france" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="flagpole_germany" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="flagpole_green" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="flagpole_ironsons" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="flagpole_japan" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="flagpole_pink" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="flagpole_pirate" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="flagpole_red" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="flagpole_russia" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="flagpole_smiley_glow" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="flagpole_uk" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="flagpole_white" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="flagpole_brazil" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="flagpole_sweden" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="flagpole_slovenia" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="flagpole_poland" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="flagpole_mexico" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="flagpole_holland" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="flagpole_spain" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="flagpole_turkey" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="flagpole_israel" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="flagpole_south_africa" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="flagpole_algeria" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="flagpole_finland" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="flagpole_austria" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="flagpole_india" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="flagpole_indonesia" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+								</items>
+							</type>
+							<type name="Lights">
+								<items>
+									<item class="tiki_torch" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wall_lantern" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="candle_animal_fat_small" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="candle_animal_fat_large" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="powered_work_light" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="powered_work_light_blue" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="powered_work_light_green" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="powered_work_light_pink" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="powered_work_light_red" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="powered_work_light_yellow" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+								</items>
+							</type>
+							<type name="Trophy">
+								<items>
+									<item class="trophy_deer_female" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="trophy_deer_male" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="trophy_wolf" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+								</items>
+							</type>
+							<type name="Rugs">
+								<items>
+									<item class="crafted_rug_01" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="crafted_rug_02" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="crafted_rug_03" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="crafted_rug_04" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="crafted_rug_05" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="crafted_rug_06" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="crafted_rug_07" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="crafted_rug_08" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="crafted_rug_09" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="crafted_rug_10" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="crafted_rug_11" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="rug_wolf_pelt" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="rug_bear_pelt" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+								</items>
+							</type>
+							<type name="Games">
+								<items>
+									<item class="tictactoe_board" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="snl_board" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="ninemens_board" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="o_piece" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="x_piece" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="token_white" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="token_black" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="piece_red" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="piece_blue" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="piece_green" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="piece_yellow" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="piece_purple" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="piece_orange" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="ScriptDice" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+								</items>
+							</type>
+							<type name="Furniture">
+								<items>
+									<item class="metal_shelf" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_chair" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_table" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_shelf_1m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_shelf_2m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_shelf_3m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_shelf_modern" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_stool" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_bench" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_table_02" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_coffeetable" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="log_furniture_bench_a" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="log_furniture_bench_b" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="log_furniture_bench_c" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="log_furniture_table_a" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+								</items>
+							</type>
+						</types>
+					</subcat>
+					<subcat name="Utilities">
+						<items>
+							<item class="CampfirePacked" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="stone_furnace_packed" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="stone_fireplace_packed" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="propane_heater" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="workbench" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="water_collector" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="water_purifier" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="crafted_bed" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="powered_generator_small" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+						</items>
+					</subcat>
+					<subcat name="Structures">
+						<types>
+							<type name="Doors">
+								<items>
+									<item class="wood_door_1m_2m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_door_lockable_1m_2m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_door_lockable_02" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="garage_door_large" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_shutter_small_lockable" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_shutter_lockable_02" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_gate_lockable_3m_4m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+								</items>
+							</type>
+							<type name="Bridges">
+								<items>
+									<item class="wood_bridge_6m_12m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_bridge_9m_6m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_bridge_9m_12m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_bridge_3m_6m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_bridge_3m_12m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_bridge_6m_6m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_wall_drawbridge_3m_4m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_draw_bridge" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+								</items>
+							</type>
+							<type name="Farming">
+								<items>
+									<item class="planter_box" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+								</items>
+							</type>
+							<type name="Foundation">
+								<items>
+									<item class="rock_foundation_4m_4m_4m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="rock_foundation_2m_2m_4m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+								</items>
+							</type>
+							<type name="Shelter">
+								<items>
+									<item class="small_leanto" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="small_shelter_wall_1m_2m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="small_shelter_wall_1m_1_3m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="small_shelter_wall_2m_1_3m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="small_shelter_wall_2m_2m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="small_shelter_wall_4m_1_3m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="small_shelter_wall_4m_2m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="small_leanto_camo" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="small_shelter_wall_1m_2m_camo" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="small_shelter_wall_1m_1_3m_camo" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="small_shelter_wall_2m_1_3m_camo" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="small_shelter_wall_2m_2m_camo" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="small_shelter_wall_4m_1_3m_camo" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="small_shelter_wall_4m_2m_camo" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+								</items>
+							</type>
+							<type name="Other">
+								<items>
+									<item class="wood_target" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_toilet" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="tire_1m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="tire_1_3m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="tire_2m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_gallows" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_watchtower" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_watchtower_big" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_watchtower_tire" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_watchtower_tire_big" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_gatehouse" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+								</items>
+							</type>
+							<type name="Columns">
+								<items>
+									<item class="wood_column_1_3m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_column_2m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_column_3m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_column_4m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_column_torch_1_3m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_column_torch_2m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_column_torch_3m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_column_torch_4m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+								</items>
+							</type>
+							<type name="Ramps">
+								<items>
+									<item class="wood_ramp_0m_1_3m_1m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_ramp_0m_2m_1m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_ramp_1_3m_2m_1m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_ramp_0m_1_3m_3m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_ramp_0m_2m_3m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_ramp_1_3m_2m_3m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_ramp_2m_3m_1m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_ramp_1_3m_3m_1m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_ramp_1_3m_3m_3m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_ramp_2m_3m_3m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+								</items>
+							</type>
+							<type name="Traps">
+								<items>
+									<item class="metal_barbed_wire_2m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="metal_barbed_wire_4m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_punji_2m_2m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_punji_poison_2m_2m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_palisade_3m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+								</items>
+							</type>
+							<type name="Stairs">
+								<items>
+									<item class="wood_stairs_0m_1_3m_1_2m_1_6m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_stairs_0m_1_3m_4m_1_6m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_stairs_0m_1_3m_1m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_stairs_0m_2m_1m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_stairs_1_3m_2m_1m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_stairs_3m_4m_4m_02" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_stairs_0m_1_3m_3m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_stairs_0m_2m_3m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_stairs_1_3m_2m_3m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_stairs_2m_3m_1m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_stairs_1_3m_3m_1m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_stairs_1_3m_3m_3m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_stairs_2m_3m_3m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+								</items>
+							</type>
+							<type name="Storage">
+								<items>
+									<item class="wood_crate" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+								</items>
+							</type>
+							<type name="Platforms">
+								<items>
+									<item class="wood_walkway_1_3m_1m_1m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_walkway_1_3m_3m_1m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_walkway_1_3m_4m_4m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_walkway_3m_4m_4m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_walkway_3m_4m_4m_02" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_walkway_2m_1m_1m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_walkway_2m_3m_1m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_walkway_2m_4m_4m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_walkway_3m_1m_1m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_walkway_3m_3m_1m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_walkstairs_3m_4m_4m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_walkway_curve_1_3m_4m_4m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_walkway_curve_2m_4m_4m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_walkway_curve_3m_4m_4m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+								</items>
+							</type>
+							<type name="Walls">
+								<items>
+									<item class="wood_wall_1_3m_1m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_wall_3m_4m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_wall_3m_4m_02" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_wall_door_3m_4m_02" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_wall_window_3m_4m_02" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_wall_door_3m_4m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_wall_1_3m_2m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_wall_2m_1m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_wall_2m_2m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_wall_2m_4m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_wall_garage_large" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="sandbag_crafted_1m_1m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="sandbag_crafted_1m_3m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="sandbag_crafted_1m_3m_window" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="sandbag_crafted_1_3m_1m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="sandbag_crafted_1_3m_3m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="sandbag_crafted_1_3m_3m_window" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_ramp_wall_0m_1_3m_3m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_ramp_wall_0m_2m_3m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_ramp_wall_1_3m_2m_3m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_ramp_wall_1_3m_3m_3m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_ramp_wall_2m_3m_1m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_wall_1_3m_4m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_wall_3m_1m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_wall_3m_2m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_wall_window_3m_2m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_wall_window_3m_4m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+								</items>
+							</type>
+							<type name="Roofs">
+								<items>
+									<item class="wood_roof_1_3m_4m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_roof_3m_1m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_roof_3m_2m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_roof_2m_4m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_roof_3m_4m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_roof_trapdoor_3m_4m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_roof_murderhole_3m_2m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_roof_murderhole_3m_4m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_walkroof_3m_4m_4m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_roof_4m_4m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+								</items>
+							</type>
+						</types>
+					</subcat>
+				</subcats>
+			</cat>
+			<cat name="Equipment">
+				<subcats>
+					<subcat name="Bags">
+						<items>
+							<item class="HeadSack" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="horshoe_pack" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="CraftedFannyPack" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+						</items>
+					</subcat>
+					<subcat name="Components">
+						<items>
+							<item class="Rope" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="Rags" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+						</items>
+					</subcat>
+					<subcat name="Tools">
+						<items>
+							<item class="CraftedHammer" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="CraftedHatchet" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="CraftedPickaxe" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="FireDrill" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="Candle" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="Torch" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+						</items>
+					</subcat>
+					<subcat name="Medical">
+						<items>
+							<item class="AdvancedBandage" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="AntibioticBandage" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+						</items>
+					</subcat>
+					<subcat name="Clothing">
+						<items>
+							<item class="HeadbandAqua" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="HeadbandBlack" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="HeadbandBlue" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="HeadbandBrown" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="HeadbandCamoA" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="HeadbandCamoB" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="HeadbandCamoC" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="HeadbandCamoD" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="HeadbandGold" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="HeadbandGreen" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="HeadbandOrange" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="HeadbandPatternA" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="HeadbandPatternB" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="HeadbandPatternC" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="HeadbandPatternD" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="HeadbandPatternE" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="HeadbandPink" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="HeadbandPurple" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="HeadbandRainbow" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="HeadbandRed" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="HeadbandSilver" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="HeadbandWhite" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="HeadbandYellow" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="ScarfAqua" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="ScarfBlack" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="ScarfBlue" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="ScarfBrown" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="ScarfCamo1" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="ScarfCamo2" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="ScarfCamo3" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="ScarfCamo4" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="ScarfGold" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="ScarfGreen" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="ScarfOrange" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="ScarfPatternA" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="ScarfPatternB" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="ScarfPatternC" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="ScarfPatternD" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="ScarfPatternE" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="ScarfPink" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="ScarfPurple" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="ScarfRainbow" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="ScarfRed" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="ScarfSilver" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="ScarfWhite" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="ScarfYellow" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="FootballPadsSpiked" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+						</items>
+					</subcat>
+				</subcats>
+			</cat>
+			<cat name="Consumable">
+				<subcats>
+					<subcat name="Food">
+						<types>
+							<type name="Cured Meat">
+								<items>
+									<item class="BearMeatCured" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="DeerMeatSteakCured" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="DonkeyMeatSteakCured" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="RamMeatSteakCured" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="ScorpionMeatSteakCured" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="WolfMeatSteakCured" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="HamCured" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+								</items>
+							</type>
+							<type name="Sandwiches">
+								<items>
+									<item class="BearSandwich" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="ChickenSandwich" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="DeerSandwich" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="HamSandwich" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="WolfSandwich" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="JellySandwich" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="PBJSandwich" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="PeanutButterSandwich" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+								</items>
+							</type>
+							<type name="Roast">
+								<items>
+									<item class="RawSeasonedBearSteaks" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="RawSeasonedChicken" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="RawSeasonedDeerSteaks" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="RawSeasonedHamSteaks" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="RawSeasonedWolfSteaks" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+								</items>
+							</type>
+							<type name="Stew">
+								<items>
+									<item class="BearStewRaw" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="ChickenStewRaw" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="DeerStewRaw" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="HamStewRaw" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="WolfStewRaw" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="ClamChowderRaw" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="MushroomStewRaw" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="SeaweedSoupRaw" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="VeggieStewRaw" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+								</items>
+							</type>
+						</types>
+					</subcat>
+					<subcat name="Water">
+						<items>
+							<item class="WaterskinCraftedWolf" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="WaterskinCraftedDeer" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+						</items>
+					</subcat>
+					<subcat name="Drinks">
+						<items>
+							<item class="CocktailGinAndTonic" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="CocktailRedEye" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="CocktailWhiskeyCola" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="CocktailVodkaSmite" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="CocktailGinAndTonic" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+							<item class="BlackCoffeeCold" time="1">
+								<materials>
+									<material class="GrindFreeCrafting" count="1"/>
+								</materials>
+							</item>
+						</items>
+					</subcat>
+				</subcats>
+			</cat>
+		</cats>
+	</guide>
+</recipes>

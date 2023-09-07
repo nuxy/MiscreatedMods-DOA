@@ -1,0 +1,17 @@
+<item name="GrindFreeCrafting" class="Item" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="droppable" value="0"/>
+		<param name="stack_size" value="10000"/>
+		<param name="display_name" value="item"/>
+		<param name="description" value="Grind-Free crafting"/>
+	</params>
+
+	<storage>
+		<locations>
+			<location category="belt"/>
+		</locations>
+	</storage>
+
+</item>
