@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<recipes>
+	<guide name="default" id="0">
+		<cats>
+			<cat name="Base Building">
+				<subcats>
+					<subcat name="Structures">
+						<types>
+							<type name="Platforms">
+								<items>
+									<item class="Glass_Platform_HMS_3x16x16" time="3">
+										<materials>
+											<material class="ScrapMetal" count="16"/>
+											<material class="SheetMetal" count="12"/>
+											<material class="Nails" count="6"/>
+										</materials>
+									</item>	
+									<item class="Glass_Platform_HMS_3x12x12" time="3">
+										<materials>
+											<material class="ScrapMetal" count="12"/>
+											<material class="SheetMetal" count="8"/>
+											<material class="Nails" count="4"/>
+										</materials>
+									</item>	
+									<item class="Glass_Platform_HMS_3x8x8" time="3">
+										<materials>
+											<material class="ScrapMetal" count="8"/>
+											<material class="SheetMetal" count="4"/>
+											<material class="Nails" count="2"/>
+										</materials>
+									</item>	
+									<item class="Glass_Platform_HMS_3x4x4" time="3">
+										<materials>
+										<material class="ScrapMetal" count="6"/>
+											<material class="SheetMetal" count="2"/>
+											<material class="Nails" count="2"/>
+										</materials>
+									</item>	
+									<item class="Glass_Platform_HMS_0x16x16" time="3">
+										<materials>
+											<material class="ScrapMetal" count="16"/>
+											<material class="SheetMetal" count="12"/>
+											<material class="Nails" count="8"/>
+										</materials>
+									</item>	
+									<item class="Glass_Platform_HMS_0x12x12" time="3">
+										<materials>
+											<material class="ScrapMetal" count="12"/>
+											<material class="SheetMetal" count="8"/>
+											<material class="Nails" count="6"/>
+										</materials>
+									</item>	
+									<item class="Glass_Platform_HMS_0x8x8" time="3">
+										<materials>
+											<material class="ScrapMetal" count="8"/>
+											<material class="SheetMetal" count="8"/>
+											<material class="Nails" count="4"/>
+										</materials>
+									</item>	
+									<item class="Glass_Platform_HMS_0x4x4" time="3">
+										<materials>
+											<material class="ScrapMetal" count="6"/>
+											<material class="SheetMetal" count="2"/>
+											<material class="Nails" count="2"/>
+										</materials>
+									</item>	
+								</items>
+							</type>
+						</types>
+					</subcat>
+				</subcats>
+			</cat>
+		</cats>
+	</guide>
+</recipes>

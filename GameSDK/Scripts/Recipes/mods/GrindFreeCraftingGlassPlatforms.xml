@@ -2,7 +2,7 @@
 <recipes>
 	<guide name="default" id="0">
 		<cats>
-			<cat name="Base Building Expansion">
+			<cat name="Base Building">
 				<subcats>
 					<subcat name="Structures">
 						<types>

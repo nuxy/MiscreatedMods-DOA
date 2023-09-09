@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<recipes>
+<!--
+Module defaults (customizations*) have been moved:
+  mods/GlassNationZUpdates.xml
+
+(*) This file overrides crafting menu recipes and
+relocates items to the game default category.
+-->
+</recipes>
