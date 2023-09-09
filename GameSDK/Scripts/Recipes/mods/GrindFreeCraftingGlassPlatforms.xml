@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<recipes>
+	<guide name="default" id="0">
+		<cats>
+			<cat name="Base Building Expansion">
+				<subcats>
+					<subcat name="Structures">
+						<types>
+							<type name="Platforms">
+								<items>
+									<item class="Glass_Platform_HMS_3x16x16" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>	
+									<item class="Glass_Platform_HMS_3x12x12" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>	
+									<item class="Glass_Platform_HMS_3x8x8" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>	
+									<item class="Glass_Platform_HMS_3x4x4" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>	
+									<item class="Glass_Platform_HMS_0x16x16" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>	
+									<item class="Glass_Platform_HMS_0x12x12" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>	
+									<item class="Glass_Platform_HMS_0x8x8" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>	
+									<item class="Glass_Platform_HMS_0x4x4" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>	
+								</items>
+							</type>
+						</types>
+					</subcat>
+				</subcats>
+			</cat>
+		</cats>
+	</guide>
+</recipes>
