@@ -1,0 +1,572 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<recipes>
+	<guide name="default" id="0">
+		<cats>
+			<cat name="Base Building">
+				<subcats>
+					<subcat name="Decorations">
+						<types>
+							<type name="Lights">
+								<items>
+									<item class="camping_lantern_red" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="camping_lantern_blue" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="camping_lantern_aqua" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="camping_lantern_green" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="camping_lantern_orange" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="camping_lantern_pink" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="camping_lantern_purple" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="camping_lantern_yellow" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wall_lantern_red" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wall_lantern_blue" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wall_lantern_aqua" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wall_lantern_green" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wall_lantern_orange" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wall_lantern_pink" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wall_lantern_purple" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wall_lantern_yellow" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+								</items>
+							</type>
+							<type name="Furniture">
+								<items>
+									<item class="porkchop_folding_table_large" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="porkchop_coffeetable" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="porkchop_couch_bunker" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="porkchop_couch" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="porkchop_chair" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="porkchop_chest_of_drawers_old_crate_packed" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="porkchop_classic_chair_old" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="porkchop_classic_table_old" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="porkchop_elegant_chair_2_old" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="porkchop_elegant_chair_2_ottoman_old" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="porkchop_elegant_chair_old" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="porkchop_elegant_chair_ottoman_old" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="porkchop_leather_armchair_old" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="porkchop_leather_chair_old" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="porkchop_leather_sofa_2_old" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="porkchop_leather_sofa_old" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="porkchop_modern_armchair_old" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="porkchop_modern_sofa_old" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="porkchop_office_leather_chair_old" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="porkchop_round_table_old" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="porkchop_smallcouch" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="porkchop_wood_table_a" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="porkchop_guestchair" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="porkchop_armchair" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="porkchop_table_2" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+								</items>
+							</type>
+						</types>
+					</subcat>
+					<subcat name="Structures">
+						<types>
+							<type name="Gatehouse">
+								<items>
+									<item class="metal_gate_lockable_6m_5_4m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="metal_gatehouse_8m_8m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_gatehouse_double" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_gate_lockable_6m_4m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+								</items>
+							</type>
+							<type name="Metal">
+								<items>
+									<item class="metal_aframe_3m_4m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="metal_door_lockable_1m_2m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="metal_gatehouse_4m_8m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="metal_gate_lockable_3m_5_4m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="metal_steam_stand" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="metal_wall_1_3m_2m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="metal_wall_1_3m_4m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="metal_wall_2m_2m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="metal_wall_2m_4m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="metal_wall_3m_2m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="metal_wall_3m_4m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="metal_wall_door_3m_4m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="metal_wall_window_3m_2m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="metal_wall_window_3m_4m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+								</items>
+							</type>
+							<type name="Platforms">
+								<items>
+									<item class="wood_walkway_0m_4m_8m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_walkway_0m_4m_12m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_walkway_0m_4m_16m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_walkway_0m_8m_8m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_walkway_0m_8m_12m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_walkway_0m_8m_16m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_walkway_0m_12m_12m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_walkway_0m_16m_16m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_walkway_1_3m_4m_8m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_walkway_1_3m_4m_12m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_walkway_1_3m_4m_16m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_walkway_1_3m_8m_8m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_walkway_1_3m_8m_12m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_walkway_1_3m_8m_16m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_walkway_1_3m_12m_12m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_walkway_1_3m_16m_16m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_walkway_3m_4m_8m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_walkway_3m_4m_12m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_walkway_3m_4m_16m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_walkway_3m_8m_8m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_walkway_3m_8m_12m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_walkway_3m_8m_16m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_walkway_3m_12m_12m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_walkway_3m_16m_16m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_walkway_door_curved_3m_4m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_walkway_wall_curved_3m_4m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_walkway_window_curved_3m_4m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+								</items>
+							</type>
+							<type name="Roofs">
+								<items>
+									<item class="wood_roof_12m_12m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+								</items>
+							</type>
+							<type name="Walls">
+								<items>
+									<item class="rock_doorway_3m_4m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="rock_wall_3m_2m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="rock_wall_3m_4m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="rock_wall_4m_2m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="rock_wall_4m_4m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="rock_wall_window_3m_2m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="rock_wall_window_3m_4m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="rock_doorway_3m_4m_beamless" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="rock_wall_3m_2m_beamless" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="rock_wall_3m_4m_beamless" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="rock_wall_4m_2m_beamless" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="rock_wall_4m_4m_beamless" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="rock_wall_window_3m_2m_beamless" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="rock_wall_window_3m_4m_beamless" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_wall_3m_4m_90" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_wall_3m_8m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_wall_3m_12m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="wood_wall_3m_16m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+								</items>
+							</type>
+						</types>
+					</subcat>
+				</subcats>
+			</cat>
+		</cats>
+	</guide>
+</recipes>
