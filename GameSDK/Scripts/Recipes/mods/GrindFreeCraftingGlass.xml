@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<recipes>
+	<guide name="default" id="0">
+		<cats>
+			<cat name="Base Building Expansion">
+				<subcats>
+					<subcat name="Structures">
+						<types>
+							<type name="Glass Walls">
+								<items>
+									<item class="glass_doorway_3m_2m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="glass_doorway_3m_4m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>	
+									<item class="glass_doorway_3m_4m_side" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>	
+									<item class="glass_doorway_3m_4m_v2" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>	
+									<item class="glass_doorway_3m_8m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>	
+									<item class="glass_wall_1_3m_2m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>	
+									<item class="glass_wall_1_3m_4m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>	
+									<item class="glass_wall_1_3m_8m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>	
+									<item class="glass_wall_1_3m_12m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>	
+									<item class="glass_wall_1_3m_16m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>	
+									<item class="glass_wall_2m_2m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>	
+									<item class="glass_wall_2m_4m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>	
+									<item class="glass_wall_2m_8m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>	
+									<item class="glass_wall_2m_12m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>	
+									<item class="glass_wall_2m_16m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>	
+									<item class="glass_wall_3m_2m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>	
+									<item class="glass_wall_3m_4m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>	
+									<item class="glass_wall_3m_8m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>	
+									<item class="glass_wall_3m_12m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>	
+									<item class="glass_wall_3m_16m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+								</items>
+							</type>
+							<type name="Glass Doors">
+								<items>	
+									<item class="glass_door_2m_1m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>	
+									<item class="glass_door_3m_2m" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>
+									<item class="window" time="1">
+										<materials>
+											<material class="GrindFreeCrafting" count="1"/>
+										</materials>
+									</item>	
+								</items>
+							</type>
+						</types>
+					</subcat>
+				</subcats>
+			</cat>
+		</cats>
+	</guide>
+</recipes>
