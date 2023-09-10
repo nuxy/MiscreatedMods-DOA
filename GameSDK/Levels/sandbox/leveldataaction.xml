@@ -1,0 +1,5 @@
+<LevelDataAction SandboxVersion="3.8.4.20">
+ <Missions>
+  <Mission Name="Mission0" File="Mission_Mission0.xml" CGFCount="35" ProgressBarRange="35"/>
+ </Missions>
+</LevelDataAction>

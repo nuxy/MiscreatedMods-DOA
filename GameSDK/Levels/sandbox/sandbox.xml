@@ -1,0 +1,13 @@
+<MetaData>
+  <Attributes>
+    <loading_video value=""/>
+    <loading_image value=""/>
+    <unloading_image value=""/>
+    <DescriptionText text="@Loading_screen_info_islands"/>
+  </Attributes>
+  <Gamerules MP2="Miscreated"/>
+  <HeaderText text="sandbox"/>
+  <DescriptionText text="sandbox"/>
+  <Display Name="sandbox"/>
+  <MiniMap Filename="" startX="" startY="" endX="" endY="" width="" height=""/>
+</MetaData>
