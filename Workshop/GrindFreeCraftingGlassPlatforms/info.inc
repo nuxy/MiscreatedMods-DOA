@@ -12,13 +12,19 @@ Add items to your inventory in the craft manager using this module.
 
 [h1] Dependencies [/h1]
 [list]
-  [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3032452168]GrindFreeCrafting (defaults)[/url]
+  [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3032452168]Grind Free Crafting Mod (defaults)[/url]
   [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3000895891]Stoutman's Glass Platforms[/url]
 [/list]
 
 [h1] Installation [/h1]
 Add this module to your game server [b]hosting.cfg[/b]. Note the UGC order below.
 [code] steam_ugc=3000895891,3032452168,3032980350 [/code]
+
+[h1] Optional [/h1]
+[list]
+  [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3032829638]Grind-Free Crafting Mod (extended)[/url]
+  [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3032979138]Grind-Free Crafting Mod (NationZ Glass)[/url]
+[/list]
 
 [h1] Reporting issues [/h1]
 If you are experiencing an issue, or found a bug, you can [url=https://github.com/nuxy/MiscreatedMods-DOA/issues]report it here[/url].
