@@ -6,22 +6,22 @@
 				<subcats>
 					<subcat name="Components">
 						<items>
-							<item class="Charcoal" time="1">
+							<item class="Charcoal" time="0.5">
 								<materials>
 									<material class="GrindFreeCrafting" count="1"/>
 								</materials>
 							</item>
-							<item class="Pyrite" time="1">
+							<item class="Pyrite" time="0.5">
 								<materials>
 									<material class="GrindFreeCrafting" count="1"/>
 								</materials>
 							</item>
-							<item class="Sulphur" time="1">
+							<item class="Sulphur" time="0.5">
 								<materials>
 									<material class="GrindFreeCrafting" count="1"/>
 								</materials>
 							</item>
-							<item class="EmptyBottle" time="1">
+							<item class="EmptyBottle" time="0.5">
 								<materials>
 									<material class="GrindFreeCrafting" count="1"/>
 								</materials>
@@ -1147,97 +1147,97 @@
 				<subcats>
 					<subcat name="Components">
 						<items>
-							<item class="WoodPile" time="1">
+							<item class="WoodPile" time="0.5">
 								<materials>
 									<material class="GrindFreeCrafting" count="1"/>
 								</materials>
 							</item>
-							<item class="Rocks" time="1">
+							<item class="Rocks" time="0.5">
 								<materials>
 									<material class="GrindFreeCrafting" count="1"/>
 								</materials>
 							</item>
-							<item class="IronOre" time="1">
+							<item class="IronOre" time="0.5">
 								<materials>
 									<material class="GrindFreeCrafting" count="1"/>
 								</materials>
 							</item>
-							<item class="IronIngot" time="1">
+							<item class="IronIngot" time="0.5">
 								<materials>
 									<material class="GrindFreeCrafting" count="1"/>
 								</materials>
 							</item>
-							<item class="ScrapMetal" time="1">
+							<item class="ScrapMetal" time="0.5">
 								<materials>
 									<material class="GrindFreeCrafting" count="1"/>
 								</materials>
 							</item>
-							<item class="ElectricalParts" time="1">
+							<item class="ElectricalParts" time="0.5">
 								<materials>
 									<material class="GrindFreeCrafting" count="1"/>
 								</materials>
 							</item>
-							<item class="DuctTape" time="1">
+							<item class="DuctTape" time="0.5">
 								<materials>
 									<material class="GrindFreeCrafting" count="1"/>
 								</materials>
 							</item>
-							<item class="SolarPanelPiece" time="1">
+							<item class="SolarPanelPiece" time="0.5">
 								<materials>
 									<material class="GrindFreeCrafting" count="1"/>
 								</materials>
 							</item>
-							<item class="AnimalFat" time="1">
+							<item class="AnimalFat" time="0.5">
 								<materials>
 									<material class="GrindFreeCrafting" count="1"/>
 								</materials>
 							</item>
-							<item class="BarbedWireCoil" time="1">
+							<item class="BarbedWireCoil" time="0.5">
 								<materials>
 									<material class="GrindFreeCrafting" count="1"/>
 								</materials>
 							</item>
-							<item class="BearPelt" time="1">
+							<item class="BearPelt" time="0.5">
 								<materials>
 									<material class="GrindFreeCrafting" count="1"/>
 								</materials>
 							</item>
-							<item class="DeerPelt" time="1">
+							<item class="DeerPelt" time="0.5">
 								<materials>
 									<material class="GrindFreeCrafting" count="1"/>
 								</materials>
 							</item>
-							<item class="WolfPelt" time="1">
+							<item class="WolfPelt" time="0.5">
 								<materials>
 									<material class="GrindFreeCrafting" count="1"/>
 								</materials>
 							</item>
-							<item class="CamoNetting" time="1">
+							<item class="CamoNetting" time="0.5">
 								<materials>
 									<material class="GrindFreeCrafting" count="1"/>
 								</materials>
 							</item>
-							<item class="Plywood" time="1">
+							<item class="Plywood" time="0.5">
 								<materials>
 									<material class="GrindFreeCrafting" count="1"/>
 								</materials>
 							</item>
-							<item class="SawBlade" time="1">
+							<item class="SawBlade" time="0.5">
 								<materials>
 									<material class="GrindFreeCrafting" count="1"/>
 								</materials>
 							</item>
-							<item class="Tarp" time="1">
+							<item class="Tarp" time="0.5">
 								<materials>
 									<material class="GrindFreeCrafting" count="1"/>
 								</materials>
 							</item>
-							<item class="PropaneTank" time="1">
+							<item class="PropaneTank" time="0.5">
 								<materials>
 									<material class="GrindFreeCrafting" count="1"/>
 								</materials>
 							</item>
-							<item class="WorkLight" time="1">
+							<item class="WorkLight" time="0.5">
 								<materials>
 									<material class="GrindFreeCrafting" count="1"/>
 								</materials>

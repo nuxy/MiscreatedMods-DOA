@@ -60,22 +60,22 @@
 					</subcat>
 					<subcat name="Components">
 						<items>
-							<item class="Gunpowder" time="1">
+							<item class="Gunpowder" time="0.5">
 								<materials>
 									<material class="GrindFreeCrafting" count="1"/>
 								</materials>
 							</item>
-							<item class="C4Bricks" time="1">
+							<item class="C4Bricks" time="0.5">
 								<materials>
 									<material class="GrindFreeCrafting" count="1"/>
 								</materials>
 							</item>
-							<item class="BioFuel" time="1">
+							<item class="BioFuel" time="0.5">
 								<materials>
 									<material class="GrindFreeCrafting" count="1"/>
 								</materials>
 							</item>
-							<item class="PipeMetal" time="1">
+							<item class="PipeMetal" time="0.5">
 								<materials>
 									<material class="GrindFreeCrafting" count="1"/>
 								</materials>
@@ -594,32 +594,32 @@
 				<subcats>
 					<subcat name="Components">
 						<items>
-							<item class="Lumber" time="1">
+							<item class="Lumber" time="0.5">
 								<materials>
 									<material class="GrindFreeCrafting" count="1"/>
 								</materials>
 							</item>
-							<item class="StickPile" time="1">
+							<item class="StickPile" time="0.5">
 								<materials>
 									<material class="GrindFreeCrafting" count="1"/>
 								</materials>
 							</item>
-							<item class="SheetMetal" time="1">
+							<item class="SheetMetal" time="0.5">
 								<materials>
 									<material class="GrindFreeCrafting" count="1"/>
 								</materials>
 							</item>
-							<item class="Nails" time="1">
+							<item class="Nails" time="0.5">
 								<materials>
 									<material class="GrindFreeCrafting" count="1"/>
 								</materials>
 							</item>
-							<item class="PlotSignPacked" time="1">
+							<item class="PlotSignPacked" time="0.5">
 								<materials>
 									<material class="GrindFreeCrafting" count="1"/>
 								</materials>
 							</item>
-							<item class="power_pole" time="1">
+							<item class="power_pole" time="0.5">
 								<materials>
 									<material class="GrindFreeCrafting" count="1"/>
 								</materials>
@@ -1903,12 +1903,12 @@
 					</subcat>
 					<subcat name="Components">
 						<items>
-							<item class="Rope" time="1">
+							<item class="Rope" time="0.5">
 								<materials>
 									<material class="GrindFreeCrafting" count="1"/>
 								</materials>
 							</item>
-							<item class="Rags" time="1">
+							<item class="Rags" time="0.5">
 								<materials>
 									<material class="GrindFreeCrafting" count="1"/>
 								</materials>
