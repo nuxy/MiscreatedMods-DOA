@@ -5,6 +5,7 @@ GameSDK/Scripts/Entities/Events/UFOCrash.lua
 GameSDK/Scripts/Entities/Items/XML/Ammo/ammo_venom_spit.xml
 GameSDK/Scripts/Entities/Items/XML/basebuilding/metal/safe.xml
 GameSDK/Scripts/Entities/Items/XML/basebuilding/PlotSign.xml
+GameSDK/Scripts/Entities/Items/XML/basebuilding/PlotSignOverride.xml
 GameSDK/Scripts/Entities/Items/XML/Consumables/AppleFresh.xml
 GameSDK/Scripts/Entities/Items/XML/Consumables/BearMeatCooked.xml
 GameSDK/Scripts/Entities/Items/XML/Consumables/BeerCan.xml
