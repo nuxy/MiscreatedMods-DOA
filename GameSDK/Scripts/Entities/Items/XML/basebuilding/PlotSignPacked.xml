@@ -1,0 +1,24 @@
+<item name="PlotSignPacked" class="Placeable" category="any">
+
+	<params>
+			<param name="selectable" value="0"/>
+			<param name="mass" value="4"/>
+			<param name="display_name" value="Plot Sign XL (Extra Large Base)"/>
+			<param name="description" value="@PlotSignPackedDescription"/>
+	</params>
+
+	<placeable>
+			<param name="placed_class" value="PlotSign"/>
+	</placeable>
+
+	<geometry>
+			<thirdperson name="objects/basebuilding/wood/wood_part.cgf"/>
+	</geometry>
+
+	<storage>
+			<locations>
+					<location category="any"/>
+			</locations>
+	</storage>
+
+</item>
