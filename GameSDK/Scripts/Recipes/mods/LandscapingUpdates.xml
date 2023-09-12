@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<recipes>
+	<guide name="default" id="0">
+		<cats>
+			<cat name="Base Building">
+				<subcats>
+					<subcat name="Structures">
+						<types>
+							<type name="Doors">
+								<items>
+									<item class="porkchop_celldoor_lockable" time="4">
+										<materials>
+											<material class="ScrapMetal" count="5"/>
+										</materials>
+									</item>
+								</items>
+							</type>
+						</types>
+					</subcat>
+				</subcats>
+			</cat>
+			<cat name="Landscaping">
+				<subcats>
+					<subcat name="Forest">
+						<types>
+							<type name="Bushes">
+								<items>
+									<item class="bux_hedge_ball_big" time="2">
+										<materials>
+											<material class="StickPile" count="3"/>
+										</materials>
+									</item>
+									<item class="bux_hedge_ball_small" time="2">
+										<materials>
+											<material class="StickPile" count="1"/>
+										</materials>
+									</item>
+									<item class="bux_hedge_box_high" time="2">
+										<materials>
+											<material class="StickPile" count="3"/>
+										</materials>
+									</item>
+									<item class="bux_hedge_box_long_high" time="2">
+										<materials>
+											<material class="StickPile" count="4"/>
+										</materials>
+									</item>
+									<item class="bux_hedge_box_long_high_bend" time="2">
+										<materials>
+											<material class="StickPile" count="4"/>
+										</materials>
+									</item>
+									<item class="bux_hedge_box_long_low" time="2">
+										<materials>
+											<material class="StickPile" count="2"/>
+										</materials>
+									</item>
+									<item class="bux_hedge_box_long_low_bend" time="2">
+										<materials>
+											<material class="StickPile" count="2"/>
+										</materials>
+									</item>
+									<item class="bux_hedge_box_low" time="2">
+										<materials>
+											<material class="StickPile" count="1"/>
+										</materials>
+									</item>
+									<item class="bux_hedge_cylinder_high" time="2">
+										<materials>
+											<material class="StickPile" count="3"/>
+										</materials>
+									</item>
+									<item class="bux_hedge_cylinder_low" time="2">
+										<materials>
+											<material class="StickPile" count="1"/>
+										</materials>
+									</item>
+								</items>
+							</type>
+							<type name="Trees">
+								<items>
+									<item class="apple_tree_1" time="2">
+										<materials>
+											<material class="StickPile" count="5"/>
+											<material class="AppleFresh" count="1"/>
+										</materials>
+									</item>
+									<item class="apple_tree_2" time="2">
+										<materials>
+											<material class="StickPile" count="5"/>
+											<material class="AppleFresh" count="1"/>
+										</materials>
+									</item>
+									<item class="apple_tree_3" time="2">
+										<materials>
+											<material class="StickPile" count="5"/>
+											<material class="AppleFresh" count="1"/>
+										</materials>
+									</item>
+									<item class="cypress_medium_a" time="2">
+										<materials>
+											<material class="StickPile" count="2"/>
+										</materials>
+									</item>
+									<item class="cypress_medium_b" time="2">
+										<materials>
+											<material class="StickPile" count="2"/>
+										</materials>
+									</item>
+									<item class="cypress_big_a" time="2">
+										<materials>
+											<material class="StickPile" count="4"/>
+										</materials>
+									</item>
+									<item class="cypress_big_b" time="2">
+										<materials>
+											<material class="StickPile" count="4"/>
+										</materials>
+									</item>
+									<item class="cypress_xl_a" time="2">
+										<materials>
+											<material class="StickPile" count="6"/>
+										</materials>
+									</item>
+								</items>
+							</type>
+							<type name="Decor">
+								<items>
+									<item class="porkchop_bird_bath" time="2">
+										<materials>
+											<material class="Rocks" count="32"/>
+										</materials>
+									</item>
+								</items>
+							</type>
+							<type name="Interior Plants">
+								<items>
+									<item class="interior_plant_a_large" time="2">
+										<materials>
+											<material class="StickPile" count="5"/>
+										</materials>
+									</item>
+									<item class="interior_plant_a_medium" time="2">
+										<materials>
+											<material class="StickPile" count="4"/>
+										</materials>
+									</item>
+									<item class="interior_plant_b_large" time="2">
+										<materials>
+											<material class="StickPile" count="5"/>
+										</materials>
+									</item>
+									<item class="interior_plant_b_medium" time="2">
+										<materials>
+											<material class="StickPile" count="4"/>
+										</materials>
+									</item>
+									<item class="interior_plant_c_large" time="2">
+										<materials>
+											<material class="StickPile" count="5"/>
+										</materials>
+									</item>
+									<item class="interior_plant_c_small" time="2">
+										<materials>
+											<material class="StickPile" count="3"/>
+										</materials>
+									</item>
+									<item class="interior_plant_d_large" time="2">
+										<materials>
+											<material class="StickPile" count="5"/>
+										</materials>
+									</item>
+									<item class="interior_plant_e_large" time="2">
+										<materials>
+											<material class="StickPile" count="5"/>
+										</materials>
+									</item>
+								</items>
+							</type>
+						</types>
+					</subcat>
+					<subcat name="Desert">
+						<types>
+							<type name="Cholla Cacti">
+								<items>
+									<item class="porkchop_Cholla01" time="2">
+										<materials>
+											<material class="Rocks" count="10"/>
+										</materials>
+									</item>
+									<item class="porkchop_Cholla02" time="2">
+										<materials>
+											<material class="Rocks" count="10"/>
+										</materials>
+									</item>
+									<item class="porkchop_Cholla03" time="2">
+										<materials>
+											<material class="Rocks" count="10"/>
+										</materials>
+									</item>
+									<item class="porkchop_Cholla04" time="2">
+										<materials>
+											<material class="Rocks" count="10"/>
+										</materials>
+									</item>
+								</items>
+							</type>
+							<type name="Joshua Trees">
+								<items>
+									<item class="porkchop_JoshuaTree01" time="2">
+										<materials>
+											<material class="Rocks" count="10"/>
+										</materials>
+									</item>
+									<item class="porkchop_JoshuaTree02" time="2">
+										<materials>
+											<material class="Rocks" count="10"/>
+										</materials>
+									</item>
+									<item class="porkchop_JoshuaTree03" time="2">
+										<materials>
+											<material class="Rocks" count="10"/>
+										</materials>
+									</item>
+									<item class="porkchop_JoshuaTree04" time="2">
+										<materials>
+											<material class="Rocks" count="10"/>
+										</materials>
+									</item>
+								</items>
+							</type>
+							<type name="Juniper Trees">
+								<items>
+									<item class="porkchop_JuniperTree01" time="2">
+										<materials>
+											<material class="Rocks" count="10"/>
+										</materials>
+									</item>
+									<item class="porkchop_JuniperTree02" time="2">
+										<materials>
+											<material class="Rocks" count="10"/>
+										</materials>
+									</item>
+									<item class="porkchop_JuniperTree03" time="2">
+										<materials>
+											<material class="Rocks" count="10"/>
+										</materials>
+									</item>
+									<item class="porkchop_JuniperTree04" time="2">
+										<materials>
+											<material class="Rocks" count="10"/>
+										</materials>
+									</item>
+									<item class="porkchop_JuniperTree05" time="2">
+										<materials>
+											<material class="Rocks" count="10"/>
+										</materials>
+									</item>
+								</items>
+							</type>
+							<type name="Saguaro Cacti">
+								<items>
+									<item class="porkchop_Saguaro01" time="2">
+										<materials>
+											<material class="Rocks" count="10"/>
+										</materials>
+									</item>
+									<item class="porkchop_Saguaro02" time="2">
+										<materials>
+											<material class="Rocks" count="10"/>
+										</materials>
+									</item>
+									<item class="porkchop_Saguaro03" time="2">
+										<materials>
+											<material class="Rocks" count="10"/>
+										</materials>
+									</item>
+									<item class="porkchop_Saguaro04" time="2">
+										<materials>
+											<material class="Rocks" count="10"/>
+										</materials>
+									</item>
+									<item class="porkchop_Saguaro05" time="2">
+										<materials>
+											<material class="Rocks" count="10"/>
+										</materials>
+									</item>
+									<item class="porkchop_Saguaro06" time="2">
+										<materials>
+											<material class="Rocks" count="10"/>
+										</materials>
+									</item>
+									<item class="porkchop_SaguaroFl01" time="2">
+										<materials>
+											<material class="Rocks" count="10"/>
+										</materials>
+									</item>
+									<item class="porkchop_SaguaroFl02" time="2">
+										<materials>
+											<material class="Rocks" count="10"/>
+										</materials>
+									</item>
+									<item class="porkchop_SaguaroFl03" time="2">
+										<materials>
+											<material class="Rocks" count="10"/>
+										</materials>
+									</item>
+									<item class="porkchop_SaguaroFl04" time="2">
+										<materials>
+											<material class="Rocks" count="10"/>
+										</materials>
+									</item>
+									<item class="porkchop_SaguaroFl05" time="2">
+										<materials>
+											<material class="Rocks" count="10"/>
+										</materials>
+									</item>
+									<item class="porkchop_SaguaroFl06" time="2">
+										<materials>
+											<material class="Rocks" count="10"/>
+										</materials>
+									</item>
+								</items>
+							</type>
+						</types>
+					</subcat>
+				</subcats>
+			</cat>
+		</cats>
+	</guide>
+</recipes>
