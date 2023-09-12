@@ -8,7 +8,7 @@
 		<param name="display_name" value="Plot Sign XL (Extra Large Base)"/>
 	</params>
 
-	<placeable maxPartCount="600" buildRadiusXY="100" reserveRadiusXY="100" buildRadiusZ="120" reserveRadiusZ="120" maxRootDistance="-1">
+	<placeable maxPartCount="900" buildRadiusXY="100" reserveRadiusXY="100" buildRadiusZ="120" reserveRadiusZ="120" maxRootDistance="-1">
 		<param name="packup_class" value="PlotSignPacked"/>
 
 		<damage_multipliers>

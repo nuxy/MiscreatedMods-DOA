@@ -2,7 +2,7 @@ TITLE="D.O.A. ★ Plot Sign XL (Extra Large base)"
 DESCRIPTION=$(cat << EOF
 [h1] Mod Info [/h1]
 [list]
-  [*]Supports up to 600 base building items.
+  [*]Supports up to 900 base building items.
   [*]Base build radius has been increased.
 [/list]
 
