@@ -1,4 +1,4 @@
-TITLE="D.O.A. ★ Grind-Free Crafting Mod (Porkchop Sandwiches's Landscaping)"
+TITLE="D.O.A. ★ G.F.C. (Porkchop Sandwiches's Landscaping)"
 DESCRIPTION=$(cat << EOF
 Tired of aimlessly searching materials to create craftable items, weapons, etc.  Look no further.
 

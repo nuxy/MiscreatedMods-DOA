@@ -1,4 +1,4 @@
-TITLE="D.O.A. ★ Grind-Free Crafting Mod (Base Building Expansion)"
+TITLE="D.O.A. ★ G.F.C. (Base Building Expansion)"
 DESCRIPTION=$(cat << EOF
 Tired of aimlessly searching materials to create craftable items, weapons, etc.  Look no further.
 

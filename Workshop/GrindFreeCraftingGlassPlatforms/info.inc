@@ -1,4 +1,4 @@
-TITLE="D.O.A. ★ Grind-Free Crafting Mod (Stoutman's Glass Platforms)"
+TITLE="D.O.A. ★ G.F.C. (Stoutman's Glass Platforms)"
 DESCRIPTION=$(cat << EOF
 Tired of aimlessly searching materials to create craftable items, weapons, etc.  Look no further.
 
@@ -23,7 +23,7 @@ Add this module to your game server [b]hosting.cfg[/b]. Note the UGC order below
 [h1] Optional [/h1]
 [list]
   [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3032829638]Grind-Free Crafting Mod (extended)[/url]
-  [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3032979138]Grind-Free Crafting Mod (NationZ Glass)[/url]
+  [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3032979138]G.F.C. (NationZ Glass)[/url]
 [/list]
 
 [h1] Reporting issues [/h1]

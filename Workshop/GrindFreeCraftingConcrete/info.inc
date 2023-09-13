@@ -1,4 +1,4 @@
-TITLE="D.O.A. ★ Grind-Free Crafting Mod (EndtimeStories Concrete Crafting)"
+TITLE="D.O.A. ★ G.F.C. (EndtimeStories Concrete Crafting)"
 DESCRIPTION=$(cat << EOF
 Tired of aimlessly searching materials to create craftable items, weapons, etc.  Look no further.
 
