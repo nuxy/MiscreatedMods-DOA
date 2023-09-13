@@ -37,7 +37,6 @@ The following mods are bundled with this workshop which can also be installed in
 The following third-party [Miscreated Workshop](https://steamcommunity.com/app/299740/workshop) mods _should be installed_ prior to this package.  These packages are used to enhance the game experience and in some cases have been extended with additional functionality.  Required packages have been identified accordingly, all others being optional.
 
 - [MisDB](https://steamcommunity.com/sharedfiles/filedetails/?id=1841357578) (Required)
-- [Amalgamated Terminal](https://steamcommunity.com/sharedfiles/filedetails/?id=2444612166)
 - [Base Building Expansion](https://steamcommunity.com/sharedfiles/filedetails/?id=1699198355)
 - [Climates of Orca](https://steamcommunity.com/sharedfiles/filedetails/?id=1807643206)
 - [Craftable Tents](https://steamcommunity.com/sharedfiles/filedetails/?id=1739418619)
