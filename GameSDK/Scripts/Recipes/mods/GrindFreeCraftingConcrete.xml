@@ -279,7 +279,7 @@
 									</item>
 								</items>
 							</type>
-							<type name="Concrete Room Elements">
+							<type name="Concrete Rooms">
 								<items>
 									<item class="concrete_room_c_shape" time="1">
 										<materials>
