@@ -4,6 +4,8 @@ Tired of aimlessly searching materials to create craftable items, weapons, etc. 
 
 Add items to your inventory in the craft manager using this module.
 
+[b]Use this package to include all non-craftable items (no third-party mod support).[/b]
+
 [h1] Supported items [/h1]
 [list]
   [*]Game defaults (Orca Island/Canyonlands)
