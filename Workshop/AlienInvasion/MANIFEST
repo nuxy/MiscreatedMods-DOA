@@ -1,5 +1,5 @@
 GameSDK/Scripts/Entities/Animals/Mutants/HumanSpider.xml
-GameSDK/Scripts/Entities/Events/UFOCrash.lua
+GameSDK/Scripts/Entities/Events/UFOCrashUpdates.lua
 GameSDK/Scripts/Entities/Items/XML/Ammo/ammo_venom_spit.xml
 GameSDK/Scripts/Entities/Items/XML/Equipment/Antibiotics.xml
 GameSDK/Scripts/Kythera/Behaviors/humanspidermutant_combat.json
