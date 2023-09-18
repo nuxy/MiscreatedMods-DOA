@@ -1,0 +1,6 @@
+GameSDK/Scripts/Entities/Events/AirDropChristmas.lua
+GameSDK/Scripts/Entities/Events/AirDropCrate.lua
+GameSDK/Scripts/Entities/Events/AirDropPlane.lua
+GameSDK/Scripts/Entities/Events/AirDropSantaCrate.lua
+GameSDK/Scripts/Entities/Events/AirPlaneCrash.lua
+GameSDK/Scripts/Entities/Events/UFOCrash.lua

@@ -1,0 +1,6 @@
+--
+-- Event properties have been moved:
+--   AirDropCrateUpdates.xml
+--
+-- This file overrides existing events.
+--

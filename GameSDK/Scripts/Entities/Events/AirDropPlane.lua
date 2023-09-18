@@ -1,0 +1,6 @@
+--
+-- Event properties have been moved:
+--   AirDropPlaneUpdates.xml
+--
+-- This file overrides existing events.
+--

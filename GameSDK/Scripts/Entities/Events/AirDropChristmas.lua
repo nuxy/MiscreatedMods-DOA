@@ -1,0 +1,6 @@
+--
+-- Event properties have been moved:
+--   AirDropChristmasUpdates.xml
+--
+-- This file overrides existing events.
+--
